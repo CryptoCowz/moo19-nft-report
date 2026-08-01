@@ -1,0 +1,29 @@
+name: Weekly MOO19 NFT Report Generation
+
+on:
+  schedule:
+    # Runs every Monday at 12:00 PM UTC
+    - cron: '0 12 * * 1'
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Run NFT Report Agent
+        run: |
+          python nft_report_agent.py --run --limit 5 --output-dir output
+
+      - name: Upload Output Artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: weekly-nft-report-files
+          path: output/
