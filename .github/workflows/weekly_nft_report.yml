@@ -1,29 +1,49 @@
-name: Weekly MOO19 NFT Report Generation
+name: Weekly MOO19 NFT Report & Newsletter Automation
 
 on:
   schedule:
-    # Runs every Monday at 12:00 PM UTC
-    - cron: '0 12 * * 1'
-  workflow_dispatch: # Allows manual trigger from GitHub UI
+    # Runs every Monday at 9:00 AM EDT (13:00 UTC)
+    - cron: '0 13 * * 1'
+  workflow_dispatch: # Allows 1-click manual execution from the GitHub Actions tab
 
 jobs:
-  build:
+  build-and-generate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Allows the action to commit generated files back to your repo
+
     steps:
-      - name: Check out repo
+      - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Set up Python
+      - name: Set up Python 3.10
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
-      - name: Run NFT Report Agent
+      - name: Install Dependencies
         run: |
-          python nft_report_agent.py --run --limit 5 --output-dir output
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      - name: Upload Output Artifacts
+      - name: Run NFT Report Agent (Scripts, Manifests, Bumpers & Clips)
+        run: |
+          python nft_report_agent.py --run --output-dir output
+
+      - name: Run Newsletter Agent (The Pasture Post)
+        run: |
+          python newsletter_agent.py --run --output-dir output
+
+      - name: Upload Weekly Asset Bundle as Artifact
         uses: actions/upload-artifact@v3
         with:
-          name: weekly-nft-report-files
+          name: weekly-nft-report-bundle
           path: output/
+
+      - name: Commit and Push Updated Episode Files to Repository
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/
+          git commit -m "Auto-generate weekly NFT Report and Newsletter [$(date +'%Y-%m-%d')]" || echo "No changes to commit"
+          git push
