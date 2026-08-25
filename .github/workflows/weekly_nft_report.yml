@@ -21,18 +21,45 @@ jobs:
         with:
           python-version: '3.10'
 
+      - name: Inspect Workspace Files
+        run: |
+          echo "=== Root Directory Listing ==="
+          ls -la
+
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          elif [ -f github_repository_files/requirements.txt ]; then
+            pip install -r github_repository_files/requirements.txt
+          else
+            pip install requests google-api-python-client google-auth-httplib2 google-auth-oauthlib
+          fi
 
-      - name: Run NFT Report Agent (Scripts, Manifests, Bumpers & Clips)
+      - name: Run NFT Report Agent
         run: |
-          python nft_report_agent.py --run --output-dir output
+          if [ -f nft_report_agent.py ]; then
+            python nft_report_agent.py --run --output-dir output
+          elif [ -f github_repository_files/nft_report_agent.py ]; then
+            python github_repository_files/nft_report_agent.py --run --output-dir output
+          else
+            echo "Searching for nft_report_agent.py..."
+            SCRIPT_PATH=$(find . -name "nft_report_agent.py" | head -n 1)
+            python "$SCRIPT_PATH" --run --output-dir output
+          fi
 
-      - name: Run Newsletter Agent (The Pasture Post)
+      - name: Run Newsletter Agent
         run: |
-          python newsletter_agent.py --run --output-dir output
+          if [ -f newsletter_agent.py ]; then
+            python newsletter_agent.py --run --output-dir output
+          elif [ -f github_repository_files/newsletter_agent.py ]; then
+            python github_repository_files/newsletter_agent.py --run --output-dir output
+          else
+            echo "Searching for newsletter_agent.py..."
+            SCRIPT_PATH=$(find . -name "newsletter_agent.py" | head -n 1)
+            python "$SCRIPT_PATH" --run --output-dir output
+          fi
 
       - name: Upload Build Artifact Bundle
         uses: actions/upload-artifact@v4
@@ -55,5 +82,9 @@ jobs:
           GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
         run: |
           echo "$GDRIVE_CREDENTIALS" > gdrive_credentials.json
-          python sync_to_gdrive.py
+          if [ -f sync_to_gdrive.py ]; then
+            python sync_to_gdrive.py
+          elif [ -f github_repository_files/sync_to_gdrive.py ]; then
+            python github_repository_files/sync_to_gdrive.py
+          fi
           rm -f gdrive_credentials.json
