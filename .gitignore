@@ -1,1 +1,8 @@
-
+__pycache__/
+*.py[cod]
+*$py.class
+gdrive_credentials.json
+.env
+output/
+venv/
+.DS_Store
