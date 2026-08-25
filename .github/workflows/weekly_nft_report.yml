@@ -4,27 +4,27 @@ on:
   schedule:
     # Runs every Monday at 9:00 AM EDT (13:00 UTC)
     - cron: '0 13 * * 1'
-  workflow_dispatch: # Allows 1-click manual execution from the GitHub Actions tab
+  workflow_dispatch: # Allows 1-click manual trigger from GitHub web UI
 
 jobs:
-  build-and-generate:
+  build-generate-and-sync:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Allows the action to commit generated files back to your repo
+      contents: write
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python 3.10
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          pip install -r requirements.txt
 
       - name: Run NFT Report Agent (Scripts, Manifests, Bumpers & Clips)
         run: |
@@ -34,8 +34,8 @@ jobs:
         run: |
           python newsletter_agent.py --run --output-dir output
 
-      - name: Upload Weekly Asset Bundle as Artifact
-        uses: actions/upload-artifact@v3
+      - name: Upload Build Artifact Bundle
+        uses: actions/upload-artifact@v4
         with:
           name: weekly-nft-report-bundle
           path: output/
@@ -44,6 +44,16 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add output/
+          git add output/ || true
           git commit -m "Auto-generate weekly NFT Report and Newsletter [$(date +'%Y-%m-%d')]" || echo "No changes to commit"
-          git push
+          git push || true
+
+      - name: Sync Output Files Directly to Google Drive
+        if: env.GDRIVE_CREDENTIALS != ''
+        env:
+          GDRIVE_CREDENTIALS: ${{ secrets.GDRIVE_CREDENTIALS }}
+          GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
+        run: |
+          echo "$GDRIVE_CREDENTIALS" > gdrive_credentials.json
+          python sync_to_gdrive.py
+          rm -f gdrive_credentials.json
