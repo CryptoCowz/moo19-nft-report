@@ -25,211 +25,46 @@ jobs:
         run: |
           echo "=== Current Repository Files ==="
           ls -la
-          echo "================================"
+
+      - name: Copy Subfolder Scripts to Root (If Applicable)
+        run: |
+          if [ -d "github_repository_files" ]; then
+            echo "[*] Copying scripts from github_repository_files/ to root..."
+            cp -r github_repository_files/* . || true
+          fi
 
       - name: Install Python Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests google-api-python-client google-auth-httplib2 google-auth-oauthlib || true
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt || true
+          else
+            pip install requests google-api-python-client google-auth-httplib2 google-auth-oauthlib || true
+          fi
 
       - name: Ensure Output Directory Exists
         run: |
           mkdir -p output/bumpers output/standalone_clips
 
-      - name: Run NFT Report & Newsletter Production Pipeline
+      - name: Run NFT Report Agent
         run: |
-          python -c '
-          import os, sys, json
-          from datetime import datetime
+          if [ -f nft_report_agent.py ]; then
+            echo "[*] Running nft_report_agent.py..."
+            python nft_report_agent.py --run --output-dir output
+          else
+            echo "[!] Error: nft_report_agent.py not found in repository."
+            exit 1
+          fi
 
-          print("[*] Starting automated production pipeline...")
-          
-          if os.path.exists("nft_report_agent.py"):
-              print("[*] Executing local nft_report_agent.py...")
-              os.system("python nft_report_agent.py --run --output-dir output")
-          elif os.path.exists("github_repository_files/nft_report_agent.py"):
-              print("[*] Executing github_repository_files/nft_report_agent.py...")
-              os.system("python github_repository_files/nft_report_agent.py --run --output-dir output")
-          else:
-              print("[*] Running built-in MOO19 NFT Report Generator Engine...")
-              now_str = datetime.now().strftime("%B %d, %Y")
-              
-              script_content = f"""# MOO19 NEWS: THE NFT REPORT (10-SECOND CLIP SCRIPT WITH VIDEO BUMPS)
-          **Episode Air Date:** {now_str}
-          **Hosts:** Daisy M. (Minty) Ledger (Left Desk) & Professor Hartmut von Schnurrbart (Right Desk next to microscope)
-          **Network:** MOO19 News Channel - The Pasture
-          **Master Background:** Newsroom01_Large copy.jpg
-
-          ============================================================
-
-          ### [CLIP 01: MOO19 NEWS STUDIO INTRO (10s Max)]
-          **DAISY M. (MINTY) LEDGER:** "Welcome back to MOO19 News! Today on the NFT Report, we'\''re reviewing top digital flexes!"
-          **PROFESSOR HARTMUT VON SCHNURRBART:** "And check your screen for Cow-pedia Pop-ups and Scam or Stampede Checks! Let me examine the code!"
-
-          ============================================================
-
-          ### [BUMPER 01: CRYPTOPUNKS INTRO BUMP (4s)]
-          **VISUAL CUE:** Dynamic 2D graphic card displaying CryptoPunks art (24x24 pixel art portraits with gold chains and shades), floor price (30.3 ETH), and scannable QR Code linking to https://cryptopunks.app/.
-          **AUDIO STING & VOICEOVER:** "Up next on the NFT Report: CryptoPunks! Scan to explore!"
-
-          ### [CLIP 02: CRYPTOPUNKS - LORE & GLAM (10s Max)]
-          **ON-SCREEN GRAPHIC:** CryptoPunks | Floor: 30.3 ETH | Vol: 66.79 ETH
-          **DAISY M. (MINTY) LEDGER:** "Darlings, CryptoPunks became digital status symbols when Jay-Z and Snoop Dogg flexed Punks #6095 and #3831! 66.79 ETH volume!"
-          **DAISY M. (MINTY) LEDGER:** "Glam & Hype Rating: 7.8/10!"
-
-          ### [CLIP 03: CRYPTOPUNKS - TECH & CODE (10s Max)]
-          **[COW-PEDIA POP-UP]:** **On-Chain** — Verified technical asset storage architecture.
-          **PROFESSOR HARTMUT VON SCHNURRBART:** "Fascinating! CryptoPunks code is stored 100% on Ethereum. Pure digital identity and blue-chip store of value."
-          **PROFESSOR HARTMUT VON SCHNURRBART:** "Code & Security Rating: 9.5/10!"
-
-          ----------------------------------------
-
-          ### [BUMPER 02: PUDGY PENGUINS INTRO BUMP (4s)]
-          **VISUAL CUE:** Dynamic 2D graphic card displaying Pudgy Penguins art (cute chubby penguin avatars with winter beanies and scarves), floor price (6.05 ETH), and scannable QR Code linking to https://pudgypenguins.com/.
-          **AUDIO STING & VOICEOVER:** "Up next on the NFT Report: Pudgy Penguins! Scan to explore!"
-
-          ### [CLIP 04: PUDGY PENGUINS - LORE & GLAM (10s Max)]
-          **ON-SCREEN GRAPHIC:** Pudgy Penguins | Floor: 6.05 ETH | Vol: 255.94 ETH
-          **DAISY M. (MINTY) LEDGER:** "Darlings, look at Pudgy Penguins! 8,888 cute penguins spreading good vibes with 255.94 ETH volume!"
-          **DAISY M. (MINTY) LEDGER:** "Glam & Hype Rating: 10.0/10!"
-
-          ### [CLIP 05: PUDGY PENGUINS - TECH & CODE (10s Max)]
-          **[COW-PEDIA POP-UP]:** **IPFS** — Verified technical asset storage architecture.
-          **PROFESSOR HARTMUT VON SCHNURRBART:** "Fascinating! Pudgy Penguins uses ERC-721 with IPFS hosting, physical Pudgy Toys merch, and Overpass IP licensing."
-          **PROFESSOR HARTMUT VON SCHNURRBART:** "Code & Security Rating: 8.0/10!"
-
-          ----------------------------------------
-
-          ### [BUMPER 03: BORED APE YACHT CLUB INTRO BUMP (4s)]
-          **VISUAL CUE:** Dynamic 2D graphic card displaying Bored Ape Yacht Club art (expressive bored ape avatars with sailor caps and leather jackets), floor price (5.94 ETH), and scannable QR Code linking to https://boredapeyachtclub.com/.
-          **AUDIO STING & VOICEOVER:** "Up next on the NFT Report: Bored Ape Yacht Club! Scan to explore!"
-
-          ### [CLIP 06: BORED APE YACHT CLUB - LORE & GLAM (10s Max)]
-          **ON-SCREEN GRAPHIC:** Bored Ape Yacht Club | Floor: 5.94 ETH | Vol: 42.34 ETH
-          **DAISY M. (MINTY) LEDGER:** "Darlings, Bored Ape Yacht Club features 10,000 iconic apes defining Web3 pop-culture with 42.34 ETH volume!"
-          **DAISY M. (MINTY) LEDGER:** "Glam & Hype Rating: 7.3/10!"
-
-          ### [CLIP 07: BORED APE YACHT CLUB - TECH & CODE (10s Max)]
-          **[COW-PEDIA POP-UP]:** **IPFS** — Verified technical asset storage architecture.
-          **PROFESSOR HARTMUT VON SCHNURRBART:** "Fascinating! BAYC grants full commercial IP usage rights, ApeCoin allocations, and Otherside metaverse land access."
-          **PROFESSOR HARTMUT VON SCHNURRBART:** "Code & Security Rating: 8.0/10!"
-
-          ----------------------------------------
-
-          ### [BUMPER 04: INFINEX PATRONS INTRO BUMP (4s)]
-          **VISUAL CUE:** Dynamic 2D graphic card displaying Infinex Patrons art (holographic patronage card and token nodes), floor price (1.79 ETH), and scannable QR Code linking to https://infinex.xyz/.
-          **AUDIO STING & VOICEOVER:** "Up next on the NFT Report: Infinex Patrons! Scan to explore!"
-
-          ### [CLIP 08: INFINEX PATRONS - LORE & GLAM (10s Max)]
-          **ON-SCREEN GRAPHIC:** Infinex Patrons | Floor: 1.79 ETH | Vol: 65.91 ETH
-          **DAISY M. (MINTY) LEDGER:** "Darlings, Infinex Patrons are foundational patronage NFTs for the non-custodial cross-chain platform with 65.91 ETH volume!"
-          **DAISY M. (MINTY) LEDGER:** "Glam & Hype Rating: 6.8/10!"
-
-          ### [CLIP 09: INFINEX PATRONS - TECH & CODE (10s Max)]
-          **[COW-PEDIA POP-UP]:** **Arweave** — Verified technical asset storage architecture.
-          **PROFESSOR HARTMUT VON SCHNURRBART:** "Fascinating! Infinex Patrons receive platform revenue yield share stored permanently on Arweave with governance rights."
-          **PROFESSOR HARTMUT VON SCHNURRBART:** "Code & Security Rating: 8.8/10!"
-
-          ----------------------------------------
-
-          ### [BUMPER 05: CHROMIE SQUIGGLE INTRO BUMP (4s)]
-          **VISUAL CUE:** Dynamic 2D graphic card displaying Chromie Squiggle art (rainbow generative ribbon on clean canvas), floor price (2.58 ETH), and scannable QR Code linking to https://artblocks.io/collection/chromie-squiggle-by-snowfro.
-          **AUDIO STING & VOICEOVER:** "Up next on the NFT Report: Chromie Squiggle by Snowfro! Scan to explore!"
-
-          ### [CLIP 10: CHROMIE SQUIGGLE - LORE & GLAM (10s Max)]
-          **ON-SCREEN GRAPHIC:** Chromie Squiggle by Snowfro | Floor: 2.58 ETH | Vol: 9.93 ETH
-          **DAISY M. (MINTY) LEDGER:** "Darlings, Chromie Squiggle by Snowfro is seminal generative art of colorful undulating ribbons with 9.93 ETH volume!"
-          **DAISY M. (MINTY) LEDGER:** "Glam & Hype Rating: 5.7/10!"
-
-          ### [CLIP 11: CHROMIE SQUIGGLE - TECH & CODE (10s Max)]
-          **[COW-PEDIA POP-UP]:** **On-Chain** — Verified technical asset storage architecture.
-          **PROFESSOR HARTMUT VON SCHNURRBART:** "Fascinating! Chromie Squiggle executes on-chain rendering scripts derived directly from transaction hash seeds."
-          **PROFESSOR HARTMUT VON SCHNURRBART:** "Code & Security Rating: 9.5/10!"
-
-          ----------------------------------------
-
-          ### [CLIP 12: MOO19 WEATHER FORECAST (10s Max)]
-          **SUNSHINE INNOCENT NIMBUS:** "Expect high volatility across ERC-721 tokens tonight with an 80% chance of a bull surge! Embrace the chaos, traders!"
-
-          ### [CLIP 13: MOO19 STUDIO OUTRO (10s Max)]
-          **DAISY M. (MINTY) LEDGER:** "That'\''s all for this week'\''s NFT Report on MOO19 News! Scan the Pasture Poll QR code to vote!"
-          **PROFESSOR HARTMUT VON SCHNURRBART:** "Remember: Don'\''t trust, verify! Read smart contracts before you mint! Goodnight!"
-          """
-              with open("output/weekly_nft_report_script.md", "w") as f:
-                  f.write(script_content)
-
-              manifest_data = {
-                  "manifest_version": "1.0",
-                  "google_flow_project_target": "MOO19 TV The NFT Report",
-                  "show_title": "MOO19 NFT Report - Production Manifest with Video Bumpers",
-                  "target_model": "Omni Flash (10s Dialogue Clips & 4s Bumpers)",
-                  "clip_duration_seconds": 10,
-                  "bumper_duration_seconds": 4,
-                  "total_duration_seconds": 150,
-                  "master_assets": {
-                      "environment": {
-                          "asset_id": "Newsroom01_Large copy.jpg",
-                          "file_name": "Newsroom01_Large copy.jpg",
-                          "type": "2D_BACKGROUND_PLATE"
-                      },
-                      "character_references": [
-                          {"character_id": "CELEBRITY_REPORTER", "character_name": "Daisy M. (Minty) Ledger", "file_name": "CelebReporter_2k.png", "layer_position": {"x_percent": 18, "y_percent": 30, "scale": 1.0}},
-                          {"character_id": "SCIENCE_REPORTER", "character_name": "Professor Hartmut von Schnurrbart", "file_name": "ScienceReporter_2k.png", "layer_position": {"x_percent": 68, "y_percent": 30, "scale": 1.0}}
-                      ]
-                  },
-                  "clips": []
-              }
-
-              clips_info = [
-                  ("clip_001", "Clip 01: Studio Intro", "Daisy M. (Minty) Ledger: Welcome back to MOO19 News! Today on the NFT Report, we'\''re reviewing top digital flexes! Professor Hartmut von Schnurrbart: And check your screen for Cow-pedia Pop-ups and Scam or Stampede Checks! Let me examine the code!", ["Daisy M. (Minty) Ledger", "Professor Hartmut von Schnurrbart"], {}),
-                  ("clip_002", "Clip 02: CryptoPunks (Celeb Lore)", "Daisy M. (Minty) Ledger: Darlings, CryptoPunks became digital status symbols when Jay-Z and Snoop Dogg flexed Punks #6095 and #3831! 66.79 ETH volume! Glam Rating: 7.8/10!", ["Daisy M. (Minty) Ledger"], {"lower_third_text": "CryptoPunks | Floor: 30.3 ETH | Vol: 66.79 ETH", "hype_badge": "Hype: 7.8/10", "gauge_status": "BULLISH STAMPEDE 🟢"}),
-                  ("clip_003", "Clip 03: CryptoPunks (Science Tech)", "Professor Hartmut von Schnurrbart: Fascinating! CryptoPunks code is stored 100% on Ethereum. Pure digital identity and blue-chip store of value. Code Rating: 9.5/10!", ["Professor Hartmut von Schnurrbart"], {"cowpedia_banner": "Cow-pedia: On-Chain Verified On-Chain", "security_checklist": "Verified Contract: PASS | Decentralized: PASS | Liquidity Lock: HIGH", "tech_badge": "Tech: 9.5/10"}),
-                  ("clip_004", "Clip 04: Pudgy Penguins (Celeb Lore)", "Daisy M. (Minty) Ledger: Darlings, look at Pudgy Penguins! 8,888 cute penguins spreading good vibes with 255.94 ETH volume! Glam Rating: 10.0/10!", ["Daisy M. (Minty) Ledger"], {"lower_third_text": "Pudgy Penguins | Floor: 6.05 ETH | Vol: 255.94 ETH", "hype_badge": "Hype: 10.0/10", "gauge_status": "BULLISH STAMPEDE 🟢"}),
-                  ("clip_005", "Clip 05: Pudgy Penguins (Science Tech)", "Professor Hartmut von Schnurrbart: Fascinating! Pudgy Penguins uses ERC-721 with IPFS hosting, physical Pudgy Toys merch, and Overpass IP licensing. Code Rating: 8.0/10!", ["Professor Hartmut von Schnurrbart"], {"cowpedia_banner": "Cow-pedia: IPFS Verified On-Chain", "security_checklist": "Verified Contract: PASS | Decentralized: PASS | Liquidity Lock: HIGH", "tech_badge": "Tech: 8.0/10"}),
-                  ("clip_006", "Clip 06: Bored Ape Yacht Club (Celeb Lore)", "Daisy M. (Minty) Ledger: Darlings, Bored Ape Yacht Club features 10,000 iconic apes defining Web3 pop-culture with 42.34 ETH volume! Glam Rating: 7.3/10!", ["Daisy M. (Minty) Ledger"], {"lower_third_text": "Bored Ape Yacht Club | Floor: 5.94 ETH | Vol: 42.34 ETH", "hype_badge": "Hype: 7.3/10", "gauge_status": "BULLISH STAMPEDE 🟢"}),
-                  ("clip_007", "Clip 07: Bored Ape Yacht Club (Science Tech)", "Professor Hartmut von Schnurrbart: Fascinating! BAYC grants full commercial IP usage rights, ApeCoin allocations, and Otherside metaverse land access. Code Rating: 8.0/10!", ["Professor Hartmut von Schnurrbart"], {"cowpedia_banner": "Cow-pedia: IPFS Verified On-Chain", "security_checklist": "Verified Contract: PASS | Decentralized: PASS | Liquidity Lock: HIGH", "tech_badge": "Tech: 8.0/10"}),
-                  ("clip_008", "Clip 08: Infinex Patrons (Celeb Lore)", "Daisy M. (Minty) Ledger: Darlings, Infinex Patrons are foundational patronage NFTs for the non-custodial cross-chain platform with 65.91 ETH volume! Glam Rating: 6.8/10!", ["Daisy M. (Minty) Ledger"], {"lower_third_text": "Infinex Patrons | Floor: 1.79 ETH | Vol: 65.91 ETH", "hype_badge": "Hype: 6.8/10", "gauge_status": "BULLISH STAMPEDE 🟢"}),
-                  ("clip_009", "Clip 09: Infinex Patrons (Science Tech)", "Professor Hartmut von Schnurrbart: Fascinating! Infinex Patrons receive platform revenue yield share stored permanently on Arweave with governance rights. Code Rating: 8.8/10!", ["Professor Hartmut von Schnurrbart"], {"cowpedia_banner": "Cow-pedia: Arweave Verified On-Chain", "security_checklist": "Verified Contract: PASS | Decentralized: PASS | Liquidity Lock: HIGH", "tech_badge": "Tech: 8.8/10"}),
-                  ("clip_010", "Clip 10: Chromie Squiggle by Snowfro (Celeb Lore)", "Daisy M. (Minty) Ledger: Darlings, Chromie Squiggle by Snowfro is seminal generative art of colorful undulating ribbons with 9.93 ETH volume! Glam Rating: 5.7/10!", ["Daisy M. (Minty) Ledger"], {"lower_third_text": "Chromie Squiggle by Snowfro | Floor: 2.58 ETH | Vol: 9.93 ETH", "hype_badge": "Hype: 5.7/10", "gauge_status": "BULLISH STAMPEDE 🟢"}),
-                  ("clip_011", "Clip 11: Chromie Squiggle by Snowfro (Science Tech)", "Professor Hartmut von Schnurrbart: Fascinating! Chromie Squiggle executes on-chain rendering scripts derived directly from transaction hash seeds. Code Rating: 9.5/10!", ["Professor Hartmut von Schnurrbart"], {"cowpedia_banner": "Cow-pedia: On-Chain Verified On-Chain", "security_checklist": "Verified Contract: PASS | Decentralized: PASS | Liquidity Lock: HIGH", "tech_badge": "Tech: 9.5/10"}),
-                  ("clip_012", "Clip 12: Weather Forecast", "Sunshine Innocent Nimbus: Expect high volatility across ERC-721 tokens tonight with an 80% chance of a bull surge! Embrace the chaos, traders!", ["Sunshine Innocent Nimbus"], {}),
-                  ("clip_013", "Clip 13: Studio Outro", "Daisy M. (Minty) Ledger: That'\''s all for this week'\''s NFT Report on MOO19 News! Scan the Pasture Poll QR code to vote! Professor Hartmut von Schnurrbart: Remember: Don'\''t trust, verify! Read smart contracts before you mint! Goodnight!", ["Daisy M. (Minty) Ledger", "Professor Hartmut von Schnurrbart"], {"pasture_poll_qr_code": "SCAN QR CODE TO VOTE FOR NEXT WEEK'\''S WILDCARD NFT"})
-              ]
-
-              for cid, title, script_text, chars, overlays in clips_info:
-                  clip_obj = {
-                      "manifest_version": "1.0",
-                      "google_flow_project_target": "MOO19 TV The NFT Report",
-                      "clip_id": cid,
-                      "duration_seconds": 10,
-                      "title": title,
-                      "source": "Newsroom01_Large copy.jpg",
-                      "prompt": f"2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: '\''{script_text}'\''",
-                      "script": script_text,
-                      "text_prompt": f"2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: '\''{script_text}'\''",
-                      "voice_prompt": script_text,
-                      "speech": script_text,
-                      "character_references": chars,
-                      "gui_overlays": overlays
-                  }
-                  manifest_data["clips"].append(clip_obj)
-                  
-                  clip_filename = f"{cid}_{title.lower().replace(' ', '_').replace(':', '')}.json"
-                  with open(f"output/standalone_clips/{clip_filename}", "w") as cf:
-                      json.dump(clip_obj, cf, indent=2)
-
-              with open("output/google_flow_animation_manifest.json", "w") as mf:
-                  json.dump(manifest_data, mf, indent=2)
-
-              print("[✓] All Scripts, Manifests, and 13 Standalone Clips generated successfully!")
-
-          if os.path.exists("newsletter_agent.py"):
-              print("[*] Executing local newsletter_agent.py...")
-              os.system("python newsletter_agent.py --run --output-dir output")
-          elif os.path.exists("github_repository_files/newsletter_agent.py"):
-              print("[*] Executing github_repository_files/newsletter_agent.py...")
-              os.system("python github_repository_files/newsletter_agent.py --run --output-dir output")
-          '
+      - name: Run Newsletter Agent
+        run: |
+          if [ -f newsletter_agent.py ]; then
+            echo "[*] Running newsletter_agent.py..."
+            python newsletter_agent.py --run --output-dir output
+          else
+            echo "[!] Error: newsletter_agent.py not found in repository."
+            exit 1
+          fi
 
       - name: Upload Build Artifact Bundle
         uses: actions/upload-artifact@v4
@@ -242,8 +77,8 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add output/ || true
-          git commit -m "Auto-generate weekly NFT Report and Newsletter [$(date +'%Y-%m-%d')]" || echo "No changes to commit"
-          git push || true
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-generate weekly NFT Report and Newsletter [$(date +'%Y-%m-%d')]"
+          git push || echo "[*] Push skipped or already up to date."
 
       - name: Sync Output Files Directly to Google Drive
         if: env.GDRIVE_CREDENTIALS != ''
@@ -253,8 +88,6 @@ jobs:
         run: |
           echo "$GDRIVE_CREDENTIALS" > gdrive_credentials.json
           if [ -f sync_to_gdrive.py ]; then
-            python sync_to_gdrive.py
-          elif [ -f github_repository_files/sync_to_gdrive.py ]; then
-            python github_repository_files/sync_to_gdrive.py
+            python sync_to_gdrive.py || true
           fi
           rm -f gdrive_credentials.json
