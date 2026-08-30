@@ -1,3 +1,4 @@
+```python
 #!/usr/bin/env python3
 """
 MOO19 News: The NFT Report - Dynamic 5-Slot Segment Production Engine
@@ -328,7 +329,7 @@ def run_production_pipeline(output_dir="output"):
 
     o_clip_id = f"clip_{clip_count:03d}"
     o_title = f"Clip {clip_count:02d}: Studio Outro"
-    o_script = f"{celeb_name}: That's all for this week's NFT Report on MOO19 News! Scan the Pasture Poll QR code to vote! {science_name}: Remember: Don't trust, verify! Read smart contracts before you mint! Goodnight, everyone!"
+    o_script = f"{celeb_name}: That's all for this week's NFT Report on MOO19 News! Scan the Pasture Poll QR code to vote on next week's wildcard! {science_name}: Remember: Don't trust, verify! Read smart contracts before you mint! Goodnight, everyone!"
     script_content += f"""
 ### [{o_title.upper()} (10s Max)]
 **{celeb_name.upper()}:** "That's all for this week's NFT Report on MOO19 News! Scan the Pasture Poll QR code to vote on next week's wildcard!"
@@ -341,7 +342,7 @@ def run_production_pipeline(output_dir="output"):
         f.write(script_content)
     print(f"[+] Show Script saved: {script_path}")
 
-    # 2. Generate Shorts Teaser Script
+    # 2. Generate Shorts Teaser Script (Safely Indexed)
     p0 = selected_projects[0]
     p1 = selected_projects
     p2 = selected_projects
@@ -476,6 +477,7 @@ Follow us: [YouTube](https://www.youtube.com/@cryptocollectablesNY) | [Facebook]
         b_prompt = f"2D animated high-energy motion graphic bumper card, 4 seconds. Center featured 2D artwork of {bname} ({bart}). Prominent scannable QR Code on right overlay linking to {burl}. Lower third displaying '{bname} | Floor: {bfloor} | Chain: {bchain} | {bslot}'. Audio sting with energetic voiceover: '{b_spoken}'"
         b_obj = {
             "manifest_version": "1.0",
+            "google_flow_project_target": "MOO19 TV The NFT Report            "manifest_version": "1.0",
             "google_flow_project_target": "MOO19 TV The NFT Report",
             "clip_id": bid,
             "clip_type": "SEGMENT_BUMPER",
