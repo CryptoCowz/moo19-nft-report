@@ -28,18 +28,7 @@ jobs:
 
       - name: Execute MOO19 Production Engine
         run: |
-          if [ -f "generate_all.py" ]; then
-            echo "[*] Running generate_all.py..."
-            python generate_all.py
-          elif [ -f "nft_report_agent.py" ] && [ -f "newsletter_agent.py" ]; then
-            echo "[*] Running standalone agents..."
-            python nft_report_agent.py --run --output-dir output
-            python newsletter_agent.py --run --output-dir output
-          else
-            echo "[*] Running fallback generator..."
-            python -c "import os; os.system('curl -s https://raw.githubusercontent.com/CryptoCowz/moo19-nft-report/main/generate_all.py -o generate_all.py || true');"
-            if [ -f "generate_all.py" ]; then python generate_all.py; fi
-          fi
+          python generate_all.py --output-dir output
 
       - name: Upload Output Artifact Bundle
         uses: actions/upload-artifact@v4
