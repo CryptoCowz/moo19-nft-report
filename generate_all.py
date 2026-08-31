@@ -216,11 +216,8 @@ def run_production_pipeline(output_dir="output"):
         SLOT_CANDIDATE_POOLS["SLOT_5_WILDCARD"][episode_index % len(SLOT_CANDIDATE_POOLS["SLOT_5_WILDCARD"])]
     ]
 
-    p_bluechip = selected_projects[0]
-    p_volume = selected_projects
-    p_breakout = selected_projects
-    p_crosschain = selected_projects
-    p_wildcard = selected_projects
+    # Direct Unpacking (No bracket indexing)
+    p_bluechip, p_volume, p_breakout, p_crosschain, p_wildcard = selected_projects
 
     # Rotating Cow-pedia Terms
     COWPEDIA_TERMS = [
@@ -340,7 +337,7 @@ def run_production_pipeline(output_dir="output"):
         f.write("\n".join(script_lines))
     print(f"[+] Show Script saved: {script_path}")
 
-    # 2. Build Shorts Teaser Lines
+    # 2. Build Shorts Teaser Lines (Safe Unpacked Variables)
     shorts_lines = [
         "# MOO19 NEWS: NFT REPORT SHORTS (DYNAMIC 5-SLOT TEASER)",
         f"**Air Date:** {now_str} (Episode #{episode_index + 1})",
@@ -388,7 +385,7 @@ def run_production_pipeline(output_dir="output"):
         "-" * 65 + "\n",
         "## ⛈️ MARKET CLIMATE OUTLOOK",
         f"**Forecast by {weather_name}:**",
-        "> \"Current indicators show an **80% chance of a bull surge** across verified utility collections with steady floor price consolidation. Keep an eye out for sudden volatility storms around upcoming Layer-2 network upgrades! Embrace the chaos, traders!\"\n",
+        "> \"Current indicators show an **80% chance of a bull surge** across verified utility collections with steady floor price consolidation. Keep an eye out for sudden volatility storms around upcoming Layer-2 network upgrades! Embrace the chaos, traders!"\n",
         "-" * 65 + "\n",
         "## 🗳️ WEEKLY PASTURE POLL",
         "**Which project should Daisy and Professor Hartmut examine on next Monday's animated episode?**",
