@@ -216,6 +216,13 @@ def run_production_pipeline(output_dir="output"):
         SLOT_CANDIDATE_POOLS["SLOT_5_WILDCARD"][episode_index % len(SLOT_CANDIDATE_POOLS["SLOT_5_WILDCARD"])]
     ]
 
+    # Safe Variable Mapping for 5 Slots
+    p_bluechip = selected_projects[0]
+    p_volume = selected_projects
+    p_breakout = selected_projects
+    p_crosschain = selected_projects
+    p_wildcard = selected_projects
+
     # Rotating Cow-pedia Terms
     COWPEDIA_TERMS = [
         ("Immutability (On-Chain Storage)", "The state of being permanent and unchangeable. Code or art stored on-chain cannot be deleted or edited by anyone!"),
@@ -328,7 +335,7 @@ def run_production_pipeline(output_dir="output"):
 
     o_clip_id = f"clip_{clip_count:03d}"
     o_title = f"Clip {clip_count:02d}: Studio Outro"
-    o_script = f"{celeb_name}: That's all for this week's NFT Report on MOO19 News! Scan the Pasture Poll QR code to vote on next week's wildcard! {science_name}: Remember: Don't trust, verify! Read smart contracts before you mint! Goodnight, everyone!"
+    o_script = f"{celeb_name}: That's all for this week's NFT Report on MOO19 News! Scan the Pasture Poll QR code to vote! {science_name}: Remember: Don't trust, verify! Read smart contracts before you mint! Goodnight, everyone!"
     script_content += f"""
 ### [{o_title.upper()} (10s Max)]
 **{celeb_name.upper()}:** "That's all for this week's NFT Report on MOO19 News! Scan the Pasture Poll QR code to vote on next week's wildcard!"
@@ -341,13 +348,7 @@ def run_production_pipeline(output_dir="output"):
         f.write(script_content)
     print(f"[+] Show Script saved: {script_path}")
 
-    # 2. Generate Shorts Teaser Script (Safely Indexed)
-    p0 = selected_projects[0]
-    p1 = selected_projects
-    p2 = selected_projects
-    p3 = selected_projects
-    p4 = selected_projects
-
+    # 2. Generate Shorts Teaser Script
     shorts_content = f"""# MOO19 NEWS: NFT REPORT SHORTS (DYNAMIC 5-SLOT TEASER)
 **Air Date:** {now_str} (Episode #{episode_index + 1})
 **Format:** 9:16 Vertical Video (TikTok / YouTube Shorts / Instagram Reels)
@@ -355,9 +356,9 @@ def run_production_pipeline(output_dir="output"):
 ============================================================
 
 **[00:00 - 00:10] {celeb_name.upper()}:** "Stop scrolling, Web3 trendsetters! Here are this week's top NFT movers on MOO19 News!"
-**[00:10 - 00:25] {celeb_name.upper()}:** "Blue-Chip Anchor: {p0['name']} at {p0['floor_price']}, and Top Volume Leader {p1['name']} with {p1['volume_24h']} volume!"
-**[00:25 - 00:40] {science_name.upper()}:** "Breakout Gainer {p2['name']}, plus Cross-Chain Titan {p3['name']} on {p3['chain']}!"
-**[00:40 - 00:50] {celeb_name.upper()}:** "And our community Wildcard winner: {p4['name']}!"
+**[00:10 - 00:25] {celeb_name.upper()}:** "Blue-Chip Anchor: {p_bluechip['name']} at {p_bluechip['floor_price']}, and Top Volume Leader {p_volume['name']} with {p_volume['volume_24h']} volume!"
+**[00:25 - 00:40] {science_name.upper()}:** "Breakout Gainer {p_breakout['name']}, plus Cross-Chain Titan {p_crosschain['name']} on {p_crosschain['chain']}!"
+**[00:40 - 00:50] {celeb_name.upper()}:** "And our community Wildcard winner: {p_wildcard['name']}!"
 **[00:50 - 01:00] {science_name.upper()}:** "Scan the QR code to watch the full episode on MOO19 News and vote on our Pasture Poll! Don't trust, verify!"
 """
     shorts_path = os.path.join(output_dir, "weekly_nft_report_shorts_script.md")
@@ -366,6 +367,15 @@ def run_production_pipeline(output_dir="output"):
     print(f"[+] Shorts Script saved: {shorts_path}")
 
     # 3. Generate Weekly Newsletter (The Pasture Post)
+    stories_markdown = ""
+    for idx, project in enumerate(selected_projects, start=1):
+        stories_markdown += f"""### {idx}. {project['name']} — {project['slot_title']}
+**Category:** {project['category']} | **Chain:** {project['chain']} | **Source:** [{project['name']}]({project['official_url']})
+**The Breakdown:** {project['catalyst_lore']}
+💡 **Tech Note:** {project['science_tech']}
+
+----------------------------------------\n\n"""
+
     newsletter_content = f"""# 🐮 THE PASTURE POST: MOO19 NFT & WEB3 WEEKLY
 **Issue #{episode_index + 16} • {now_str}**
 *Demystifying the Blockchain with Culture, Code, and Common Sense*
@@ -383,184 +393,10 @@ def run_production_pipeline(output_dir="output"):
 
 ## 📰 FEATURED PROJECTS THIS WEEK (DYNAMIC 5-SLOT REPORT)
 
-### 1. {p0['name']} — {p0['slot_title']}
-**Category:** {p0['category']} | **Chain:** {p0['chain']} | **Source:** [{p0['name']}]({p0['official_url']})
-**The Breakdown:** {p0['catalyst_lore']}
-💡 **Tech Note:** {p0['science_tech']}
-
-----------------------------------------
-
-### 2. {p1['name']} — {p1['slot_title']}
-**Category:** {p1['category']} | **Chain:** {p1['chain']} | **Source:** [{p1['name']}]({p1['official_url']})
-**The Breakdown:** {p1['catalyst_lore']}
-💡 **Tech Note:** {p1['science_tech']}
-
-----------------------------------------
-
-### 3. {p2['name']} — {p2['slot_title']}
-**Category:** {p2['category']} | **Chain:** {p2['chain']} | **Source:** [{p2['name']}]({p2['official_url']})
-**The Breakdown:** {p2['catalyst_lore']}
-💡 **Tech Note:** {p2['science_tech']}
-
-----------------------------------------
-
-### 4. {p3['name']} — {p3['slot_title']}
-**Category:** {p3['category']} | **Chain:** {p3['chain']} | **Source:** [{p3['name']}]({p3['official_url']})
-**The Breakdown:** {p3['catalyst_lore']}
-💡 **Tech Note:** {p3['science_tech']}
-
-----------------------------------------
-
-### 5. {p4['name']} — {p4['slot_title']}
-**Category:** {p4['category']} | **Chain:** {p4['chain']} | **Source:** [{p4['name']}]({p4['official_url']})
-**The Breakdown:** {p4['catalyst_lore']}
-💡 **Tech Note:** {p4['science_tech']}
+{stories_markdown.strip()}
 
 -----------------------------------------------------------------
 
 ## 📚 COW-PEDIA TERM OF THE WEEK
 **Term: {selected_term}**
-> *Definition:* {selected_term_def}
-
------------------------------------------------------------------
-
-## ⛈️ MARKET CLIMATE OUTLOOK
-**Forecast by {weather_name}:**
-> "Current indicators show an **80% chance of a bull surge** across verified utility collections with steady floor price consolidation. Keep an eye out for sudden volatility storms around upcoming Layer-2 network upgrades! Embrace the chaos, traders!"
-
------------------------------------------------------------------
-
-## 🗳️ WEEKLY PASTURE POLL
-**Which project should Daisy and Professor Hartmut examine on next Monday's animated episode?**
-1. On-Chain Generative Art Collection (e.g., Fidenza / Ringers)
-2. Bitcoin Inscription / Ordinals Project
-3. Real-World Asset (RWA) Tokenization Project
-
-👉 *Cast your vote by replying to this newsletter or voting in our Discord community!*
-
-=================================================================
-© 2026 CryptoCowz / MOO19 News • *Demystifying cryptocurrency until the cows come home!*
-Follow us: [YouTube](https://www.youtube.com/@cryptocollectablesNY) | [Facebook](https://www.facebook.com/CryptocollectiblesNY)
-"""
-    nl_path = os.path.join(output_dir, "weekly_pasture_post_newsletter.md")
-    with open(nl_path, "w", encoding="utf-8") as f:
-        f.write(newsletter_content)
-    print(f"[+] Newsletter saved: {nl_path}")
-
-    # 4. Master Animation Manifest & Standalone Clips & Bumpers
-    manifest_data = {
-        "manifest_version": "1.0",
-        "google_flow_project_target": "MOO19 TV The NFT Report",
-        "show_title": f"MOO19 NFT Report - Dynamic 5-Slot Episode #{episode_index + 1}",
-        "target_model": "Omni Flash (10s Dialogue Clips & 4s Bumpers)",
-        "clip_duration_seconds": 10,
-        "bumper_duration_seconds": 4,
-        "total_duration_seconds": 150,
-        "master_assets": {
-            "environment": {
-                "asset_id": "Newsroom01_Large copy.jpg",
-                "file_name": "Newsroom01_Large copy.jpg",
-                "type": "2D_BACKGROUND_PLATE"
-            },
-            "character_references": [
-                {"character_id": "CELEBRITY_REPORTER", "character_name": celeb_name, "file_name": "CelebReporter_2k.png", "layer_position": {"x_percent": 18, "y_percent": 30, "scale": 1.0}},
-                {"character_id": "SCIENCE_REPORTER", "character_name": science_name, "file_name": "ScienceReporter_2k.png", "layer_position": {"x_percent": 68, "y_percent": 30, "scale": 1.0}}
-            ]
-        },
-        "bumpers": [],
-        "clips": []
-    }
-
-    for bid, bname, burl, bopensea, bfloor, bchain, bart, bslot in bumpers_data:
-        b_spoken = f"Up next on the NFT Report: {bname}! Scan the QR code to explore!"
-        b_prompt = f"2D animated high-energy motion graphic bumper card, 4 seconds. Center featured 2D artwork of {bname} ({bart}). Prominent scannable QR Code on right overlay linking to {burl}. Lower third displaying '{bname} | Floor: {bfloor} | Chain: {bchain} | {bslot}'. Audio sting with energetic voiceover: '{b_spoken}'"
-        b_obj = {
-            "manifest_version": "1.0",
-            "google_flow_project_target": "MOO19 TV The NFT Report",
-            "clip_id": bid,
-            "clip_type": "SEGMENT_BUMPER",
-            "duration_seconds": 4,
-            "title": f"Bumper: {bname} Intro",
-            "featured_nft": bname,
-            "slot": bslot,
-            "official_url": burl,
-            "opensea_url": bopensea,
-            "qr_code_target_url": burl,
-            "prompt": b_prompt,
-            "script": b_spoken,
-            "text_prompt": b_prompt,
-            "voice_prompt": b_spoken,
-            "speech": b_spoken,
-            "audio_sting": "MOO19_Station_Chime_Fast_4s.mp3",
-            "visual_elements": {
-                "featured_artwork_style": bart,
-                "qr_code_overlay": {
-                    "position": "BOTTOM_RIGHT",
-                    "target_url": burl,
-                    "callout_label": f"SCAN TO VIEW {bname.upper()}"
-                },
-                "lower_third_badge": f"{bname} | Floor: {bfloor} | {bchain}"
-            }
-        }
-        manifest_data["bumpers"].append(b_obj)
-        b_clean = bname.lower().replace(" ", "_").replace(":", "")
-        with open(os.path.join(bumpers_dir, f"{bid}_{b_clean}_bump.json"), "w", encoding="utf-8") as bf:
-            json.dump(b_obj, bf, indent=2)
-
-    for cid, title, script_text, chars, overlays in clips_info:
-        clip_obj = {
-            "manifest_version": "1.0",
-            "google_flow_project_target": "MOO19 TV The NFT Report",
-            "clip_id": cid,
-            "duration_seconds": 10,
-            "title": title,
-            "source": "Newsroom01_Large copy.jpg",
-            "prompt": f"2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: '{script_text}'",
-            "script": script_text,
-            "text_prompt": f"2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: '{script_text}'",
-            "voice_prompt": script_text,
-            "speech": script_text,
-            "character_references": chars,
-            "gui_overlays": overlays
-        }
-        manifest_data["clips"].append(clip_obj)
-        clean_title = title.lower().replace(" ", "_").replace(":", "")
-        with open(os.path.join(standalone_dir, f"{cid}_{clean_title}.json"), "w", encoding="utf-8") as cf:
-            json.dump(clip_obj, cf, indent=2)
-
-    manifest_path = os.path.join(output_dir, "google_flow_animation_manifest.json")
-    with open(manifest_path, "w", encoding="utf-8") as mf:
-        json.dump(manifest_data, mf, indent=2)
-    print(f"[+] Master Animation Manifest saved: {manifest_path}")
-
-    # Update episode history tracking
-    history_entry = {
-        "episode_number": episode_index + 1,
-        "air_date": now_str,
-        "featured_projects": [p["name"] for p in selected_projects],
-        "cowpedia_term": selected_term
-    }
-    history_payload = {"history": []}
-    if os.path.exists(history_file):
-        try:
-            with open(history_file, "r") as f:
-                history_payload = json.load(f)
-        except Exception:
-            history_payload = {"history": []}
-
-    history_payload["history"].append(history_entry)
-    with open(history_file, "w") as f:
-        json.dump(history_payload, f, indent=2)
-
-    print(f"[✓] Dynamic 5-Slot Episode #{episode_index + 1} generated successfully in '{output_dir}'!\n")
-
-def main():
-    parser = argparse.ArgumentParser(description="MOO19 News NFT Report Dynamic 5-Slot Production Engine")
-    parser.add_argument("--output-dir", type=str, default="output", help="Directory to save generated outputs")
-    parser.add_argument("--run", action="store_true", help="Run full episode generation")
-    args = parser.parse_args()
-    
-    run_production_pipeline(output_dir=args.output_dir)
-
-if __name__ == "__main__":
-    main()
+> *Definition:* {
