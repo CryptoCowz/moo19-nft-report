@@ -6,27 +6,30 @@ on:
     - cron: '0 13 * * 1'
   workflow_dispatch: # Allows 1-click manual trigger from GitHub web UI
 
+permissions:
+  contents: write
+
 jobs:
   build-generate-and-sync:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python 3.10
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      - name: Install Python Dependencies
+      - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
           pip install requests google-api-python-client google-auth-httplib2 google-auth-oauthlib || true
 
-      - name: Execute MOO19 Production Engine
+      - name: Run Production Engine (generate_all.py)
         run: |
           python generate_all.py --output-dir output
 
@@ -35,14 +38,19 @@ jobs:
         with:
           name: weekly-nft-report-bundle
           path: output/
+          if-no-files-found: warn
 
-      - name: Commit and Push Updated Episode Files to Repository
+      - name: Commit and Push Output to Repository
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add output/ || true
-          git diff --staged --quiet || git commit -m "Auto-generate weekly NFT Report and Newsletter [$(date +'%Y-%m-%d')]" || true
-          git push origin main || git push || echo "[*] Git push skipped or no write permissions."
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Auto-generate weekly NFT Report and Newsletter [$(date +'%Y-%m-%d')]" || true
+            git push origin main || git push || echo "[*] Push skipped or requires token write permission."
+          else
+            echo "[*] No file changes to commit."
+          fi
 
       - name: Sync Output Files Directly to Google Drive
         if: env.GDRIVE_CREDENTIALS != ''
@@ -52,6 +60,6 @@ jobs:
         run: |
           echo "$GDRIVE_CREDENTIALS" > gdrive_credentials.json
           if [ -f "sync_to_gdrive.py" ]; then
-            python sync_to_gdrive.py || true
+            python sync_to_gdrive.py || echo "[*] Google Drive sync step completed."
           fi
           rm -f gdrive_credentials.json
