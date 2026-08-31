@@ -1,4 +1,3 @@
-```python
 #!/usr/bin/env python3
 """
 MOO19 News: The NFT Report - Dynamic 5-Slot Segment Production Engine
@@ -477,7 +476,6 @@ Follow us: [YouTube](https://www.youtube.com/@cryptocollectablesNY) | [Facebook]
         b_prompt = f"2D animated high-energy motion graphic bumper card, 4 seconds. Center featured 2D artwork of {bname} ({bart}). Prominent scannable QR Code on right overlay linking to {burl}. Lower third displaying '{bname} | Floor: {bfloor} | Chain: {bchain} | {bslot}'. Audio sting with energetic voiceover: '{b_spoken}'"
         b_obj = {
             "manifest_version": "1.0",
-            "google_flow_project_target": "MOO19 TV The NFT Report            "manifest_version": "1.0",
             "google_flow_project_target": "MOO19 TV The NFT Report",
             "clip_id": bid,
             "clip_type": "SEGMENT_BUMPER",
