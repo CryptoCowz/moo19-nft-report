@@ -216,7 +216,6 @@ def run_production_pipeline(output_dir="output"):
         SLOT_CANDIDATE_POOLS["SLOT_5_WILDCARD"][episode_index % len(SLOT_CANDIDATE_POOLS["SLOT_5_WILDCARD"])]
     ]
 
-    # Direct Unpacking (No bracket indexing)
     p_bluechip, p_volume, p_breakout, p_crosschain, p_wildcard = selected_projects
 
     # Rotating Cow-pedia Terms
@@ -238,12 +237,16 @@ def run_production_pipeline(output_dir="output"):
         f"**Hosts:** {celeb_name} (Left Desk) & {science_name} (Right Desk next to microscope)",
         "**Network:** MOO19 News Channel - The Pasture",
         "**Format:** Dynamic 5-Slot Structure (Blue-Chip, Volume Mover, Breakout Gainer, Cross-Chain, Wildcard)",
-        "**Master Background:** Newsroom01_Large copy.jpg\n",
-        "=" * 60 + "\n",
+        "**Master Background:** Newsroom01_Large copy.jpg",
+        "",
+        "=" * 60,
+        "",
         "### [CLIP 01: MOO19 NEWS STUDIO INTRO (10s Max)]",
         f'**{celeb_name.upper()}:** "Welcome back to MOO19 News! Today on the NFT Report, we\'re breaking down blue-chips, surging volume movers, and cross-chain breakouts!"',
-        f'**{science_name.upper()}:** "And watch your screen for our Cow-pedia Pop-ups and Scam or Stampede Security Checks! Let\'s inspect the code!"\n',
-        "=" * 60 + "\n"
+        f'**{science_name.upper()}:** "And watch your screen for our Cow-pedia Pop-ups and Scam or Stampede Security Checks! Let\'s inspect the code!"',
+        "",
+        "=" * 60,
+        ""
     ]
 
     clip_count = 2
@@ -266,7 +269,8 @@ def run_production_pipeline(output_dir="output"):
             f"### [BUMPER {bump_count:02d}: {p['name'].upper()} INTRO BUMP (4s)]",
             f"**SEGMENT:** {p['slot_title']}",
             f"**VISUAL CUE:** Dynamic 2D graphic card displaying {p['name']} art ({p['art_description']}), floor price ({p['floor_price']}), and scannable QR Code linking to {p['official_url']}.",
-            f'**AUDIO STING & VOICEOVER:** "{b_spoken}"\n'
+            f'**AUDIO STING & VOICEOVER:** "{b_spoken}"',
+            ""
         ])
         bumpers_data.append((b_id, p["name"], p["official_url"], p["opensea_url"], p["floor_price"], p["chain"], p["art_description"], p["slot_title"]))
         bump_count += 1
@@ -279,7 +283,8 @@ def run_production_pipeline(output_dir="output"):
             f"### [{c_title.upper()} (10s Max)]",
             f"**ON-SCREEN GRAPHIC:** {p['name']} | Floor: {p['floor_price']} | Vol: {p['volume_24h']} | Chain: {p['chain']}",
             f'**{celeb_name.upper()}:** "{p["catalyst_lore"]}"',
-            f'**{celeb_name.upper()}:** "Floor: {p["floor_price"]} | Glam Rating: 8.5/10!"\n'
+            f'**{celeb_name.upper()}:** "Floor: {p["floor_price"]} | Glam Rating: 8.5/10!"',
+            ""
         ])
         clips_info.append((
             c_clip_id, c_title, c_script, [celeb_name],
@@ -299,8 +304,10 @@ def run_production_pipeline(output_dir="output"):
             f"### [{s_title.upper()} (10s Max)]",
             f"**[COW-PEDIA POP-UP]:** **{p['storage']}** — Verified technical asset storage on {p['chain']}.",
             f'**{science_name.upper()}:** "{p["science_tech"]}"',
-            f'**{science_name.upper()}:** "Code & Security Rating: 9.0/10!"\n',
-            "-" * 40 + "\n"
+            f'**{science_name.upper()}:** "Code & Security Rating: 9.0/10!"',
+            "",
+            "-" * 40,
+            ""
         ])
         clips_info.append((
             s_clip_id, s_title, s_script, [science_name],
@@ -315,9 +322,11 @@ def run_production_pipeline(output_dir="output"):
     w_clip_id = f"clip_{clip_count:03d}"
     w_title = f"Clip {clip_count:02d}: Weather Forecast"
     w_script = f"{weather_name}: Expect high volatility across Web3 ecosystems tonight with an 80% chance of a bull surge! Embrace the chaos, traders!"
+    weather_quote = w_script.split(": ", 1)
     script_lines.extend([
         f"### [{w_title.upper()} (10s Max)]",
-        f'**{weather_name.upper()}:** "{w_script.split(": ", 1)}"\n'
+        f'**{weather_name.upper()}:** "{weather_quote}"',
+        ""
     ])
     clips_info.append((w_clip_id, w_title, w_script, [weather_name], {}))
     clip_count += 1
@@ -328,7 +337,8 @@ def run_production_pipeline(output_dir="output"):
     script_lines.extend([
         f"### [{o_title.upper()} (10s Max)]",
         f'**{celeb_name.upper()}:** "That\'s all for this week\'s NFT Report on MOO19 News! Scan the Pasture Poll QR code to vote on next week\'s wildcard!"',
-        f'**{science_name.upper()}:** "Remember: Don\'t trust, verify! Read smart contracts before you mint! Goodnight, everyone!"\n'
+        f'**{science_name.upper()}:** "Remember: Don\'t trust, verify! Read smart contracts before you mint! Goodnight, everyone!"',
+        ""
     ])
     clips_info.append((o_clip_id, o_title, o_script, [celeb_name, science_name], {"pasture_poll_qr_code": "SCAN QR CODE TO VOTE FOR NEXT WEEK'S WILDCARD"}))
 
@@ -337,17 +347,20 @@ def run_production_pipeline(output_dir="output"):
         f.write("\n".join(script_lines))
     print(f"[+] Show Script saved: {script_path}")
 
-    # 2. Build Shorts Teaser Lines (Safe Unpacked Variables)
+    # 2. Build Shorts Teaser Lines
     shorts_lines = [
         "# MOO19 NEWS: NFT REPORT SHORTS (DYNAMIC 5-SLOT TEASER)",
         f"**Air Date:** {now_str} (Episode #{episode_index + 1})",
-        "**Format:** 9:16 Vertical Video (TikTok / YouTube Shorts / Instagram Reels)\n",
-        "=" * 60 + "\n",
+        "**Format:** 9:16 Vertical Video (TikTok / YouTube Shorts / Instagram Reels)",
+        "",
+        "=" * 60,
+        "",
         f'**[00:00 - 00:10] {celeb_name.upper()}:** "Stop scrolling, Web3 trendsetters! Here are this week\'s top NFT movers on MOO19 News!"',
         f'**[00:10 - 00:25] {celeb_name.upper()}:** "Blue-Chip Anchor: {p_bluechip["name"]} at {p_bluechip["floor_price"]}, and Top Volume Leader {p_volume["name"]} with {p_volume["volume_24h"]} volume!"',
         f'**[00:25 - 00:40] {science_name.upper()}:** "Breakout Gainer {p_breakout["name"]}, plus Cross-Chain Titan {p_crosschain["name"]} on {p_crosschain["chain"]}!"',
         f'**[00:40 - 00:50] {celeb_name.upper()}:** "And our community Wildcard winner: {p_wildcard["name"]}!"',
-        f'**[00:50 - 01:00] {science_name.upper()}:** "Scan the QR code to watch the full episode on MOO19 News and vote on our Pasture Poll! Don\'t trust, verify!"\n'
+        f'**[00:50 - 01:00] {science_name.upper()}:** "Scan the QR code to watch the full episode on MOO19 News and vote on our Pasture Poll! Don\'t trust, verify!"',
+        ""
     ]
     shorts_path = os.path.join(output_dir, "weekly_nft_report_shorts_script.md")
     with open(shorts_path, "w", encoding="utf-8") as f:
@@ -358,15 +371,21 @@ def run_production_pipeline(output_dir="output"):
     nl_lines = [
         "# 🐮 THE PASTURE POST: MOO19 NFT & WEB3 WEEKLY",
         f"**Issue #{episode_index + 16} • {now_str}**",
-        "*Demystifying the Blockchain with Culture, Code, and Common Sense*\n",
-        "=" * 65 + "\n",
+        "*Demystifying the Blockchain with Culture, Code, and Common Sense*",
+        "",
+        "=" * 65,
+        "",
         "## 🎙️ FROM THE NEWSROOM DESK",
         f"**{celeb_name.upper()} (Celebrity Reporter):**",
-        "> \"Hello, pasture fashionistas and Web3 explorers! Welcome to this week's edition of *The Pasture Post*. In this episode, we're diving into blue-chip titans, surging volume leaders, and cross-chain breakouts on Solana and Bitcoin!\"\n",
+        "> Hello, pasture fashionistas and Web3 explorers! Welcome to this week's edition of The Pasture Post. In this episode, we're diving into blue-chip titans, surging volume leaders, and cross-chain breakouts on Solana and Bitcoin!",
+        "",
         f"**{science_name.upper()} (Science Reporter):**",
-        f"> \"And we're dissecting the underlying technology! This week, we examine **{selected_term}** to show you how decentralized storage and smart contracts protect digital assets. Let's inspect the data!\"\n",
-        "-" * 65 + "\n",
-        "## 📰 FEATURED PROJECTS THIS WEEK (DYNAMIC 5-SLOT REPORT)\n"
+        f"> And we're dissecting the underlying technology! This week, we examine **{selected_term}** to show you how decentralized storage and smart contracts protect digital assets. Let's inspect the data!",
+        "",
+        "-" * 65,
+        "",
+        "## 📰 FEATURED PROJECTS THIS WEEK (DYNAMIC 5-SLOT REPORT)",
+        ""
     ]
 
     for idx, project in enumerate(selected_projects, start=1):
@@ -374,28 +393,37 @@ def run_production_pipeline(output_dir="output"):
             f"### {idx}. {project['name']} — {project['slot_title']}",
             f"**Category:** {project['category']} | **Chain:** {project['chain']} | **Source:** [{project['name']}]({project['official_url']})",
             f"**The Breakdown:** {project['catalyst_lore']}",
-            f"💡 **Tech Note:** {project['science_tech']}\n",
-            "-" * 40 + "\n"
+            f"💡 **Tech Note:** {project['science_tech']}",
+            "",
+            "-" * 40,
+            ""
         ])
 
     nl_lines.extend([
         "## 📚 COW-PEDIA TERM OF THE WEEK",
         f"**Term: {selected_term}**",
-        f"> *Definition:* {selected_term_def}\n",
-        "-" * 65 + "\n",
+        f"> *Definition:* {selected_term_def}",
+        "",
+        "-" * 65,
+        "",
         "## ⛈️ MARKET CLIMATE OUTLOOK",
         f"**Forecast by {weather_name}:**",
-        "> \"Current indicators show an **80% chance of a bull surge** across verified utility collections with steady floor price consolidation. Keep an eye out for sudden volatility storms around upcoming Layer-2 network upgrades! Embrace the chaos, traders!"\n",
-        "-" * 65 + "\n",
+        "> Current indicators show an **80% chance of a bull surge** across verified utility collections with steady floor price consolidation. Keep an eye out for sudden volatility storms around upcoming Layer-2 network upgrades! Embrace the chaos, traders!",
+        "",
+        "-" * 65,
+        "",
         "## 🗳️ WEEKLY PASTURE POLL",
         "**Which project should Daisy and Professor Hartmut examine on next Monday's animated episode?**",
         "1. On-Chain Generative Art Collection (e.g., Fidenza / Ringers)",
         "2. Bitcoin Inscription / Ordinals Project",
-        "3. Real-World Asset (RWA) Tokenization Project\n",
-        "👉 *Cast your vote by replying to this newsletter or voting in our Discord community!*\n",
+        "3. Real-World Asset (RWA) Tokenization Project",
+        "",
+        "👉 *Cast your vote by replying to this newsletter or voting in our Discord community!*",
+        "",
         "=" * 65,
         "© 2026 CryptoCowz / MOO19 News • *Demystifying cryptocurrency until the cows come home!*",
-        "Follow us: [YouTube](https://www.youtube.com/@cryptocollectablesNY) | [Facebook](https://www.facebook.com/CryptocollectiblesNY)\n"
+        "Follow us: [YouTube](https://www.youtube.com/@cryptocollectablesNY) | [Facebook](https://www.facebook.com/CryptocollectiblesNY)",
+        ""
     ])
 
     nl_path = os.path.join(output_dir, "weekly_pasture_post_newsletter.md")
