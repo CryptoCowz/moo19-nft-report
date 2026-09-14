@@ -1,5 +1,5 @@
 # MOO19 NEWS: THE NFT REPORT (DYNAMIC 5-SLOT FORMAT)
-**Episode Air Date:** September 07, 2026 (Episode #1)
+**Episode Air Date:** September 14, 2026 (Episode #1)
 **Hosts:** Daisy M. (Minty) Ledger (Left Desk) & Professor Hartmut von Schnurrbart (Right Desk next to microscope)
 **Network:** MOO19 News Channel - The Pasture
 **Format:** Dynamic 5-Slot Structure (Blue-Chip, Volume Mover, Breakout Gainer, Cross-Chain, Wildcard)
