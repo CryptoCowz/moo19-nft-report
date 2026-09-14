@@ -1,13 +1,13 @@
-name: Weekly MOO19 NFT Report & Newsletter Automation
+name: Generate MOO19 Clips & Bumpers JSON
 
 on:
   schedule:
-    # Runs every Monday at 9:00 AM EDT (13:00 UTC)
+    # Runs automatically every Monday at 9:00 AM EDT (13:00 UTC)
     - cron: '0 13 * * 1'
-  workflow_dispatch: # Allows 1-click manual trigger from GitHub web UI
+  workflow_dispatch: # Enables 1-click manual trigger from the GitHub Actions tab
 
 jobs:
-  build-generate-and-sync:
+  generate-clips-and-bumps:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -23,61 +23,56 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install Python Dependencies
-        run: |
-          python -m pip install --upgrade pip
-          if [ -f "requirements.txt" ]; then
-            pip install -r requirements.txt || true
-          fi
-          pip install requests google-api-python-client google-auth-httplib2 google-auth-oauthlib || true
-
-      - name: Prepare Output Directories
+      - name: Execute Generation Engine
         run: |
           mkdir -p output/bumpers output/standalone_clips
-
-      - name: Execute MOO19 Production Engine
-        run: |
           if [ -f "generate_all.py" ]; then
             echo "[*] Running generate_all.py..."
             python generate_all.py
-          elif [ -f "nft_report_agent.py" ] && [ -f "newsletter_agent.py" ]; then
-            echo "[*] Running standalone agents..."
+          elif [ -f "nft_report_agent.py" ]; then
+            echo "[*] Running nft_report_agent.py..."
             python nft_report_agent.py --run --output-dir output
-            python newsletter_agent.py --run --output-dir output
           else
-            echo "[!] No generator script found in root."
+            echo "[!] Generator script not found in repository root."
             exit 1
           fi
 
-      - name: Upload Output Artifact Bundle
+      - name: Organize Clips and Bumps JSON Files
+        run: |
+          mkdir -p clips bumpers
+          if [ -d "output/standalone_clips" ]; then
+            cp output/standalone_clips/*.json clips/ 2>/dev/null || true
+          fi
+          if [ -d "output/bumpers" ]; then
+            cp output/bumpers/*.json bumpers/ 2>/dev/null || true
+          fi
+          if [ -f "output/google_flow_animation_manifest.json" ]; then
+            cp output/google_flow_animation_manifest.json ./
+          fi
+          echo "=== Clips JSON Files ==="
+          ls -la clips/
+          echo "=== Bumpers JSON Files ==="
+          ls -la bumpers/
+
+      - name: Upload JSON Artifacts Bundle
         uses: actions/upload-artifact@v4
         with:
-          name: weekly-nft-report-bundle
+          name: moo19-clips-and-bumpers-json
           path: |
-            output/
+            clips/
+            bumpers/
+            google_flow_animation_manifest.json
             episode_history.json
           if-no-files-found: warn
 
-      - name: Commit and Push Updated Episode Files to Repository
+      - name: Commit and Push JSON Files to Repository
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add output/ episode_history.json || true
+          git add clips/ bumpers/ *.json episode_history.json || true
           if git diff --staged --quiet; then
-            echo "[*] No changes to commit."
+            echo "[*] No new JSON changes to commit."
           else
-            git commit -m "Auto-generate weekly NFT Report and Newsletter [$(date +'%Y-%m-%d')]"
+            git commit -m "Generate MOO19 clips and bumpers JSON files [$(date +'%Y-%m-%d')]"
             git push origin main || git push || echo "[!] Push skipped or write permissions restricted in repository settings."
           fi
-
-      - name: Sync Output Files Directly to Google Drive
-        if: ${{ secrets.GDRIVE_CREDENTIALS != '' }}
-        env:
-          GDRIVE_CREDENTIALS: ${{ secrets.GDRIVE_CREDENTIALS }}
-          GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
-        run: |
-          echo "$GDRIVE_CREDENTIALS" > gdrive_credentials.json
-          if [ -f "sync_to_gdrive.py" ]; then
-            python sync_to_gdrive.py || true
-          fi
-          rm -f gdrive_credentials.json
