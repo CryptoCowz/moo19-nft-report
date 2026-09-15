@@ -1,0 +1,21 @@
+{
+  "manifest_version": "1.0",
+  "google_flow_project_target": "MOO19 TV The NFT Report",
+  "clip_id": "clip_008",
+  "duration_seconds": 10,
+  "title": "Clip 08: Mad Lads (Lore & Glam)",
+  "source": "Newsroom01_Large copy.jpg",
+  "prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Daisy M. (Minty) Ledger: Darlings, we're crossing chains to Solana where Mad Lads reigns supreme! 85 SOL floor price and the undisputed cultural heavyweight of the ecosystem! Floor Price: 85.0 SOL with 1,450 SOL volume! Glam Rating: 8.5/10!'",
+  "script": "Daisy M. (Minty) Ledger: Darlings, we're crossing chains to Solana where Mad Lads reigns supreme! 85 SOL floor price and the undisputed cultural heavyweight of the ecosystem! Floor Price: 85.0 SOL with 1,450 SOL volume! Glam Rating: 8.5/10!",
+  "text_prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Daisy M. (Minty) Ledger: Darlings, we're crossing chains to Solana where Mad Lads reigns supreme! 85 SOL floor price and the undisputed cultural heavyweight of the ecosystem! Floor Price: 85.0 SOL with 1,450 SOL volume! Glam Rating: 8.5/10!'",
+  "voice_prompt": "Daisy M. (Minty) Ledger: Darlings, we're crossing chains to Solana where Mad Lads reigns supreme! 85 SOL floor price and the undisputed cultural heavyweight of the ecosystem! Floor Price: 85.0 SOL with 1,450 SOL volume! Glam Rating: 8.5/10!",
+  "speech": "Daisy M. (Minty) Ledger: Darlings, we're crossing chains to Solana where Mad Lads reigns supreme! 85 SOL floor price and the undisputed cultural heavyweight of the ecosystem! Floor Price: 85.0 SOL with 1,450 SOL volume! Glam Rating: 8.5/10!",
+  "character_references": [
+    "Daisy M. (Minty) Ledger"
+  ],
+  "gui_overlays": {
+    "lower_third_text": "Mad Lads | Floor: 85.0 SOL | Vol: 1,450 SOL | Solana",
+    "hype_badge": "Glam: 8.5/10",
+    "gauge_status": "BULLISH STAMPEDE \ud83d\udfe2"
+  }
+}

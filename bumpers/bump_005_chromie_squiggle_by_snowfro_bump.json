@@ -1,0 +1,28 @@
+{
+  "manifest_version": "1.0",
+  "google_flow_project_target": "MOO19 TV The NFT Report",
+  "clip_id": "bump_005",
+  "clip_type": "SEGMENT_BUMPER",
+  "duration_seconds": 4,
+  "title": "Bumper: Chromie Squiggle by Snowfro Intro",
+  "featured_nft": "Chromie Squiggle by Snowfro",
+  "slot": "Slot 5: Pasture Poll Wildcard",
+  "official_url": "https://artblocks.io/collection/chromie-squiggle-by-snowfro",
+  "opensea_url": "https://opensea.io/collection/chromie-squiggle-by-snowfro",
+  "qr_code_target_url": "https://artblocks.io/collection/chromie-squiggle-by-snowfro",
+  "prompt": "2D animated high-energy motion graphic bumper card, 4 seconds. Center featured 2D artwork of Chromie Squiggle by Snowfro (Hypnotic undulating 2D rainbow generative spectrum ribbon looping fluidly on a clean digital canvas). Prominent scannable QR Code on right overlay linking to https://artblocks.io/collection/chromie-squiggle-by-snowfro. Lower third displaying 'Chromie Squiggle by Snowfro | Floor: 2.58 ETH | Chain: Ethereum | Slot 5: Pasture Poll Wildcard'. Audio sting with energetic voiceover: 'Up next on the NFT Report: Chromie Squiggle by Snowfro! Scan the QR code to explore!'",
+  "script": "Up next on the NFT Report: Chromie Squiggle by Snowfro! Scan the QR code to explore!",
+  "text_prompt": "2D animated high-energy motion graphic bumper card, 4 seconds. Center featured 2D artwork of Chromie Squiggle by Snowfro (Hypnotic undulating 2D rainbow generative spectrum ribbon looping fluidly on a clean digital canvas). Prominent scannable QR Code on right overlay linking to https://artblocks.io/collection/chromie-squiggle-by-snowfro. Lower third displaying 'Chromie Squiggle by Snowfro | Floor: 2.58 ETH | Chain: Ethereum | Slot 5: Pasture Poll Wildcard'. Audio sting with energetic voiceover: 'Up next on the NFT Report: Chromie Squiggle by Snowfro! Scan the QR code to explore!'",
+  "voice_prompt": "Up next on the NFT Report: Chromie Squiggle by Snowfro! Scan the QR code to explore!",
+  "speech": "Up next on the NFT Report: Chromie Squiggle by Snowfro! Scan the QR code to explore!",
+  "audio_sting": "MOO19_Station_Chime_Fast_4s.mp3",
+  "visual_elements": {
+    "featured_artwork_style": "Hypnotic undulating 2D rainbow generative spectrum ribbon looping fluidly on a clean digital canvas",
+    "qr_code_overlay": {
+      "position": "BOTTOM_RIGHT",
+      "target_url": "https://artblocks.io/collection/chromie-squiggle-by-snowfro",
+      "callout_label": "SCAN TO VIEW CHROMIE SQUIGGLE BY SNOWFRO"
+    },
+    "lower_third_badge": "Chromie Squiggle by Snowfro | Floor: 2.58 ETH | Ethereum"
+  }
+}

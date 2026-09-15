@@ -1,0 +1,18 @@
+{
+  "manifest_version": "1.0",
+  "google_flow_project_target": "MOO19 TV The NFT Report",
+  "clip_id": "clip_001",
+  "duration_seconds": 10,
+  "title": "Clip 01: Studio Intro",
+  "source": "Newsroom01_Large copy.jpg",
+  "prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Daisy M. (Minty) Ledger: Welcome back to MOO19 News! Today on the NFT Report, we're breaking down blue-chips, volume movers, and cross-chain breakouts! Professor Hartmut von Schnurrbart: And watch your screen for Cow-pedia Pop-ups and Scam or Stampede Checks! Let's inspect the code!'",
+  "script": "Daisy M. (Minty) Ledger: Welcome back to MOO19 News! Today on the NFT Report, we're breaking down blue-chips, volume movers, and cross-chain breakouts! Professor Hartmut von Schnurrbart: And watch your screen for Cow-pedia Pop-ups and Scam or Stampede Checks! Let's inspect the code!",
+  "text_prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Daisy M. (Minty) Ledger: Welcome back to MOO19 News! Today on the NFT Report, we're breaking down blue-chips, volume movers, and cross-chain breakouts! Professor Hartmut von Schnurrbart: And watch your screen for Cow-pedia Pop-ups and Scam or Stampede Checks! Let's inspect the code!'",
+  "voice_prompt": "Daisy M. (Minty) Ledger: Welcome back to MOO19 News! Today on the NFT Report, we're breaking down blue-chips, volume movers, and cross-chain breakouts! Professor Hartmut von Schnurrbart: And watch your screen for Cow-pedia Pop-ups and Scam or Stampede Checks! Let's inspect the code!",
+  "speech": "Daisy M. (Minty) Ledger: Welcome back to MOO19 News! Today on the NFT Report, we're breaking down blue-chips, volume movers, and cross-chain breakouts! Professor Hartmut von Schnurrbart: And watch your screen for Cow-pedia Pop-ups and Scam or Stampede Checks! Let's inspect the code!",
+  "character_references": [
+    "Daisy M. (Minty) Ledger",
+    "Professor Hartmut von Schnurrbart"
+  ],
+  "gui_overlays": {}
+}

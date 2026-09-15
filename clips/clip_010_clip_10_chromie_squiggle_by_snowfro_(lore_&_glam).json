@@ -1,0 +1,21 @@
+{
+  "manifest_version": "1.0",
+  "google_flow_project_target": "MOO19 TV The NFT Report",
+  "clip_id": "clip_010",
+  "duration_seconds": 10,
+  "title": "Clip 10: Chromie Squiggle by Snowfro (Lore & Glam)",
+  "source": "Newsroom01_Large copy.jpg",
+  "prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Daisy M. (Minty) Ledger: Darlings, our community voted Chromie Squiggle as this week's Wildcard winner! Hypnotic rainbow ribbons that turned generative code into museum fine art! Floor Price: 2.58 ETH with 9.93 ETH volume! Glam Rating: 8.5/10!'",
+  "script": "Daisy M. (Minty) Ledger: Darlings, our community voted Chromie Squiggle as this week's Wildcard winner! Hypnotic rainbow ribbons that turned generative code into museum fine art! Floor Price: 2.58 ETH with 9.93 ETH volume! Glam Rating: 8.5/10!",
+  "text_prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Daisy M. (Minty) Ledger: Darlings, our community voted Chromie Squiggle as this week's Wildcard winner! Hypnotic rainbow ribbons that turned generative code into museum fine art! Floor Price: 2.58 ETH with 9.93 ETH volume! Glam Rating: 8.5/10!'",
+  "voice_prompt": "Daisy M. (Minty) Ledger: Darlings, our community voted Chromie Squiggle as this week's Wildcard winner! Hypnotic rainbow ribbons that turned generative code into museum fine art! Floor Price: 2.58 ETH with 9.93 ETH volume! Glam Rating: 8.5/10!",
+  "speech": "Daisy M. (Minty) Ledger: Darlings, our community voted Chromie Squiggle as this week's Wildcard winner! Hypnotic rainbow ribbons that turned generative code into museum fine art! Floor Price: 2.58 ETH with 9.93 ETH volume! Glam Rating: 8.5/10!",
+  "character_references": [
+    "Daisy M. (Minty) Ledger"
+  ],
+  "gui_overlays": {
+    "lower_third_text": "Chromie Squiggle by Snowfro | Floor: 2.58 ETH | Vol: 9.93 ETH | Ethereum",
+    "hype_badge": "Glam: 8.5/10",
+    "gauge_status": "BULLISH STAMPEDE \ud83d\udfe2"
+  }
+}

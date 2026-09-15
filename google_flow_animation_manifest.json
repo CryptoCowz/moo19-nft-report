@@ -1,0 +1,447 @@
+{
+  "manifest_version": "1.0",
+  "google_flow_project_target": "MOO19 TV The NFT Report",
+  "show_title": "MOO19 NFT Report - Dynamic 5-Slot Episode #1",
+  "target_model": "Omni Flash (10s Dialogue Clips & 4s Bumpers)",
+  "clip_duration_seconds": 10,
+  "bumper_duration_seconds": 4,
+  "total_duration_seconds": 150,
+  "master_assets": {
+    "environment": {
+      "asset_id": "Newsroom01_Large copy.jpg",
+      "file_name": "Newsroom01_Large copy.jpg",
+      "type": "2D_BACKGROUND_PLATE"
+    },
+    "character_references": [
+      {
+        "character_id": "CELEBRITY_REPORTER",
+        "character_name": "Daisy M. (Minty) Ledger",
+        "file_name": "CelebReporter_2k.png",
+        "layer_position": {
+          "x_percent": 18,
+          "y_percent": 30,
+          "scale": 1.0
+        }
+      },
+      {
+        "character_id": "SCIENCE_REPORTER",
+        "character_name": "Professor Hartmut von Schnurrbart",
+        "file_name": "ScienceReporter_2k.png",
+        "layer_position": {
+          "x_percent": 68,
+          "y_percent": 30,
+          "scale": 1.0
+        }
+      }
+    ]
+  },
+  "bumpers": [
+    {
+      "manifest_version": "1.0",
+      "google_flow_project_target": "MOO19 TV The NFT Report",
+      "clip_id": "bump_001",
+      "clip_type": "SEGMENT_BUMPER",
+      "duration_seconds": 4,
+      "title": "Bumper: CryptoPunks Intro",
+      "featured_nft": "CryptoPunks",
+      "slot": "Slot 1: Blue-Chip Anchor",
+      "official_url": "https://cryptopunks.app/",
+      "opensea_url": "https://opensea.io/collection/cryptopunks",
+      "qr_code_target_url": "https://cryptopunks.app/",
+      "prompt": "2D animated high-energy motion graphic bumper card, 4 seconds. Center featured 2D artwork of CryptoPunks (Iconic 24x24 pixel art portraits with rare gold chains, pilot shades, and zombie traits on solid color backgrounds). Prominent scannable QR Code on right overlay linking to https://cryptopunks.app/. Lower third displaying 'CryptoPunks | Floor: 30.3 ETH | Chain: Ethereum | Slot 1: Blue-Chip Anchor'. Audio sting with energetic voiceover: 'Up next on the NFT Report: CryptoPunks! Scan the QR code to explore!'",
+      "script": "Up next on the NFT Report: CryptoPunks! Scan the QR code to explore!",
+      "text_prompt": "2D animated high-energy motion graphic bumper card, 4 seconds. Center featured 2D artwork of CryptoPunks (Iconic 24x24 pixel art portraits with rare gold chains, pilot shades, and zombie traits on solid color backgrounds). Prominent scannable QR Code on right overlay linking to https://cryptopunks.app/. Lower third displaying 'CryptoPunks | Floor: 30.3 ETH | Chain: Ethereum | Slot 1: Blue-Chip Anchor'. Audio sting with energetic voiceover: 'Up next on the NFT Report: CryptoPunks! Scan the QR code to explore!'",
+      "voice_prompt": "Up next on the NFT Report: CryptoPunks! Scan the QR code to explore!",
+      "speech": "Up next on the NFT Report: CryptoPunks! Scan the QR code to explore!",
+      "audio_sting": "MOO19_Station_Chime_Fast_4s.mp3",
+      "visual_elements": {
+        "featured_artwork_style": "Iconic 24x24 pixel art portraits with rare gold chains, pilot shades, and zombie traits on solid color backgrounds",
+        "qr_code_overlay": {
+          "position": "BOTTOM_RIGHT",
+          "target_url": "https://cryptopunks.app/",
+          "callout_label": "SCAN TO VIEW CRYPTOPUNKS"
+        },
+        "lower_third_badge": "CryptoPunks | Floor: 30.3 ETH | Ethereum"
+      }
+    },
+    {
+      "manifest_version": "1.0",
+      "google_flow_project_target": "MOO19 TV The NFT Report",
+      "clip_id": "bump_002",
+      "clip_type": "SEGMENT_BUMPER",
+      "duration_seconds": 4,
+      "title": "Bumper: Pudgy Penguins Intro",
+      "featured_nft": "Pudgy Penguins",
+      "slot": "Slot 2: Top Volume Mover",
+      "official_url": "https://pudgypenguins.com/",
+      "opensea_url": "https://opensea.io/collection/pudgypenguins",
+      "qr_code_target_url": "https://pudgypenguins.com/",
+      "prompt": "2D animated high-energy motion graphic bumper card, 4 seconds. Center featured 2D artwork of Pudgy Penguins (Charming 2D illustrated chubby penguin avatars with cheerful expressions, winter beanies, and cozy scarves). Prominent scannable QR Code on right overlay linking to https://pudgypenguins.com/. Lower third displaying 'Pudgy Penguins | Floor: 6.05 ETH | Chain: Ethereum | Slot 2: Top Volume Mover'. Audio sting with energetic voiceover: 'Up next on the NFT Report: Pudgy Penguins! Scan the QR code to explore!'",
+      "script": "Up next on the NFT Report: Pudgy Penguins! Scan the QR code to explore!",
+      "text_prompt": "2D animated high-energy motion graphic bumper card, 4 seconds. Center featured 2D artwork of Pudgy Penguins (Charming 2D illustrated chubby penguin avatars with cheerful expressions, winter beanies, and cozy scarves). Prominent scannable QR Code on right overlay linking to https://pudgypenguins.com/. Lower third displaying 'Pudgy Penguins | Floor: 6.05 ETH | Chain: Ethereum | Slot 2: Top Volume Mover'. Audio sting with energetic voiceover: 'Up next on the NFT Report: Pudgy Penguins! Scan the QR code to explore!'",
+      "voice_prompt": "Up next on the NFT Report: Pudgy Penguins! Scan the QR code to explore!",
+      "speech": "Up next on the NFT Report: Pudgy Penguins! Scan the QR code to explore!",
+      "audio_sting": "MOO19_Station_Chime_Fast_4s.mp3",
+      "visual_elements": {
+        "featured_artwork_style": "Charming 2D illustrated chubby penguin avatars with cheerful expressions, winter beanies, and cozy scarves",
+        "qr_code_overlay": {
+          "position": "BOTTOM_RIGHT",
+          "target_url": "https://pudgypenguins.com/",
+          "callout_label": "SCAN TO VIEW PUDGY PENGUINS"
+        },
+        "lower_third_badge": "Pudgy Penguins | Floor: 6.05 ETH | Ethereum"
+      }
+    },
+    {
+      "manifest_version": "1.0",
+      "google_flow_project_target": "MOO19 TV The NFT Report",
+      "clip_id": "bump_003",
+      "clip_type": "SEGMENT_BUMPER",
+      "duration_seconds": 4,
+      "title": "Bumper: Milady Maker Intro",
+      "featured_nft": "Milady Maker",
+      "slot": "Slot 3: Breakout Gainer",
+      "official_url": "https://miladymaker.net/",
+      "opensea_url": "https://opensea.io/collection/milady-maker",
+      "qr_code_target_url": "https://miladymaker.net/",
+      "prompt": "2D animated high-energy motion graphic bumper card, 4 seconds. Center featured 2D artwork of Milady Maker (Distinctive Tokyo neo-chibi 2D anime-inspired avatar art featuring customized streetwear, oversized eyes, and vibrant hats). Prominent scannable QR Code on right overlay linking to https://miladymaker.net/. Lower third displaying 'Milady Maker | Floor: 3.15 ETH | Chain: Ethereum | Slot 3: Breakout Gainer'. Audio sting with energetic voiceover: 'Up next on the NFT Report: Milady Maker! Scan the QR code to explore!'",
+      "script": "Up next on the NFT Report: Milady Maker! Scan the QR code to explore!",
+      "text_prompt": "2D animated high-energy motion graphic bumper card, 4 seconds. Center featured 2D artwork of Milady Maker (Distinctive Tokyo neo-chibi 2D anime-inspired avatar art featuring customized streetwear, oversized eyes, and vibrant hats). Prominent scannable QR Code on right overlay linking to https://miladymaker.net/. Lower third displaying 'Milady Maker | Floor: 3.15 ETH | Chain: Ethereum | Slot 3: Breakout Gainer'. Audio sting with energetic voiceover: 'Up next on the NFT Report: Milady Maker! Scan the QR code to explore!'",
+      "voice_prompt": "Up next on the NFT Report: Milady Maker! Scan the QR code to explore!",
+      "speech": "Up next on the NFT Report: Milady Maker! Scan the QR code to explore!",
+      "audio_sting": "MOO19_Station_Chime_Fast_4s.mp3",
+      "visual_elements": {
+        "featured_artwork_style": "Distinctive Tokyo neo-chibi 2D anime-inspired avatar art featuring customized streetwear, oversized eyes, and vibrant hats",
+        "qr_code_overlay": {
+          "position": "BOTTOM_RIGHT",
+          "target_url": "https://miladymaker.net/",
+          "callout_label": "SCAN TO VIEW MILADY MAKER"
+        },
+        "lower_third_badge": "Milady Maker | Floor: 3.15 ETH | Ethereum"
+      }
+    },
+    {
+      "manifest_version": "1.0",
+      "google_flow_project_target": "MOO19 TV The NFT Report",
+      "clip_id": "bump_004",
+      "clip_type": "SEGMENT_BUMPER",
+      "duration_seconds": 4,
+      "title": "Bumper: Mad Lads Intro",
+      "featured_nft": "Mad Lads",
+      "slot": "Slot 4: Cross-Chain Spotlight",
+      "official_url": "https://madlads.com/",
+      "opensea_url": "https://magiceden.io/marketplace/mad_lads",
+      "qr_code_target_url": "https://madlads.com/",
+      "prompt": "2D animated high-energy motion graphic bumper card, 4 seconds. Center featured 2D artwork of Mad Lads (Bold 2D graphic comic-style hero portraits with vibrant stylized jackets, sunglasses, and cybernetic accessories). Prominent scannable QR Code on right overlay linking to https://madlads.com/. Lower third displaying 'Mad Lads | Floor: 85.0 SOL | Chain: Solana | Slot 4: Cross-Chain Spotlight'. Audio sting with energetic voiceover: 'Up next on the NFT Report: Mad Lads! Scan the QR code to explore!'",
+      "script": "Up next on the NFT Report: Mad Lads! Scan the QR code to explore!",
+      "text_prompt": "2D animated high-energy motion graphic bumper card, 4 seconds. Center featured 2D artwork of Mad Lads (Bold 2D graphic comic-style hero portraits with vibrant stylized jackets, sunglasses, and cybernetic accessories). Prominent scannable QR Code on right overlay linking to https://madlads.com/. Lower third displaying 'Mad Lads | Floor: 85.0 SOL | Chain: Solana | Slot 4: Cross-Chain Spotlight'. Audio sting with energetic voiceover: 'Up next on the NFT Report: Mad Lads! Scan the QR code to explore!'",
+      "voice_prompt": "Up next on the NFT Report: Mad Lads! Scan the QR code to explore!",
+      "speech": "Up next on the NFT Report: Mad Lads! Scan the QR code to explore!",
+      "audio_sting": "MOO19_Station_Chime_Fast_4s.mp3",
+      "visual_elements": {
+        "featured_artwork_style": "Bold 2D graphic comic-style hero portraits with vibrant stylized jackets, sunglasses, and cybernetic accessories",
+        "qr_code_overlay": {
+          "position": "BOTTOM_RIGHT",
+          "target_url": "https://madlads.com/",
+          "callout_label": "SCAN TO VIEW MAD LADS"
+        },
+        "lower_third_badge": "Mad Lads | Floor: 85.0 SOL | Solana"
+      }
+    },
+    {
+      "manifest_version": "1.0",
+      "google_flow_project_target": "MOO19 TV The NFT Report",
+      "clip_id": "bump_005",
+      "clip_type": "SEGMENT_BUMPER",
+      "duration_seconds": 4,
+      "title": "Bumper: Chromie Squiggle by Snowfro Intro",
+      "featured_nft": "Chromie Squiggle by Snowfro",
+      "slot": "Slot 5: Pasture Poll Wildcard",
+      "official_url": "https://artblocks.io/collection/chromie-squiggle-by-snowfro",
+      "opensea_url": "https://opensea.io/collection/chromie-squiggle-by-snowfro",
+      "qr_code_target_url": "https://artblocks.io/collection/chromie-squiggle-by-snowfro",
+      "prompt": "2D animated high-energy motion graphic bumper card, 4 seconds. Center featured 2D artwork of Chromie Squiggle by Snowfro (Hypnotic undulating 2D rainbow generative spectrum ribbon looping fluidly on a clean digital canvas). Prominent scannable QR Code on right overlay linking to https://artblocks.io/collection/chromie-squiggle-by-snowfro. Lower third displaying 'Chromie Squiggle by Snowfro | Floor: 2.58 ETH | Chain: Ethereum | Slot 5: Pasture Poll Wildcard'. Audio sting with energetic voiceover: 'Up next on the NFT Report: Chromie Squiggle by Snowfro! Scan the QR code to explore!'",
+      "script": "Up next on the NFT Report: Chromie Squiggle by Snowfro! Scan the QR code to explore!",
+      "text_prompt": "2D animated high-energy motion graphic bumper card, 4 seconds. Center featured 2D artwork of Chromie Squiggle by Snowfro (Hypnotic undulating 2D rainbow generative spectrum ribbon looping fluidly on a clean digital canvas). Prominent scannable QR Code on right overlay linking to https://artblocks.io/collection/chromie-squiggle-by-snowfro. Lower third displaying 'Chromie Squiggle by Snowfro | Floor: 2.58 ETH | Chain: Ethereum | Slot 5: Pasture Poll Wildcard'. Audio sting with energetic voiceover: 'Up next on the NFT Report: Chromie Squiggle by Snowfro! Scan the QR code to explore!'",
+      "voice_prompt": "Up next on the NFT Report: Chromie Squiggle by Snowfro! Scan the QR code to explore!",
+      "speech": "Up next on the NFT Report: Chromie Squiggle by Snowfro! Scan the QR code to explore!",
+      "audio_sting": "MOO19_Station_Chime_Fast_4s.mp3",
+      "visual_elements": {
+        "featured_artwork_style": "Hypnotic undulating 2D rainbow generative spectrum ribbon looping fluidly on a clean digital canvas",
+        "qr_code_overlay": {
+          "position": "BOTTOM_RIGHT",
+          "target_url": "https://artblocks.io/collection/chromie-squiggle-by-snowfro",
+          "callout_label": "SCAN TO VIEW CHROMIE SQUIGGLE BY SNOWFRO"
+        },
+        "lower_third_badge": "Chromie Squiggle by Snowfro | Floor: 2.58 ETH | Ethereum"
+      }
+    }
+  ],
+  "clips": [
+    {
+      "manifest_version": "1.0",
+      "google_flow_project_target": "MOO19 TV The NFT Report",
+      "clip_id": "clip_001",
+      "duration_seconds": 10,
+      "title": "Clip 01: Studio Intro",
+      "source": "Newsroom01_Large copy.jpg",
+      "prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Daisy M. (Minty) Ledger: Welcome back to MOO19 News! Today on the NFT Report, we're breaking down blue-chips, volume movers, and cross-chain breakouts! Professor Hartmut von Schnurrbart: And watch your screen for Cow-pedia Pop-ups and Scam or Stampede Checks! Let's inspect the code!'",
+      "script": "Daisy M. (Minty) Ledger: Welcome back to MOO19 News! Today on the NFT Report, we're breaking down blue-chips, volume movers, and cross-chain breakouts! Professor Hartmut von Schnurrbart: And watch your screen for Cow-pedia Pop-ups and Scam or Stampede Checks! Let's inspect the code!",
+      "text_prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Daisy M. (Minty) Ledger: Welcome back to MOO19 News! Today on the NFT Report, we're breaking down blue-chips, volume movers, and cross-chain breakouts! Professor Hartmut von Schnurrbart: And watch your screen for Cow-pedia Pop-ups and Scam or Stampede Checks! Let's inspect the code!'",
+      "voice_prompt": "Daisy M. (Minty) Ledger: Welcome back to MOO19 News! Today on the NFT Report, we're breaking down blue-chips, volume movers, and cross-chain breakouts! Professor Hartmut von Schnurrbart: And watch your screen for Cow-pedia Pop-ups and Scam or Stampede Checks! Let's inspect the code!",
+      "speech": "Daisy M. (Minty) Ledger: Welcome back to MOO19 News! Today on the NFT Report, we're breaking down blue-chips, volume movers, and cross-chain breakouts! Professor Hartmut von Schnurrbart: And watch your screen for Cow-pedia Pop-ups and Scam or Stampede Checks! Let's inspect the code!",
+      "character_references": [
+        "Daisy M. (Minty) Ledger",
+        "Professor Hartmut von Schnurrbart"
+      ],
+      "gui_overlays": {}
+    },
+    {
+      "manifest_version": "1.0",
+      "google_flow_project_target": "MOO19 TV The NFT Report",
+      "clip_id": "clip_002",
+      "duration_seconds": 10,
+      "title": "Clip 02: CryptoPunks (Lore & Glam)",
+      "source": "Newsroom01_Large copy.jpg",
+      "prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Daisy M. (Minty) Ledger: Darlings, CryptoPunks anchors our broadcast with legendary prestige! Whale wallets and auction houses still treat 24x24 pixel art as the ultimate digital Rolex! Floor Price: 30.3 ETH with 66.79 ETH volume! Glam Rating: 8.5/10!'",
+      "script": "Daisy M. (Minty) Ledger: Darlings, CryptoPunks anchors our broadcast with legendary prestige! Whale wallets and auction houses still treat 24x24 pixel art as the ultimate digital Rolex! Floor Price: 30.3 ETH with 66.79 ETH volume! Glam Rating: 8.5/10!",
+      "text_prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Daisy M. (Minty) Ledger: Darlings, CryptoPunks anchors our broadcast with legendary prestige! Whale wallets and auction houses still treat 24x24 pixel art as the ultimate digital Rolex! Floor Price: 30.3 ETH with 66.79 ETH volume! Glam Rating: 8.5/10!'",
+      "voice_prompt": "Daisy M. (Minty) Ledger: Darlings, CryptoPunks anchors our broadcast with legendary prestige! Whale wallets and auction houses still treat 24x24 pixel art as the ultimate digital Rolex! Floor Price: 30.3 ETH with 66.79 ETH volume! Glam Rating: 8.5/10!",
+      "speech": "Daisy M. (Minty) Ledger: Darlings, CryptoPunks anchors our broadcast with legendary prestige! Whale wallets and auction houses still treat 24x24 pixel art as the ultimate digital Rolex! Floor Price: 30.3 ETH with 66.79 ETH volume! Glam Rating: 8.5/10!",
+      "character_references": [
+        "Daisy M. (Minty) Ledger"
+      ],
+      "gui_overlays": {
+        "lower_third_text": "CryptoPunks | Floor: 30.3 ETH | Vol: 66.79 ETH | Ethereum",
+        "hype_badge": "Glam: 8.5/10",
+        "gauge_status": "BULLISH STAMPEDE \ud83d\udfe2"
+      }
+    },
+    {
+      "manifest_version": "1.0",
+      "google_flow_project_target": "MOO19 TV The NFT Report",
+      "clip_id": "clip_003",
+      "duration_seconds": 10,
+      "title": "Clip 03: CryptoPunks (Science Tech)",
+      "source": "Newsroom01_Large copy.jpg",
+      "prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Professor Hartmut von Schnurrbart: Fascinating! CryptoPunks code is permanently compiled on Ethereum. Pure immutable digital provenance with zero external server dependencies! Storage: On-Chain Pixel Code. Code Rating: 9.0/10!'",
+      "script": "Professor Hartmut von Schnurrbart: Fascinating! CryptoPunks code is permanently compiled on Ethereum. Pure immutable digital provenance with zero external server dependencies! Storage: On-Chain Pixel Code. Code Rating: 9.0/10!",
+      "text_prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Professor Hartmut von Schnurrbart: Fascinating! CryptoPunks code is permanently compiled on Ethereum. Pure immutable digital provenance with zero external server dependencies! Storage: On-Chain Pixel Code. Code Rating: 9.0/10!'",
+      "voice_prompt": "Professor Hartmut von Schnurrbart: Fascinating! CryptoPunks code is permanently compiled on Ethereum. Pure immutable digital provenance with zero external server dependencies! Storage: On-Chain Pixel Code. Code Rating: 9.0/10!",
+      "speech": "Professor Hartmut von Schnurrbart: Fascinating! CryptoPunks code is permanently compiled on Ethereum. Pure immutable digital provenance with zero external server dependencies! Storage: On-Chain Pixel Code. Code Rating: 9.0/10!",
+      "character_references": [
+        "Professor Hartmut von Schnurrbart"
+      ],
+      "gui_overlays": {
+        "cowpedia_banner": "Cow-pedia: On-Chain Pixel Code Verified On-Chain (Ethereum)",
+        "security_checklist": "Verified Contract: PASS | Chain: Ethereum | Liquidity Lock: HIGH",
+        "tech_badge": "Tech: 9.0/10"
+      }
+    },
+    {
+      "manifest_version": "1.0",
+      "google_flow_project_target": "MOO19 TV The NFT Report",
+      "clip_id": "clip_004",
+      "duration_seconds": 10,
+      "title": "Clip 04: Pudgy Penguins (Lore & Glam)",
+      "source": "Newsroom01_Large copy.jpg",
+      "prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Daisy M. (Minty) Ledger: Darlings, look at Pudgy Penguins leading the volume charts with 255.94 ETH! Over 1 million plush toys sold in major retailers worldwide! Floor Price: 6.05 ETH with 255.94 ETH volume! Glam Rating: 8.5/10!'",
+      "script": "Daisy M. (Minty) Ledger: Darlings, look at Pudgy Penguins leading the volume charts with 255.94 ETH! Over 1 million plush toys sold in major retailers worldwide! Floor Price: 6.05 ETH with 255.94 ETH volume! Glam Rating: 8.5/10!",
+      "text_prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Daisy M. (Minty) Ledger: Darlings, look at Pudgy Penguins leading the volume charts with 255.94 ETH! Over 1 million plush toys sold in major retailers worldwide! Floor Price: 6.05 ETH with 255.94 ETH volume! Glam Rating: 8.5/10!'",
+      "voice_prompt": "Daisy M. (Minty) Ledger: Darlings, look at Pudgy Penguins leading the volume charts with 255.94 ETH! Over 1 million plush toys sold in major retailers worldwide! Floor Price: 6.05 ETH with 255.94 ETH volume! Glam Rating: 8.5/10!",
+      "speech": "Daisy M. (Minty) Ledger: Darlings, look at Pudgy Penguins leading the volume charts with 255.94 ETH! Over 1 million plush toys sold in major retailers worldwide! Floor Price: 6.05 ETH with 255.94 ETH volume! Glam Rating: 8.5/10!",
+      "character_references": [
+        "Daisy M. (Minty) Ledger"
+      ],
+      "gui_overlays": {
+        "lower_third_text": "Pudgy Penguins | Floor: 6.05 ETH | Vol: 255.94 ETH | Ethereum",
+        "hype_badge": "Glam: 8.5/10",
+        "gauge_status": "BULLISH STAMPEDE \ud83d\udfe2"
+      }
+    },
+    {
+      "manifest_version": "1.0",
+      "google_flow_project_target": "MOO19 TV The NFT Report",
+      "clip_id": "clip_005",
+      "duration_seconds": 10,
+      "title": "Clip 05: Pudgy Penguins (Science Tech)",
+      "source": "Newsroom01_Large copy.jpg",
+      "prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Professor Hartmut von Schnurrbart: Fascinating! Pudgy Penguins pairs ERC-721 tokens with their Overpass licensing protocol, funneling real-world toy royalties back to holders! Storage: IPFS. Code Rating: 9.0/10!'",
+      "script": "Professor Hartmut von Schnurrbart: Fascinating! Pudgy Penguins pairs ERC-721 tokens with their Overpass licensing protocol, funneling real-world toy royalties back to holders! Storage: IPFS. Code Rating: 9.0/10!",
+      "text_prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Professor Hartmut von Schnurrbart: Fascinating! Pudgy Penguins pairs ERC-721 tokens with their Overpass licensing protocol, funneling real-world toy royalties back to holders! Storage: IPFS. Code Rating: 9.0/10!'",
+      "voice_prompt": "Professor Hartmut von Schnurrbart: Fascinating! Pudgy Penguins pairs ERC-721 tokens with their Overpass licensing protocol, funneling real-world toy royalties back to holders! Storage: IPFS. Code Rating: 9.0/10!",
+      "speech": "Professor Hartmut von Schnurrbart: Fascinating! Pudgy Penguins pairs ERC-721 tokens with their Overpass licensing protocol, funneling real-world toy royalties back to holders! Storage: IPFS. Code Rating: 9.0/10!",
+      "character_references": [
+        "Professor Hartmut von Schnurrbart"
+      ],
+      "gui_overlays": {
+        "cowpedia_banner": "Cow-pedia: IPFS Verified On-Chain (Ethereum)",
+        "security_checklist": "Verified Contract: PASS | Chain: Ethereum | Liquidity Lock: HIGH",
+        "tech_badge": "Tech: 9.0/10"
+      }
+    },
+    {
+      "manifest_version": "1.0",
+      "google_flow_project_target": "MOO19 TV The NFT Report",
+      "clip_id": "clip_006",
+      "duration_seconds": 10,
+      "title": "Clip 06: Milady Maker (Lore & Glam)",
+      "source": "Newsroom01_Large copy.jpg",
+      "prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Daisy M. (Minty) Ledger: Darlings, Milady Maker is this week's breakout star! Surging volume and viral meme culture have collectors in a full-blown stampede! Floor Price: 3.15 ETH with 88.45 ETH volume! Glam Rating: 8.5/10!'",
+      "script": "Daisy M. (Minty) Ledger: Darlings, Milady Maker is this week's breakout star! Surging volume and viral meme culture have collectors in a full-blown stampede! Floor Price: 3.15 ETH with 88.45 ETH volume! Glam Rating: 8.5/10!",
+      "text_prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Daisy M. (Minty) Ledger: Darlings, Milady Maker is this week's breakout star! Surging volume and viral meme culture have collectors in a full-blown stampede! Floor Price: 3.15 ETH with 88.45 ETH volume! Glam Rating: 8.5/10!'",
+      "voice_prompt": "Daisy M. (Minty) Ledger: Darlings, Milady Maker is this week's breakout star! Surging volume and viral meme culture have collectors in a full-blown stampede! Floor Price: 3.15 ETH with 88.45 ETH volume! Glam Rating: 8.5/10!",
+      "speech": "Daisy M. (Minty) Ledger: Darlings, Milady Maker is this week's breakout star! Surging volume and viral meme culture have collectors in a full-blown stampede! Floor Price: 3.15 ETH with 88.45 ETH volume! Glam Rating: 8.5/10!",
+      "character_references": [
+        "Daisy M. (Minty) Ledger"
+      ],
+      "gui_overlays": {
+        "lower_third_text": "Milady Maker | Floor: 3.15 ETH | Vol: 88.45 ETH | Ethereum",
+        "hype_badge": "Glam: 8.5/10",
+        "gauge_status": "BULLISH STAMPEDE \ud83d\udfe2"
+      }
+    },
+    {
+      "manifest_version": "1.0",
+      "google_flow_project_target": "MOO19 TV The NFT Report",
+      "clip_id": "clip_007",
+      "duration_seconds": 10,
+      "title": "Clip 07: Milady Maker (Science Tech)",
+      "source": "Newsroom01_Large copy.jpg",
+      "prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Professor Hartmut von Schnurrbart: Fascinating! Milady Maker uses algorithmically generated 10,000 PFP tokens with distinctive aesthetic scoring and high secondary market liquidity! Storage: IPFS. Code Rating: 9.0/10!'",
+      "script": "Professor Hartmut von Schnurrbart: Fascinating! Milady Maker uses algorithmically generated 10,000 PFP tokens with distinctive aesthetic scoring and high secondary market liquidity! Storage: IPFS. Code Rating: 9.0/10!",
+      "text_prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Professor Hartmut von Schnurrbart: Fascinating! Milady Maker uses algorithmically generated 10,000 PFP tokens with distinctive aesthetic scoring and high secondary market liquidity! Storage: IPFS. Code Rating: 9.0/10!'",
+      "voice_prompt": "Professor Hartmut von Schnurrbart: Fascinating! Milady Maker uses algorithmically generated 10,000 PFP tokens with distinctive aesthetic scoring and high secondary market liquidity! Storage: IPFS. Code Rating: 9.0/10!",
+      "speech": "Professor Hartmut von Schnurrbart: Fascinating! Milady Maker uses algorithmically generated 10,000 PFP tokens with distinctive aesthetic scoring and high secondary market liquidity! Storage: IPFS. Code Rating: 9.0/10!",
+      "character_references": [
+        "Professor Hartmut von Schnurrbart"
+      ],
+      "gui_overlays": {
+        "cowpedia_banner": "Cow-pedia: IPFS Verified On-Chain (Ethereum)",
+        "security_checklist": "Verified Contract: PASS | Chain: Ethereum | Liquidity Lock: HIGH",
+        "tech_badge": "Tech: 9.0/10"
+      }
+    },
+    {
+      "manifest_version": "1.0",
+      "google_flow_project_target": "MOO19 TV The NFT Report",
+      "clip_id": "clip_008",
+      "duration_seconds": 10,
+      "title": "Clip 08: Mad Lads (Lore & Glam)",
+      "source": "Newsroom01_Large copy.jpg",
+      "prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Daisy M. (Minty) Ledger: Darlings, we're crossing chains to Solana where Mad Lads reigns supreme! 85 SOL floor price and the undisputed cultural heavyweight of the ecosystem! Floor Price: 85.0 SOL with 1,450 SOL volume! Glam Rating: 8.5/10!'",
+      "script": "Daisy M. (Minty) Ledger: Darlings, we're crossing chains to Solana where Mad Lads reigns supreme! 85 SOL floor price and the undisputed cultural heavyweight of the ecosystem! Floor Price: 85.0 SOL with 1,450 SOL volume! Glam Rating: 8.5/10!",
+      "text_prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Daisy M. (Minty) Ledger: Darlings, we're crossing chains to Solana where Mad Lads reigns supreme! 85 SOL floor price and the undisputed cultural heavyweight of the ecosystem! Floor Price: 85.0 SOL with 1,450 SOL volume! Glam Rating: 8.5/10!'",
+      "voice_prompt": "Daisy M. (Minty) Ledger: Darlings, we're crossing chains to Solana where Mad Lads reigns supreme! 85 SOL floor price and the undisputed cultural heavyweight of the ecosystem! Floor Price: 85.0 SOL with 1,450 SOL volume! Glam Rating: 8.5/10!",
+      "speech": "Daisy M. (Minty) Ledger: Darlings, we're crossing chains to Solana where Mad Lads reigns supreme! 85 SOL floor price and the undisputed cultural heavyweight of the ecosystem! Floor Price: 85.0 SOL with 1,450 SOL volume! Glam Rating: 8.5/10!",
+      "character_references": [
+        "Daisy M. (Minty) Ledger"
+      ],
+      "gui_overlays": {
+        "lower_third_text": "Mad Lads | Floor: 85.0 SOL | Vol: 1,450 SOL | Solana",
+        "hype_badge": "Glam: 8.5/10",
+        "gauge_status": "BULLISH STAMPEDE \ud83d\udfe2"
+      }
+    },
+    {
+      "manifest_version": "1.0",
+      "google_flow_project_target": "MOO19 TV The NFT Report",
+      "clip_id": "clip_009",
+      "duration_seconds": 10,
+      "title": "Clip 09: Mad Lads (Science Tech)",
+      "source": "Newsroom01_Large copy.jpg",
+      "prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Professor Hartmut von Schnurrbart: Fascinating! Mad Lads are 'xNFTs'\u2014executable tokenized applications running live inside Backpack wallet without web browsers! Storage: Shadow Drive / Arweave. Code Rating: 9.0/10!'",
+      "script": "Professor Hartmut von Schnurrbart: Fascinating! Mad Lads are 'xNFTs'\u2014executable tokenized applications running live inside Backpack wallet without web browsers! Storage: Shadow Drive / Arweave. Code Rating: 9.0/10!",
+      "text_prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Professor Hartmut von Schnurrbart: Fascinating! Mad Lads are 'xNFTs'\u2014executable tokenized applications running live inside Backpack wallet without web browsers! Storage: Shadow Drive / Arweave. Code Rating: 9.0/10!'",
+      "voice_prompt": "Professor Hartmut von Schnurrbart: Fascinating! Mad Lads are 'xNFTs'\u2014executable tokenized applications running live inside Backpack wallet without web browsers! Storage: Shadow Drive / Arweave. Code Rating: 9.0/10!",
+      "speech": "Professor Hartmut von Schnurrbart: Fascinating! Mad Lads are 'xNFTs'\u2014executable tokenized applications running live inside Backpack wallet without web browsers! Storage: Shadow Drive / Arweave. Code Rating: 9.0/10!",
+      "character_references": [
+        "Professor Hartmut von Schnurrbart"
+      ],
+      "gui_overlays": {
+        "cowpedia_banner": "Cow-pedia: Shadow Drive / Arweave Verified On-Chain (Solana)",
+        "security_checklist": "Verified Contract: PASS | Chain: Solana | Liquidity Lock: HIGH",
+        "tech_badge": "Tech: 9.0/10"
+      }
+    },
+    {
+      "manifest_version": "1.0",
+      "google_flow_project_target": "MOO19 TV The NFT Report",
+      "clip_id": "clip_010",
+      "duration_seconds": 10,
+      "title": "Clip 10: Chromie Squiggle by Snowfro (Lore & Glam)",
+      "source": "Newsroom01_Large copy.jpg",
+      "prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Daisy M. (Minty) Ledger: Darlings, our community voted Chromie Squiggle as this week's Wildcard winner! Hypnotic rainbow ribbons that turned generative code into museum fine art! Floor Price: 2.58 ETH with 9.93 ETH volume! Glam Rating: 8.5/10!'",
+      "script": "Daisy M. (Minty) Ledger: Darlings, our community voted Chromie Squiggle as this week's Wildcard winner! Hypnotic rainbow ribbons that turned generative code into museum fine art! Floor Price: 2.58 ETH with 9.93 ETH volume! Glam Rating: 8.5/10!",
+      "text_prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Daisy M. (Minty) Ledger: Darlings, our community voted Chromie Squiggle as this week's Wildcard winner! Hypnotic rainbow ribbons that turned generative code into museum fine art! Floor Price: 2.58 ETH with 9.93 ETH volume! Glam Rating: 8.5/10!'",
+      "voice_prompt": "Daisy M. (Minty) Ledger: Darlings, our community voted Chromie Squiggle as this week's Wildcard winner! Hypnotic rainbow ribbons that turned generative code into museum fine art! Floor Price: 2.58 ETH with 9.93 ETH volume! Glam Rating: 8.5/10!",
+      "speech": "Daisy M. (Minty) Ledger: Darlings, our community voted Chromie Squiggle as this week's Wildcard winner! Hypnotic rainbow ribbons that turned generative code into museum fine art! Floor Price: 2.58 ETH with 9.93 ETH volume! Glam Rating: 8.5/10!",
+      "character_references": [
+        "Daisy M. (Minty) Ledger"
+      ],
+      "gui_overlays": {
+        "lower_third_text": "Chromie Squiggle by Snowfro | Floor: 2.58 ETH | Vol: 9.93 ETH | Ethereum",
+        "hype_badge": "Glam: 8.5/10",
+        "gauge_status": "BULLISH STAMPEDE \ud83d\udfe2"
+      }
+    },
+    {
+      "manifest_version": "1.0",
+      "google_flow_project_target": "MOO19 TV The NFT Report",
+      "clip_id": "clip_011",
+      "duration_seconds": 10,
+      "title": "Clip 11: Chromie Squiggle by Snowfro (Science Tech)",
+      "source": "Newsroom01_Large copy.jpg",
+      "prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Professor Hartmut von Schnurrbart: Fascinating! Chromie Squiggle executes on-chain rendering scripts derived directly from transaction hash seeds. Pure algorithmic perfection! Storage: On-Chain Script. Code Rating: 9.0/10!'",
+      "script": "Professor Hartmut von Schnurrbart: Fascinating! Chromie Squiggle executes on-chain rendering scripts derived directly from transaction hash seeds. Pure algorithmic perfection! Storage: On-Chain Script. Code Rating: 9.0/10!",
+      "text_prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Professor Hartmut von Schnurrbart: Fascinating! Chromie Squiggle executes on-chain rendering scripts derived directly from transaction hash seeds. Pure algorithmic perfection! Storage: On-Chain Script. Code Rating: 9.0/10!'",
+      "voice_prompt": "Professor Hartmut von Schnurrbart: Fascinating! Chromie Squiggle executes on-chain rendering scripts derived directly from transaction hash seeds. Pure algorithmic perfection! Storage: On-Chain Script. Code Rating: 9.0/10!",
+      "speech": "Professor Hartmut von Schnurrbart: Fascinating! Chromie Squiggle executes on-chain rendering scripts derived directly from transaction hash seeds. Pure algorithmic perfection! Storage: On-Chain Script. Code Rating: 9.0/10!",
+      "character_references": [
+        "Professor Hartmut von Schnurrbart"
+      ],
+      "gui_overlays": {
+        "cowpedia_banner": "Cow-pedia: On-Chain Script Verified On-Chain (Ethereum)",
+        "security_checklist": "Verified Contract: PASS | Chain: Ethereum | Liquidity Lock: HIGH",
+        "tech_badge": "Tech: 9.0/10"
+      }
+    },
+    {
+      "manifest_version": "1.0",
+      "google_flow_project_target": "MOO19 TV The NFT Report",
+      "clip_id": "clip_012",
+      "duration_seconds": 10,
+      "title": "Clip 12: Weather Forecast",
+      "source": "Newsroom01_Large copy.jpg",
+      "prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Sunshine Innocent Nimbus: Expect high volatility across Web3 ecosystems tonight with an 80% chance of a bull surge! Embrace the chaos, traders!'",
+      "script": "Sunshine Innocent Nimbus: Expect high volatility across Web3 ecosystems tonight with an 80% chance of a bull surge! Embrace the chaos, traders!",
+      "text_prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Sunshine Innocent Nimbus: Expect high volatility across Web3 ecosystems tonight with an 80% chance of a bull surge! Embrace the chaos, traders!'",
+      "voice_prompt": "Sunshine Innocent Nimbus: Expect high volatility across Web3 ecosystems tonight with an 80% chance of a bull surge! Embrace the chaos, traders!",
+      "speech": "Sunshine Innocent Nimbus: Expect high volatility across Web3 ecosystems tonight with an 80% chance of a bull surge! Embrace the chaos, traders!",
+      "character_references": [
+        "Sunshine Innocent Nimbus"
+      ],
+      "gui_overlays": {}
+    },
+    {
+      "manifest_version": "1.0",
+      "google_flow_project_target": "MOO19 TV The NFT Report",
+      "clip_id": "clip_013",
+      "duration_seconds": 10,
+      "title": "Clip 13: Studio Outro",
+      "source": "Newsroom01_Large copy.jpg",
+      "prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Daisy M. (Minty) Ledger: That's all for this week's NFT Report on MOO19 News! Scan the Pasture Poll QR code to vote! Professor Hartmut von Schnurrbart: Remember: Don't trust, verify! Read smart contracts before you mint! Goodnight, everyone!'",
+      "script": "Daisy M. (Minty) Ledger: That's all for this week's NFT Report on MOO19 News! Scan the Pasture Poll QR code to vote! Professor Hartmut von Schnurrbart: Remember: Don't trust, verify! Read smart contracts before you mint! Goodnight, everyone!",
+      "text_prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Daisy M. (Minty) Ledger: That's all for this week's NFT Report on MOO19 News! Scan the Pasture Poll QR code to vote! Professor Hartmut von Schnurrbart: Remember: Don't trust, verify! Read smart contracts before you mint! Goodnight, everyone!'",
+      "voice_prompt": "Daisy M. (Minty) Ledger: That's all for this week's NFT Report on MOO19 News! Scan the Pasture Poll QR code to vote! Professor Hartmut von Schnurrbart: Remember: Don't trust, verify! Read smart contracts before you mint! Goodnight, everyone!",
+      "speech": "Daisy M. (Minty) Ledger: That's all for this week's NFT Report on MOO19 News! Scan the Pasture Poll QR code to vote! Professor Hartmut von Schnurrbart: Remember: Don't trust, verify! Read smart contracts before you mint! Goodnight, everyone!",
+      "character_references": [
+        "Daisy M. (Minty) Ledger",
+        "Professor Hartmut von Schnurrbart"
+      ],
+      "gui_overlays": {
+        "pasture_poll_qr_code": "SCAN QR CODE TO VOTE FOR NEXT WEEK'S WILDCARD"
+      }
+    }
+  ]
+}

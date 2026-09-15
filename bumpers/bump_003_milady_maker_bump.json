@@ -1,0 +1,28 @@
+{
+  "manifest_version": "1.0",
+  "google_flow_project_target": "MOO19 TV The NFT Report",
+  "clip_id": "bump_003",
+  "clip_type": "SEGMENT_BUMPER",
+  "duration_seconds": 4,
+  "title": "Bumper: Milady Maker Intro",
+  "featured_nft": "Milady Maker",
+  "slot": "Slot 3: Breakout Gainer",
+  "official_url": "https://miladymaker.net/",
+  "opensea_url": "https://opensea.io/collection/milady-maker",
+  "qr_code_target_url": "https://miladymaker.net/",
+  "prompt": "2D animated high-energy motion graphic bumper card, 4 seconds. Center featured 2D artwork of Milady Maker (Distinctive Tokyo neo-chibi 2D anime-inspired avatar art featuring customized streetwear, oversized eyes, and vibrant hats). Prominent scannable QR Code on right overlay linking to https://miladymaker.net/. Lower third displaying 'Milady Maker | Floor: 3.15 ETH | Chain: Ethereum | Slot 3: Breakout Gainer'. Audio sting with energetic voiceover: 'Up next on the NFT Report: Milady Maker! Scan the QR code to explore!'",
+  "script": "Up next on the NFT Report: Milady Maker! Scan the QR code to explore!",
+  "text_prompt": "2D animated high-energy motion graphic bumper card, 4 seconds. Center featured 2D artwork of Milady Maker (Distinctive Tokyo neo-chibi 2D anime-inspired avatar art featuring customized streetwear, oversized eyes, and vibrant hats). Prominent scannable QR Code on right overlay linking to https://miladymaker.net/. Lower third displaying 'Milady Maker | Floor: 3.15 ETH | Chain: Ethereum | Slot 3: Breakout Gainer'. Audio sting with energetic voiceover: 'Up next on the NFT Report: Milady Maker! Scan the QR code to explore!'",
+  "voice_prompt": "Up next on the NFT Report: Milady Maker! Scan the QR code to explore!",
+  "speech": "Up next on the NFT Report: Milady Maker! Scan the QR code to explore!",
+  "audio_sting": "MOO19_Station_Chime_Fast_4s.mp3",
+  "visual_elements": {
+    "featured_artwork_style": "Distinctive Tokyo neo-chibi 2D anime-inspired avatar art featuring customized streetwear, oversized eyes, and vibrant hats",
+    "qr_code_overlay": {
+      "position": "BOTTOM_RIGHT",
+      "target_url": "https://miladymaker.net/",
+      "callout_label": "SCAN TO VIEW MILADY MAKER"
+    },
+    "lower_third_badge": "Milady Maker | Floor: 3.15 ETH | Ethereum"
+  }
+}
