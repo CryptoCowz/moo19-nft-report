@@ -1,21 +1,18 @@
 {
-  "manifest_version": "1.0",
-  "google_flow_project_target": "MOO19 TV The NFT Report",
-  "clip_id": "clip_003",
-  "duration_seconds": 10,
+  "clip_id": "clip_003_clip_03_cryptopunks_(science_tech)",
   "title": "Clip 03: CryptoPunks (Science Tech)",
-  "source": "Newsroom01_Large copy.jpg",
-  "prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Professor Hartmut von Schnurrbart: Fascinating! CryptoPunks code is permanently compiled on Ethereum. Pure immutable digital provenance with zero external server dependencies! Storage: On-Chain Pixel Code. Code Rating: 9.0/10!'",
-  "script": "Professor Hartmut von Schnurrbart: Fascinating! CryptoPunks code is permanently compiled on Ethereum. Pure immutable digital provenance with zero external server dependencies! Storage: On-Chain Pixel Code. Code Rating: 9.0/10!",
-  "text_prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Professor Hartmut von Schnurrbart: Fascinating! CryptoPunks code is permanently compiled on Ethereum. Pure immutable digital provenance with zero external server dependencies! Storage: On-Chain Pixel Code. Code Rating: 9.0/10!'",
-  "voice_prompt": "Professor Hartmut von Schnurrbart: Fascinating! CryptoPunks code is permanently compiled on Ethereum. Pure immutable digital provenance with zero external server dependencies! Storage: On-Chain Pixel Code. Code Rating: 9.0/10!",
-  "speech": "Professor Hartmut von Schnurrbart: Fascinating! CryptoPunks code is permanently compiled on Ethereum. Pure immutable digital provenance with zero external server dependencies! Storage: On-Chain Pixel Code. Code Rating: 9.0/10!",
-  "character_references": [
-    "Professor Hartmut von Schnurrbart"
+  "duration_seconds": 10,
+  "setting": "MOO19 News Studio (Anchor Right Focus next to Microscope)",
+  "cowpedia_popup": "Immutability (On-Chain Storage) \u2014 Permanent, unalterable data written directly to decentralized blockchain state.",
+  "dialogue": [
+    {
+      "speaker": "Professor Hartmut von Schnurrbart",
+      "line": "Fascinating! CryptoPunks code is stored 100% on Ethereum. Pure digital identity and blue-chip store of value."
+    },
+    {
+      "speaker": "Professor Hartmut von Schnurrbart",
+      "line": "Code & Security Rating: 9.5/10!"
+    }
   ],
-  "gui_overlays": {
-    "cowpedia_banner": "Cow-pedia: On-Chain Pixel Code Verified On-Chain (Ethereum)",
-    "security_checklist": "Verified Contract: PASS | Chain: Ethereum | Liquidity Lock: HIGH",
-    "tech_badge": "Tech: 9.0/10"
-  }
+  "visual_fx": "Digital holographic microscope laser projection displaying smart contract hex code."
 }

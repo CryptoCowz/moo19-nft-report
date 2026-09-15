@@ -1,0 +1,23 @@
+{
+  "episodes": [
+    {
+      "episode_number": 1,
+      "air_date": "2026-09-15",
+      "featured_ids": [
+        "cryptopunks",
+        "pudgy_penguins",
+        "chromie_squiggle",
+        "infinex_patrons",
+        "mad_lads"
+      ],
+      "featured_names": [
+        "CryptoPunks",
+        "Pudgy Penguins",
+        "Chromie Squiggle by Snowfro",
+        "Infinex Patrons",
+        "Mad Lads"
+      ],
+      "cowpedia_term": "Immutability (On-Chain Storage)"
+    }
+  ]
+}

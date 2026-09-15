@@ -1,28 +1,15 @@
 {
-  "manifest_version": "1.0",
-  "google_flow_project_target": "MOO19 TV The NFT Report",
-  "clip_id": "bump_001",
-  "clip_type": "SEGMENT_BUMPER",
+  "bumper_id": "bump_001_cryptopunks_bump",
+  "project_name": "CryptoPunks",
   "duration_seconds": 4,
-  "title": "Bumper: CryptoPunks Intro",
-  "featured_nft": "CryptoPunks",
-  "slot": "Slot 1: Blue-Chip Anchor",
-  "official_url": "https://cryptopunks.app/",
-  "opensea_url": "https://opensea.io/collection/cryptopunks",
-  "qr_code_target_url": "https://cryptopunks.app/",
-  "prompt": "2D animated high-energy motion graphic bumper card, 4 seconds. Center featured 2D artwork of CryptoPunks (Iconic 24x24 pixel art portraits with rare gold chains, pilot shades, and zombie traits on solid color backgrounds). Prominent scannable QR Code on right overlay linking to https://cryptopunks.app/. Lower third displaying 'CryptoPunks | Floor: 30.3 ETH | Chain: Ethereum | Slot 1: Blue-Chip Anchor'. Audio sting with energetic voiceover: 'Up next on the NFT Report: CryptoPunks! Scan the QR code to explore!'",
-  "script": "Up next on the NFT Report: CryptoPunks! Scan the QR code to explore!",
-  "text_prompt": "2D animated high-energy motion graphic bumper card, 4 seconds. Center featured 2D artwork of CryptoPunks (Iconic 24x24 pixel art portraits with rare gold chains, pilot shades, and zombie traits on solid color backgrounds). Prominent scannable QR Code on right overlay linking to https://cryptopunks.app/. Lower third displaying 'CryptoPunks | Floor: 30.3 ETH | Chain: Ethereum | Slot 1: Blue-Chip Anchor'. Audio sting with energetic voiceover: 'Up next on the NFT Report: CryptoPunks! Scan the QR code to explore!'",
-  "voice_prompt": "Up next on the NFT Report: CryptoPunks! Scan the QR code to explore!",
-  "speech": "Up next on the NFT Report: CryptoPunks! Scan the QR code to explore!",
-  "audio_sting": "MOO19_Station_Chime_Fast_4s.mp3",
-  "visual_elements": {
-    "featured_artwork_style": "Iconic 24x24 pixel art portraits with rare gold chains, pilot shades, and zombie traits on solid color backgrounds",
-    "qr_code_overlay": {
-      "position": "BOTTOM_RIGHT",
-      "target_url": "https://cryptopunks.app/",
-      "callout_label": "SCAN TO VIEW CRYPTOPUNKS"
-    },
-    "lower_third_badge": "CryptoPunks | Floor: 30.3 ETH | Ethereum"
+  "audio_sting": "Upbeat electronic bass drop with cheerful cowbell accent",
+  "voiceover": "Up next on the NFT Report: CryptoPunks! Scan the code to inspect!",
+  "visual_cue": "Dynamic 2D graphic card displaying CryptoPunks art (Iconic 24x24 pixel art portraits on vibrant solid background with rare punk traits like gold chains, wild hair, and shades), floor price (30.3 ETH), and scannable QR Code linking to https://cryptopunks.app/.",
+  "on_screen_elements": {
+    "collection_title": "CryptoPunks",
+    "chain": "Ethereum",
+    "floor_price": "30.3 ETH",
+    "qr_target_url": "https://cryptopunks.app/",
+    "network_logo": "MOO19 News - The Pasture"
   }
 }

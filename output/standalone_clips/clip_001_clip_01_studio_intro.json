@@ -1,18 +1,17 @@
 {
-  "manifest_version": "1.0",
-  "google_flow_project_target": "MOO19 TV The NFT Report",
-  "clip_id": "clip_001",
-  "duration_seconds": 10,
+  "clip_id": "clip_001_clip_01_studio_intro",
   "title": "Clip 01: Studio Intro",
-  "source": "Newsroom01_Large copy.jpg",
-  "prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Daisy M. (Minty) Ledger: Welcome back to MOO19 News! Today on the NFT Report, we're breaking down blue-chips, volume movers, and cross-chain breakouts! Professor Hartmut von Schnurrbart: And watch your screen for Cow-pedia Pop-ups and Scam or Stampede Checks! Let's inspect the code!'",
-  "script": "Daisy M. (Minty) Ledger: Welcome back to MOO19 News! Today on the NFT Report, we're breaking down blue-chips, volume movers, and cross-chain breakouts! Professor Hartmut von Schnurrbart: And watch your screen for Cow-pedia Pop-ups and Scam or Stampede Checks! Let's inspect the code!",
-  "text_prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Daisy M. (Minty) Ledger: Welcome back to MOO19 News! Today on the NFT Report, we're breaking down blue-chips, volume movers, and cross-chain breakouts! Professor Hartmut von Schnurrbart: And watch your screen for Cow-pedia Pop-ups and Scam or Stampede Checks! Let's inspect the code!'",
-  "voice_prompt": "Daisy M. (Minty) Ledger: Welcome back to MOO19 News! Today on the NFT Report, we're breaking down blue-chips, volume movers, and cross-chain breakouts! Professor Hartmut von Schnurrbart: And watch your screen for Cow-pedia Pop-ups and Scam or Stampede Checks! Let's inspect the code!",
-  "speech": "Daisy M. (Minty) Ledger: Welcome back to MOO19 News! Today on the NFT Report, we're breaking down blue-chips, volume movers, and cross-chain breakouts! Professor Hartmut von Schnurrbart: And watch your screen for Cow-pedia Pop-ups and Scam or Stampede Checks! Let's inspect the code!",
-  "character_references": [
-    "Daisy M. (Minty) Ledger",
-    "Professor Hartmut von Schnurrbart"
+  "duration_seconds": 10,
+  "setting": "MOO19 News Studio - Newsroom01_Large copy.jpg",
+  "dialogue": [
+    {
+      "speaker": "Daisy M. (Minty) Ledger",
+      "line": "Welcome back to MOO19 News! Today on the NFT Report, we're reviewing top digital flexes and cultural heat across the blockchain!"
+    },
+    {
+      "speaker": "Professor Hartmut von Schnurrbart",
+      "line": "And check your screen for Cow-pedia Pop-ups and Scam or Stampede Checks! Let me examine the code under our digital microscope!"
+    }
   ],
-  "gui_overlays": {}
+  "visual_fx": "Wide newsroom camera shot, dual anchors behind modern desk, animated digital ticker below."
 }

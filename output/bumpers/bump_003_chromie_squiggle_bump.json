@@ -1,0 +1,15 @@
+{
+  "bumper_id": "bump_003_chromie_squiggle_bump",
+  "project_name": "Chromie Squiggle by Snowfro",
+  "duration_seconds": 4,
+  "audio_sting": "Upbeat electronic bass drop with cheerful cowbell accent",
+  "voiceover": "Up next on the NFT Report: Chromie Squiggle by Snowfro! Scan the code to inspect!",
+  "visual_cue": "Dynamic 2D graphic card displaying Chromie Squiggle by Snowfro art (Hypnotic vibrant rainbow spectrum ribbon curves generated algorithmically on a clean neutral background), floor price (7.8 ETH), and scannable QR Code linking to https://chromiesquiggle.artblocks.io/.",
+  "on_screen_elements": {
+    "collection_title": "Chromie Squiggle by Snowfro",
+    "chain": "Ethereum",
+    "floor_price": "7.8 ETH",
+    "qr_target_url": "https://chromiesquiggle.artblocks.io/",
+    "network_logo": "MOO19 News - The Pasture"
+  }
+}

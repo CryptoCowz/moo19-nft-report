@@ -1,20 +1,17 @@
 {
-  "manifest_version": "1.0",
-  "google_flow_project_target": "MOO19 TV The NFT Report",
-  "clip_id": "clip_013",
-  "duration_seconds": 10,
+  "clip_id": "clip_013_clip_13_studio_outro",
   "title": "Clip 13: Studio Outro",
-  "source": "Newsroom01_Large copy.jpg",
-  "prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Daisy M. (Minty) Ledger: That's all for this week's NFT Report on MOO19 News! Scan the Pasture Poll QR code to vote! Professor Hartmut von Schnurrbart: Remember: Don't trust, verify! Read smart contracts before you mint! Goodnight, everyone!'",
-  "script": "Daisy M. (Minty) Ledger: That's all for this week's NFT Report on MOO19 News! Scan the Pasture Poll QR code to vote! Professor Hartmut von Schnurrbart: Remember: Don't trust, verify! Read smart contracts before you mint! Goodnight, everyone!",
-  "text_prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Daisy M. (Minty) Ledger: That's all for this week's NFT Report on MOO19 News! Scan the Pasture Poll QR code to vote! Professor Hartmut von Schnurrbart: Remember: Don't trust, verify! Read smart contracts before you mint! Goodnight, everyone!'",
-  "voice_prompt": "Daisy M. (Minty) Ledger: That's all for this week's NFT Report on MOO19 News! Scan the Pasture Poll QR code to vote! Professor Hartmut von Schnurrbart: Remember: Don't trust, verify! Read smart contracts before you mint! Goodnight, everyone!",
-  "speech": "Daisy M. (Minty) Ledger: That's all for this week's NFT Report on MOO19 News! Scan the Pasture Poll QR code to vote! Professor Hartmut von Schnurrbart: Remember: Don't trust, verify! Read smart contracts before you mint! Goodnight, everyone!",
-  "character_references": [
-    "Daisy M. (Minty) Ledger",
-    "Professor Hartmut von Schnurrbart"
+  "duration_seconds": 10,
+  "setting": "MOO19 News Studio - Wide Shot",
+  "dialogue": [
+    {
+      "speaker": "Daisy M. (Minty) Ledger",
+      "line": "That wraps today's NFT Report darlings! Stay glamorous and protect your private keys!"
+    },
+    {
+      "speaker": "Professor Hartmut von Schnurrbart",
+      "line": "Subscribe to The Pasture newsletter for complete technical audits! Auf Wiedersehen!"
+    }
   ],
-  "gui_overlays": {
-    "pasture_poll_qr_code": "SCAN QR CODE TO VOTE FOR NEXT WEEK'S WILDCARD"
-  }
+  "visual_fx": "Wide studio camera pull-back with end-credits banner rolling across the screen."
 }

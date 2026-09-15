@@ -1,0 +1,15 @@
+{
+  "bumper_id": "bump_005_mad_lads_bump",
+  "project_name": "Mad Lads",
+  "duration_seconds": 4,
+  "audio_sting": "Upbeat electronic bass drop with cheerful cowbell accent",
+  "voiceover": "Up next on the NFT Report: Mad Lads! Scan the code to inspect!",
+  "visual_cue": "Dynamic 2D graphic card displaying Mad Lads art (Stylized hand-drawn rogue adventurers wearing leather aviator helmets, goggles, and rugged jackets), floor price (2.65 ETH), and scannable QR Code linking to https://madlads.com/.",
+  "on_screen_elements": {
+    "collection_title": "Mad Lads",
+    "chain": "Solana",
+    "floor_price": "2.65 ETH",
+    "qr_target_url": "https://madlads.com/",
+    "network_logo": "MOO19 News - The Pasture"
+  }
+}

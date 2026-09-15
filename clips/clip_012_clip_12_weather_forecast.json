@@ -1,17 +1,13 @@
 {
-  "manifest_version": "1.0",
-  "google_flow_project_target": "MOO19 TV The NFT Report",
-  "clip_id": "clip_012",
+  "clip_id": "clip_012_clip_12_weather_forecast",
+  "title": "Clip 12: Market Weather Forecast",
   "duration_seconds": 10,
-  "title": "Clip 12: Weather Forecast",
-  "source": "Newsroom01_Large copy.jpg",
-  "prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Sunshine Innocent Nimbus: Expect high volatility across Web3 ecosystems tonight with an 80% chance of a bull surge! Embrace the chaos, traders!'",
-  "script": "Sunshine Innocent Nimbus: Expect high volatility across Web3 ecosystems tonight with an 80% chance of a bull surge! Embrace the chaos, traders!",
-  "text_prompt": "2D cel-shaded cartoon news broadcast, Newsroom01_Large copy.jpg background plate with curved wooden news desk. Spoken audio line: 'Sunshine Innocent Nimbus: Expect high volatility across Web3 ecosystems tonight with an 80% chance of a bull surge! Embrace the chaos, traders!'",
-  "voice_prompt": "Sunshine Innocent Nimbus: Expect high volatility across Web3 ecosystems tonight with an 80% chance of a bull surge! Embrace the chaos, traders!",
-  "speech": "Sunshine Innocent Nimbus: Expect high volatility across Web3 ecosystems tonight with an 80% chance of a bull surge! Embrace the chaos, traders!",
-  "character_references": [
-    "Sunshine Innocent Nimbus"
+  "setting": "MOO19 Weather Center - Green Screen Map",
+  "dialogue": [
+    {
+      "speaker": "Sunshine Innocent Nimbus",
+      "line": "Sunshine Innocent Nimbus reporting high-pressure bull surges sweeping across the digital plains! Low gas density and clear minting skies ahead!"
+    }
   ],
-  "gui_overlays": {}
+  "visual_fx": "Animated satellite radar displaying gas isobar cloud fronts over Ethereum and Solana."
 }

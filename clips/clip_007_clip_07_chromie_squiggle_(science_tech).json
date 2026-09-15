@@ -1,17 +1,17 @@
 {
-  "clip_id": "clip_003_clip_03_cryptopunks_(science_tech)",
-  "title": "Clip 03: CryptoPunks (Science Tech)",
+  "clip_id": "clip_007_clip_07_chromie_squiggle_(science_tech)",
+  "title": "Clip 07: Chromie Squiggle by Snowfro (Science Tech)",
   "duration_seconds": 10,
   "setting": "MOO19 News Studio (Anchor Right Focus next to Microscope)",
   "cowpedia_popup": "Immutability (On-Chain Storage) \u2014 Permanent, unalterable data written directly to decentralized blockchain state.",
   "dialogue": [
     {
       "speaker": "Professor Hartmut von Schnurrbart",
-      "line": "Fascinating! CryptoPunks code is stored 100% on Ethereum. Pure digital identity and blue-chip store of value."
+      "line": "Fascinating! Snowfro's p5.js script lives entirely on Ethereum. The hash of the mint transaction seeds the generative ribbon curves."
     },
     {
       "speaker": "Professor Hartmut von Schnurrbart",
-      "line": "Code & Security Rating: 9.5/10!"
+      "line": "Code & Security Rating: 9.8/10!"
     }
   ],
   "visual_fx": "Digital holographic microscope laser projection displaying smart contract hex code."

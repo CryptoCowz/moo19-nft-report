@@ -1,0 +1,15 @@
+{
+  "bumper_id": "bump_004_infinex_patrons_bump",
+  "project_name": "Infinex Patrons",
+  "duration_seconds": 4,
+  "audio_sting": "Upbeat electronic bass drop with cheerful cowbell accent",
+  "voiceover": "Up next on the NFT Report: Infinex Patrons! Scan the code to inspect!",
+  "visual_cue": "Dynamic 2D graphic card displaying Infinex Patrons art (Sleek holographic patronage cards featuring tiered node insignias, metallic chrome borders, and geometric security patterns), floor price (1.79 ETH), and scannable QR Code linking to https://infinex.xyz/.",
+  "on_screen_elements": {
+    "collection_title": "Infinex Patrons",
+    "chain": "Ethereum",
+    "floor_price": "1.79 ETH",
+    "qr_target_url": "https://infinex.xyz/",
+    "network_logo": "MOO19 News - The Pasture"
+  }
+}
