@@ -38,14 +38,18 @@ jobs:
 
       - name: Organize Clips and Bumps JSON Files
         run: |
-          mkdir -p clips bumpers
+          DATE_STR=$(date +'%Y-%m-%d')
+          CLIPS_DIR="clips/${DATE_STR}"
+          BUMPERS_DIR="bumpers/${DATE_STR}"
+          mkdir -p "${CLIPS_DIR}" "${BUMPERS_DIR}"
           if [ -d "output/standalone_clips" ]; then
-            cp output/standalone_clips/*.json clips/ 2>/dev/null || true
+            cp output/standalone_clips/*.json "${CLIPS_DIR}/" 2>/dev/null || true
           fi
           if [ -d "output/bumpers" ]; then
-            cp output/bumpers/*.json bumpers/ 2>/dev/null || true
+            cp output/bumpers/*.json "${BUMPERS_DIR}/" 2>/dev/null || true
           fi
           if [ -f "output/google_flow_animation_manifest.json" ]; then
+            cp output/google_flow_animation_manifest.json "${CLIPS_DIR}/" 2>/dev/null || true
             cp output/google_flow_animation_manifest.json ./
           fi
 
