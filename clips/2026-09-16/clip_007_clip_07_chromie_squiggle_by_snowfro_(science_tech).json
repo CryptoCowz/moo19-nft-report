@@ -1,0 +1,26 @@
+{
+  "clip_id": "clip_007_clip_07_chromie_squiggle_by_snowfro_(science_tech)",
+  "clip_number": 7,
+  "title": "Chromie Squiggle by Snowfro - Technical & Code Audit",
+  "characters": [
+    "Professor Hartmut von Schnurrbart"
+  ],
+  "setting": "MOO19 Anchor Desk (Anchor Right Focus with Microscope)",
+  "cowpedia_popup": {
+    "term": "Zero-Knowledge Proofs (ZKP)",
+    "definition": "Cryptographic algorithms that verify data authenticity without exposing private details."
+  },
+  "dialogue": [
+    {
+      "speaker": "Professor Hartmut von Schnurrbart",
+      "line": "Fascinating! Snowfro's p5.js script lives entirely on Ethereum. The hash of the mint transaction seeds the generative ribbon curves."
+    },
+    {
+      "speaker": "Professor Hartmut von Schnurrbart",
+      "line": "Code & Security Rating: 9.8/10!"
+    }
+  ],
+  "camera_angle": "Medium close-up on Professor Hartmut adjusting brass microscope",
+  "target_duration_seconds": 10,
+  "google_flow_prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for Zero-Knowledge Proofs (ZKP) displayed on screen."
+}

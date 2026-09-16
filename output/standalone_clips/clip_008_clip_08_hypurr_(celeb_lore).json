@@ -1,0 +1,23 @@
+{
+  "clip_id": "clip_008_clip_08_hypurr_(celeb_lore)",
+  "clip_number": 8,
+  "title": "Hypurr - Lore & Glam Review",
+  "characters": [
+    "Daisy M. (Minty) Ledger"
+  ],
+  "setting": "MOO19 Anchor Desk (Anchor Left Focus)",
+  "on_screen_graphic": "Hypurr | Floor: 0.95 ETH | Vol: 34.1 ETH",
+  "dialogue": [
+    {
+      "speaker": "Daisy M. (Minty) Ledger",
+      "line": "Darlings, Hypurr represents the absolute frontier of on-chain perp DEX power users on Hyperliquid!"
+    },
+    {
+      "speaker": "Daisy M. (Minty) Ledger",
+      "line": "Glam & Hype Rating: 7.8/10!"
+    }
+  ],
+  "camera_angle": "Medium close-up on Daisy M. Ledger with graphics overlay",
+  "target_duration_seconds": 10,
+  "google_flow_prompt": "Glamorous cow anchor Daisy M. (Minty) Ledger gesturing enthusiastically toward holographic floating art display of Hypurr. Visual art: Dynamic futuristic cybernetic cat avatars representing native liquidity providers on Hyperliquid L1. High fashion lighting."
+}

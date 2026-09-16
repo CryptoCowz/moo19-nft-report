@@ -1,7 +1,7 @@
 {
-  "production_title": "MOO19 NFT Report - Episode #1",
-  "episode_number": 1,
-  "air_date": "September 15, 2026",
+  "production_title": "MOO19 NFT Report - Episode #2",
+  "episode_number": 2,
+  "air_date": "September 16, 2026",
   "aspect_ratio": "16:9",
   "target_engine": "Google Flow & Veo Video Pipeline",
   "characters": [
@@ -26,109 +26,109 @@
       "sequence_id": 1,
       "type": "studio_clip",
       "ref_id": "clip_001_clip_01_studio_intro",
-      "prompt": "Wide shot of animated cow newsroom. Daisy M. Ledger and Professor Hartmut von Schnurrbart reporting. Dialogue: Welcome back to MOO19 News! Today on the NFT Report, we're reviewing top digital flexes and cultural heat across the blockchain!"
+      "prompt": "Dual anchor anthropomorphic cow newscasters behind sleek glass desk. Daisy M. (Minty) Ledger wearing luxury pearl necklace and pink blazer on left. Professor Hartmut von Schnurrbart wearing white lab coat and pince-nez spectacles on right. Lip sync dialogue."
     },
     {
       "sequence_id": 2,
       "type": "bumper_card",
-      "ref_id": "bump_001_cryptopunks_bump",
-      "prompt": "2D animated title card for CryptoPunks. Visual: Iconic 24x24 pixel art portraits on vibrant solid background with rare punk traits like gold chains, wild hair, and shades. QR code and floor price 30.3 ETH visible."
+      "ref_id": "bump_001_autoglyphs_bump",
+      "prompt": "Motion graphics bumper for Autoglyphs. Visual: Minimalist text-based ASCII geometric algorithms generated directly inside Ethereum smart contract bytecode. QR code and floor price 82.0 ETH."
     },
     {
       "sequence_id": 3,
       "type": "anchor_clip",
-      "ref_id": "clip_002_clip_02_cryptopunks_(celeb_lore)",
-      "prompt": "Close-up of Daisy M. Ledger animated talking passionately. Dialogue: Darlings, CryptoPunks became digital status symbols when Jay-Z and Snoop Dogg flexed Punks #6095 and #3831! 66.79 ETH volume!"
+      "ref_id": "clip_002_clip_02_autoglyphs_(celeb_lore)",
+      "prompt": "Glamorous cow anchor Daisy M. (Minty) Ledger gesturing enthusiastically toward holographic floating art display of Autoglyphs. Visual art: Minimalist text-based ASCII geometric algorithms generated directly inside Ethereum smart contract bytecode. High fashion lighting."
     },
     {
       "sequence_id": 4,
       "type": "anchor_clip",
-      "ref_id": "clip_003_clip_03_cryptopunks_(science_tech)",
-      "prompt": "Medium shot of Professor Hartmut examining CryptoPunks on digital microscope. Cow-pedia popup displayed. Dialogue: Fascinating! CryptoPunks code is stored 100% on Ethereum. Pure digital identity and blue-chip store of value."
+      "ref_id": "clip_003_clip_03_autoglyphs_(science_tech)",
+      "prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for Zero-Knowledge Proofs (ZKP) displayed on screen."
     },
     {
       "sequence_id": 5,
       "type": "bumper_card",
-      "ref_id": "bump_002_pudgy_penguins_bump",
-      "prompt": "2D animated title card for Pudgy Penguins. Visual: Cute chubby penguin avatars in winter beanies, puffer jackets, bowties, and scarves on pastel backdrops. QR code and floor price 6.05 ETH visible."
+      "ref_id": "bump_002_bored_ape_yacht_club_bump",
+      "prompt": "Motion graphics bumper for Bored Ape Yacht Club. Visual: Expressive bored ape avatars with sailor caps, leather jackets, horn rims, and multicolored neon grins. QR code and floor price 5.94 ETH."
     },
     {
       "sequence_id": 6,
       "type": "anchor_clip",
-      "ref_id": "clip_004_clip_04_pudgy_penguins_(celeb_lore)",
-      "prompt": "Close-up of Daisy M. Ledger animated talking passionately. Dialogue: Darlings, Pudgy Penguins conquered Target, Walmart, and Amazon with over 1 million plush toys sold worldwide!"
+      "ref_id": "clip_004_clip_04_bored_ape_yacht_club_(celeb_lore)",
+      "prompt": "Glamorous cow anchor Daisy M. (Minty) Ledger gesturing enthusiastically toward holographic floating art display of Bored Ape Yacht Club. Visual art: Expressive bored ape avatars with sailor caps, leather jackets, horn rims, and multicolored neon grins. High fashion lighting."
     },
     {
       "sequence_id": 7,
       "type": "anchor_clip",
-      "ref_id": "clip_005_clip_05_pudgy_penguins_(science_tech)",
-      "prompt": "Medium shot of Professor Hartmut examining Pudgy Penguins on digital microscope. Cow-pedia popup displayed. Dialogue: Fascinating! Pudgy Penguins uses ERC-721 with IPFS hosting, physical Pudgy Toys merch, and Overpass IP licensing."
+      "ref_id": "clip_005_clip_05_bored_ape_yacht_club_(science_tech)",
+      "prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for Zero-Knowledge Proofs (ZKP) displayed on screen."
     },
     {
       "sequence_id": 8,
       "type": "bumper_card",
-      "ref_id": "bump_003_chromie_squiggle_bump",
-      "prompt": "2D animated title card for Chromie Squiggle by Snowfro. Visual: Hypnotic vibrant rainbow spectrum ribbon curves generated algorithmically on a clean neutral background. QR code and floor price 7.8 ETH visible."
+      "ref_id": "bump_003_chromie_squiggle_by_snowfro_bump",
+      "prompt": "Motion graphics bumper for Chromie Squiggle by Snowfro. Visual: Hypnotic vibrant rainbow spectrum ribbon curves generated algorithmically on a clean neutral background. QR code and floor price 7.8 ETH."
     },
     {
       "sequence_id": 9,
       "type": "anchor_clip",
-      "ref_id": "clip_006_clip_06_chromie_squiggle_(celeb_lore)",
-      "prompt": "Close-up of Daisy M. Ledger animated talking passionately. Dialogue: Darlings, Chromie Squiggle is the beating heart of Art Blocks! Sotheby's auction records made it an essential collector flex!"
+      "ref_id": "clip_006_clip_06_chromie_squiggle_by_snowfro_(celeb_lore)",
+      "prompt": "Glamorous cow anchor Daisy M. (Minty) Ledger gesturing enthusiastically toward holographic floating art display of Chromie Squiggle by Snowfro. Visual art: Hypnotic vibrant rainbow spectrum ribbon curves generated algorithmically on a clean neutral background. High fashion lighting."
     },
     {
       "sequence_id": 10,
       "type": "anchor_clip",
-      "ref_id": "clip_007_clip_07_chromie_squiggle_(science_tech)",
-      "prompt": "Medium shot of Professor Hartmut examining Chromie Squiggle by Snowfro on digital microscope. Cow-pedia popup displayed. Dialogue: Fascinating! Snowfro's p5.js script lives entirely on Ethereum. The hash of the mint transaction seeds the generative ribbon curves."
+      "ref_id": "clip_007_clip_07_chromie_squiggle_by_snowfro_(science_tech)",
+      "prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for Zero-Knowledge Proofs (ZKP) displayed on screen."
     },
     {
       "sequence_id": 11,
       "type": "bumper_card",
-      "ref_id": "bump_004_infinex_patrons_bump",
-      "prompt": "2D animated title card for Infinex Patrons. Visual: Sleek holographic patronage cards featuring tiered node insignias, metallic chrome borders, and geometric security patterns. QR code and floor price 1.79 ETH visible."
+      "ref_id": "bump_004_hypurr_bump",
+      "prompt": "Motion graphics bumper for Hypurr. Visual: Dynamic futuristic cybernetic cat avatars representing native liquidity providers on Hyperliquid L1. QR code and floor price 0.95 ETH."
     },
     {
       "sequence_id": 12,
       "type": "anchor_clip",
-      "ref_id": "clip_008_clip_08_infinex_patrons_(celeb_lore)",
-      "prompt": "Close-up of Daisy M. Ledger animated talking passionately. Dialogue: Darlings, Kain Warwick raised over $65 million for Infinex to build the UX layer of crypto without seed seedphrases!"
+      "ref_id": "clip_008_clip_08_hypurr_(celeb_lore)",
+      "prompt": "Glamorous cow anchor Daisy M. (Minty) Ledger gesturing enthusiastically toward holographic floating art display of Hypurr. Visual art: Dynamic futuristic cybernetic cat avatars representing native liquidity providers on Hyperliquid L1. High fashion lighting."
     },
     {
       "sequence_id": 13,
       "type": "anchor_clip",
-      "ref_id": "clip_009_clip_09_infinex_patrons_(science_tech)",
-      "prompt": "Medium shot of Professor Hartmut examining Infinex Patrons on digital microscope. Cow-pedia popup displayed. Dialogue: Fascinating! Infinex Patrons act as governance keys for decentralized account abstraction across EVM and Solana."
+      "ref_id": "clip_009_clip_09_hypurr_(science_tech)",
+      "prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for Zero-Knowledge Proofs (ZKP) displayed on screen."
     },
     {
       "sequence_id": 14,
       "type": "bumper_card",
-      "ref_id": "bump_005_mad_lads_bump",
-      "prompt": "2D animated title card for Mad Lads. Visual: Stylized hand-drawn rogue adventurers wearing leather aviator helmets, goggles, and rugged jackets. QR code and floor price 2.65 ETH visible."
+      "ref_id": "bump_005_milady_maker_bump",
+      "prompt": "Motion graphics bumper for Milady Maker. Visual: Neotenic anime chibi avatars in Tokyo cyber-streetwear, berets, and oversized sunglasses. QR code and floor price 1.95 ETH."
     },
     {
       "sequence_id": 15,
       "type": "anchor_clip",
-      "ref_id": "clip_010_clip_10_mad_lads_(celeb_lore)",
-      "prompt": "Close-up of Daisy M. Ledger animated talking passionately. Dialogue: Darlings, Mad Lads revitalized the entire Solana ecosystem! Armani Ferrante built an unstoppable army of devs!"
+      "ref_id": "clip_010_clip_10_milady_maker_(celeb_lore)",
+      "prompt": "Glamorous cow anchor Daisy M. (Minty) Ledger gesturing enthusiastically toward holographic floating art display of Milady Maker. Visual art: Neotenic anime chibi avatars in Tokyo cyber-streetwear, berets, and oversized sunglasses. High fashion lighting."
     },
     {
       "sequence_id": 16,
       "type": "anchor_clip",
-      "ref_id": "clip_011_clip_11_mad_lads_(science_tech)",
-      "prompt": "Medium shot of Professor Hartmut examining Mad Lads on digital microscope. Cow-pedia popup displayed. Dialogue: Fascinating! Mad Lads are xNFTs\u2014executable tokenized programs running native code inside the Backpack wallet!"
+      "ref_id": "clip_011_clip_11_milady_maker_(science_tech)",
+      "prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for Zero-Knowledge Proofs (ZKP) displayed on screen."
     },
     {
       "sequence_id": 17,
       "type": "weather_clip",
       "ref_id": "clip_012_clip_12_weather_forecast",
-      "prompt": "Animated weather anchor Sunshine Innocent Nimbus gesturing at colorful crypto market satellite map. Dialogue: Sunshine Innocent Nimbus reporting high-pressure bull surges sweeping across the digital plains! Low gas density and clear minting skies ahead!"
+      "prompt": "Cheerful young heifer meteorologist Sunshine Innocent Nimbus holding pointer stick in front of dynamic 3D satellite map of crypto blockchains with weather isobar fronts."
     },
     {
       "sequence_id": 18,
       "type": "studio_outro",
       "ref_id": "clip_013_clip_13_studio_outro",
-      "prompt": "Both anchors waving goodbye at the news desk as camera pans up to MOO19 Newsroom ceiling monitors."
+      "prompt": "Both cow anchors smiling and waving at news desk as studio camera cranes upward showing full MOO19 television broadcast facility."
     }
   ]
 }

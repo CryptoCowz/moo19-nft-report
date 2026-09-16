@@ -18,6 +18,25 @@
         "Mad Lads"
       ],
       "cowpedia_term": "Immutability (On-Chain Storage)"
+    },
+    {
+      "episode_number": 2,
+      "air_date": "2026-09-16",
+      "featured_ids": [
+        "autoglyphs",
+        "bored_ape_yacht_club",
+        "chromie_squiggle_by_snowfro",
+        "hypurr",
+        "milady_maker"
+      ],
+      "featured_names": [
+        "Autoglyphs",
+        "Bored Ape Yacht Club",
+        "Chromie Squiggle by Snowfro",
+        "Hypurr",
+        "Milady Maker"
+      ],
+      "cowpedia_term": "Zero-Knowledge Proofs (ZKP)"
     }
   ]
 }
