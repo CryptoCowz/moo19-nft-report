@@ -1,51 +1,51 @@
-# The Pasture Post — Issue #2
-**Date:** September 16, 2026  
+# The Pasture Post — Issue #3
+**Date:** September 21, 2026  
 **From:** The Pasture Editorial Board  
 
 ## Executive Summary
-Welcome to Issue #2 of *The Pasture Post*. This week our newsroom investigated five distinct sectors of the decentralized ecosystem, evaluating both cultural momentum and contract architecture.
+Welcome to Issue #3 of *The Pasture Post*. This week our newsroom investigated five distinct sectors of the decentralized ecosystem, evaluating both cultural momentum and contract architecture.
 
 ## Featured Collections & Architectural Audits
-### Autoglyphs (Ethereum)
-- **Floor Price:** 82.0 ETH | **24h Volume:** 15.4 ETH
-- **Contract Standard:** `ERC-721` | **Storage Architecture:** On-Chain (Direct Bytecode)
-- **Official Link:** [Autoglyphs Website](https://www.larvalabs.com/autoglyphs) | **OpenSea:** [Marketplace Listing](https://opensea.io/collection/autoglyphs)
-- **Cultural Commentary (Daisy M. (Minty) Ledger):** Darlings, Autoglyphs are the ultimate ultra-rare flex! Only 512 exist, commanding an 82 ETH floor among museum collectors! *(Hype Rating: 6.5/10)*
-- **Technical Analysis (Professor Hartmut von Schnurrbart):** Fascinating! Autoglyphs are the first on-chain generative art on Ethereum where the rendering algorithm lives entirely inside the smart contract. *(Code Rating: 10.0/10)*
+### Moonbirds (Ethereum)
+- **Floor Price:** 1.85 ETH | **24h Volume:** 52.35 ETH
+- **Contract Standard:** `ERC-721` | **Storage Architecture:** IPFS & Yuga Ecosystem
+- **Official Link:** [Moonbirds Website](https://www.proof.xyz/moonbirds) | **OpenSea:** [Marketplace Listing](https://opensea.io/collection/moonbirds-official)
+- **Cultural Commentary (Daisy M. (Minty) Ledger):** Darlings, Moonbirds took flight under Kevin Rose and joined the Yuga Labs family! 52.35 ETH volume this week! *(Hype Rating: 7.5/10)*
+- **Technical Analysis (Professor Hartmut von Schnurrbart):** Fascinating! Moonbirds pioneered soft-staking through 'nesting', unlocking utility and artwork upgrades without transferring custody. *(Code Rating: 8.5/10)*
 
-### Bored Ape Yacht Club (Ethereum)
-- **Floor Price:** 5.94 ETH | **24h Volume:** 42.34 ETH
-- **Contract Standard:** `ERC-721` | **Storage Architecture:** IPFS
-- **Official Link:** [Bored Ape Yacht Club Website](https://boredapeyachtclub.com/) | **OpenSea:** [Marketplace Listing](https://opensea.io/collection/boredapeyachtclub)
-- **Cultural Commentary (Daisy M. (Minty) Ledger):** Darlings, BAYC defined Web3 pop culture when Eminem, Madonna, and Steph Curry joined the club! *(Hype Rating: 7.3/10)*
-- **Technical Analysis (Professor Hartmut von Schnurrbart):** Fascinating! BAYC grants full commercial IP usage rights, ApeCoin allocations, and Otherside metaverse land access. *(Code Rating: 8.0/10)*
+### Doodles (Ethereum)
+- **Floor Price:** 1.42 ETH | **24h Volume:** 68.2 ETH
+- **Contract Standard:** `ERC-721` | **Storage Architecture:** IPFS & Solana L2
+- **Official Link:** [Doodles Website](https://doodles.app/) | **OpenSea:** [Marketplace Listing](https://opensea.io/collection/doodles-official)
+- **Cultural Commentary (Daisy M. (Minty) Ledger):** Darlings, Pharrell Williams joined Doodles as Chief Brand Officer, orchestrating fashion shows and animation collabs! *(Hype Rating: 8.4/10)*
+- **Technical Analysis (Professor Hartmut von Schnurrbart):** Fascinating! Doodles has evolved into a multi-chain entertainment franchise with Doodles 2 enabling customizable dynamic off-chain wearables. *(Code Rating: 8.2/10)*
 
-### Chromie Squiggle by Snowfro (Ethereum)
-- **Floor Price:** 7.8 ETH | **24h Volume:** 88.4 ETH
+### Fidenza by Tyler Hobbs (Ethereum)
+- **Floor Price:** 48.5 ETH | **24h Volume:** 36.7 ETH
 - **Contract Standard:** `ERC-721` | **Storage Architecture:** 100% On-Chain
-- **Official Link:** [Chromie Squiggle by Snowfro Website](https://chromiesquiggle.artblocks.io/) | **OpenSea:** [Marketplace Listing](https://opensea.io/collection/chromie-squiggle-by-snowfro)
-- **Cultural Commentary (Daisy M. (Minty) Ledger):** Darlings, Chromie Squiggle is the beating heart of Art Blocks! Sotheby's auction records made it an essential collector flex! *(Hype Rating: 8.9/10)*
-- **Technical Analysis (Professor Hartmut von Schnurrbart):** Fascinating! Snowfro's p5.js script lives entirely on Ethereum. The hash of the mint transaction seeds the generative ribbon curves. *(Code Rating: 9.8/10)*
+- **Official Link:** [Fidenza by Tyler Hobbs Website](https://tylerxhobbs.com/fidenza) | **OpenSea:** [Marketplace Listing](https://opensea.io/collection/fidenza-by-tyler-hobbs)
+- **Cultural Commentary (Daisy M. (Minty) Ledger):** Darlings, Tyler Hobbs' Fidenza is hailed by art critics as the Mona Lisa of modern generative code art! *(Hype Rating: 9.2/10)*
+- **Technical Analysis (Professor Hartmut von Schnurrbart):** Fascinating! Uses a deterministic flow field algorithm with non-intersecting curved lines calculated directly from blockchain entropy. *(Code Rating: 9.9/10)*
 
-### Hypurr (Hyperliquid)
-- **Floor Price:** 0.95 ETH | **24h Volume:** 34.1 ETH
-- **Contract Standard:** `Hyperliquid L1 Native` | **Storage Architecture:** Hyperliquid L1
-- **Official Link:** [Hypurr Website](https://hyperliquid.xyz/) | **OpenSea:** [Marketplace Listing](https://hypurr.fun/)
-- **Cultural Commentary (Daisy M. (Minty) Ledger):** Darlings, Hypurr represents the absolute frontier of on-chain perp DEX power users on Hyperliquid! *(Hype Rating: 7.8/10)*
-- **Technical Analysis (Professor Hartmut von Schnurrbart):** Fascinating! Minted directly on Hyperliquid's custom Layer-1 Tendermint-based consensus engine with sub-second finality. *(Code Rating: 8.8/10)*
+### Propy Real Estate NFTs (Ethereum / Base)
+- **Floor Price:** 1.15 ETH | **24h Volume:** 16.5 ETH
+- **Contract Standard:** `ERC-721` | **Storage Architecture:** Deed Vault & Legal On-Chain
+- **Official Link:** [Propy Real Estate NFTs Website](https://propy.com/) | **OpenSea:** [Marketplace Listing](https://opensea.io/collection/propy-real-estate)
+- **Cultural Commentary (Daisy M. (Minty) Ledger):** Darlings, imagine buying a beachfront villa or luxury condominium in 10 minutes by trading an NFT on Propy! *(Hype Rating: 7.4/10)*
+- **Technical Analysis (Professor Hartmut von Schnurrbart):** Fascinating! Links smart contract ownership with US legal title registry through corporate entity LLC wrappers. *(Code Rating: 9.4/10)*
 
-### Milady Maker (Ethereum)
-- **Floor Price:** 1.95 ETH | **24h Volume:** 84.6 ETH
+### Mutant Ape Yacht Club (Ethereum)
+- **Floor Price:** 1.18 ETH | **24h Volume:** 46.8 ETH
 - **Contract Standard:** `ERC-721` | **Storage Architecture:** IPFS
-- **Official Link:** [Milady Maker Website](https://miladymaker.net/) | **OpenSea:** [Marketplace Listing](https://opensea.io/collection/milady)
-- **Cultural Commentary (Daisy M. (Minty) Ledger):** Darlings, when Elon Musk tweeted a Milady meme, the entire crypto internet exploded into absolute mania! *(Hype Rating: 8.7/10)*
-- **Technical Analysis (Professor Hartmut von Schnurrbart):** Fascinating! Milady Maker established an ultra-loyal post-ironic culture with procedural algorithmic asset layering. *(Code Rating: 7.8/10)*
+- **Official Link:** [Mutant Ape Yacht Club Website](https://boredapeyachtclub.com/) | **OpenSea:** [Marketplace Listing](https://opensea.io/collection/mutant-ape-yacht-club)
+- **Cultural Commentary (Daisy M. (Minty) Ledger):** Darlings, mutating an ape with a Mega Zombie Serum created the wildest livestream auctions in NFT history! *(Hype Rating: 7.8/10)*
+- **Technical Analysis (Professor Hartmut von Schnurrbart):** Fascinating! MAYC pioneered the burning of ERC-20 Serums to trigger dynamic smart contract transmutation minting. *(Code Rating: 8.2/10)*
 
-## Cow-pedia Educational Spotlight: Zero-Knowledge Proofs (ZKP)
-> **Zero-Knowledge Proofs (ZKP):** Cryptographic algorithms that verify data authenticity without exposing private details.
+## Cow-pedia Educational Spotlight: xNFTs (Executable Tokens)
+> **xNFTs (Executable Tokens):** Non-fungible tokens packaged as runnable applications directly executed inside Web3 wallets.
 
 ## Pasture Market Weather Outlook
-> *"Sunshine Innocent Nimbus here! We are experiencing sideways crab-market consolidation with cool breezes across decentralized exchanges. Bundle up!"* — Sunshine Innocent Nimbus
+> *"Sunshine Innocent Nimbus reporting! Watch out for sudden thunderstorm spikes in Layer-1 gas fees! Recommend utilizing Layer-2 rollups until the storm passes!"* — Sunshine Innocent Nimbus
 
 ---
 *The Pasture Post is an educational publication by MOO19 News. Not financial advice. Always verify smart contract bytecode before transacting.*

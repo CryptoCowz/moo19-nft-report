@@ -37,6 +37,25 @@
         "Milady Maker"
       ],
       "cowpedia_term": "Zero-Knowledge Proofs (ZKP)"
+    },
+    {
+      "episode_number": 3,
+      "air_date": "2026-09-21",
+      "featured_ids": [
+        "moonbirds",
+        "doodles",
+        "fidenza_by_tyler_hobbs",
+        "propy_real_estate_nfts",
+        "mutant_ape_yacht_club"
+      ],
+      "featured_names": [
+        "Moonbirds",
+        "Doodles",
+        "Fidenza by Tyler Hobbs",
+        "Propy Real Estate NFTs",
+        "Mutant Ape Yacht Club"
+      ],
+      "cowpedia_term": "xNFTs (Executable Tokens)"
     }
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "clip_id": "clip_008_clip_08_propy_real_estate_nfts_(celeb_lore)",
+  "clip_number": 8,
+  "title": "Propy Real Estate NFTs - Lore & Glam Review",
+  "characters": [
+    "Daisy M. (Minty) Ledger"
+  ],
+  "setting": "MOO19 Anchor Desk (Anchor Left Focus)",
+  "on_screen_graphic": "Propy Real Estate NFTs | Floor: 1.15 ETH | Vol: 16.5 ETH",
+  "dialogue": [
+    {
+      "speaker": "Daisy M. (Minty) Ledger",
+      "line": "Darlings, imagine buying a beachfront villa or luxury condominium in 10 minutes by trading an NFT on Propy!"
+    },
+    {
+      "speaker": "Daisy M. (Minty) Ledger",
+      "line": "Glam & Hype Rating: 7.4/10!"
+    }
+  ],
+  "camera_angle": "Medium close-up on Daisy M. Ledger with graphics overlay",
+  "target_duration_seconds": 10,
+  "google_flow_prompt": "Glamorous cow anchor Daisy M. (Minty) Ledger gesturing enthusiastically toward holographic floating art display of Propy Real Estate NFTs. Visual art: Architectural legal deeds and digital certificates representing real physical real estate properties and title rights. High fashion lighting."
+}

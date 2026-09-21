@@ -1,0 +1,23 @@
+{
+  "clip_id": "clip_002_clip_02_moonbirds_(celeb_lore)",
+  "clip_number": 2,
+  "title": "Moonbirds - Lore & Glam Review",
+  "characters": [
+    "Daisy M. (Minty) Ledger"
+  ],
+  "setting": "MOO19 Anchor Desk (Anchor Left Focus)",
+  "on_screen_graphic": "Moonbirds | Floor: 1.85 ETH | Vol: 52.35 ETH",
+  "dialogue": [
+    {
+      "speaker": "Daisy M. (Minty) Ledger",
+      "line": "Darlings, Moonbirds took flight under Kevin Rose and joined the Yuga Labs family! 52.35 ETH volume this week!"
+    },
+    {
+      "speaker": "Daisy M. (Minty) Ledger",
+      "line": "Glam & Hype Rating: 7.5/10!"
+    }
+  ],
+  "camera_angle": "Medium close-up on Daisy M. Ledger with graphics overlay",
+  "target_duration_seconds": 10,
+  "google_flow_prompt": "Glamorous cow anchor Daisy M. (Minty) Ledger gesturing enthusiastically toward holographic floating art display of Moonbirds. Visual art: Charming 8-bit owl avatars featuring bespoke feathered plumage, glowing laser eyes, and wizard hats. High fashion lighting."
+}

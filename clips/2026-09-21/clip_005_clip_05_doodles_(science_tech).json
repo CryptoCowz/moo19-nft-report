@@ -1,0 +1,26 @@
+{
+  "clip_id": "clip_005_clip_05_doodles_(science_tech)",
+  "clip_number": 5,
+  "title": "Doodles - Technical & Code Audit",
+  "characters": [
+    "Professor Hartmut von Schnurrbart"
+  ],
+  "setting": "MOO19 Anchor Desk (Anchor Right Focus with Microscope)",
+  "cowpedia_popup": {
+    "term": "xNFTs (Executable Tokens)",
+    "definition": "Non-fungible tokens packaged as runnable applications directly executed inside Web3 wallets."
+  },
+  "dialogue": [
+    {
+      "speaker": "Professor Hartmut von Schnurrbart",
+      "line": "Fascinating! Doodles has evolved into a multi-chain entertainment franchise with Doodles 2 enabling customizable dynamic off-chain wearables."
+    },
+    {
+      "speaker": "Professor Hartmut von Schnurrbart",
+      "line": "Code & Security Rating: 8.2/10!"
+    }
+  ],
+  "camera_angle": "Medium close-up on Professor Hartmut adjusting brass microscope",
+  "target_duration_seconds": 10,
+  "google_flow_prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for xNFTs (Executable Tokens) displayed on screen."
+}

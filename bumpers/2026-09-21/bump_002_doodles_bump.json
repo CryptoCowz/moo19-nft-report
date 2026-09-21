@@ -1,0 +1,12 @@
+{
+  "bumper_id": "bump_002_doodles_bump",
+  "project_name": "Doodles",
+  "chain": "Ethereum",
+  "floor_price_eth": 1.42,
+  "official_url": "https://doodles.app/",
+  "art_description": "Pastel hand-drawn cartoon characters by Burnt Toast featuring rainbows, ice cream cones, and space suits",
+  "audio_sting": "Upbeat techno cowbell crescendo with sparkling synths",
+  "voiceover_script": "Up next on MOO19 News: Doodles! Floor price 1.42 ETH! Scan the QR code to verify on-chain!",
+  "duration_seconds": 4,
+  "google_flow_prompt": "High energy broadcast motion graphics card for Doodles. Visual: Pastel hand-drawn cartoon characters by Burnt Toast featuring rainbows, ice cream cones, and space suits. Floating holographic Ethereum diamond and QR code in lower third corner. Broadcast standard 16:9 4K."
+}

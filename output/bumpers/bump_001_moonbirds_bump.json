@@ -1,0 +1,12 @@
+{
+  "bumper_id": "bump_001_moonbirds_bump",
+  "project_name": "Moonbirds",
+  "chain": "Ethereum",
+  "floor_price_eth": 1.85,
+  "official_url": "https://www.proof.xyz/moonbirds",
+  "art_description": "Charming 8-bit owl avatars featuring bespoke feathered plumage, glowing laser eyes, and wizard hats",
+  "audio_sting": "Upbeat techno cowbell crescendo with sparkling synths",
+  "voiceover_script": "Up next on MOO19 News: Moonbirds! Floor price 1.85 ETH! Scan the QR code to verify on-chain!",
+  "duration_seconds": 4,
+  "google_flow_prompt": "High energy broadcast motion graphics card for Moonbirds. Visual: Charming 8-bit owl avatars featuring bespoke feathered plumage, glowing laser eyes, and wizard hats. Floating holographic Ethereum diamond and QR code in lower third corner. Broadcast standard 16:9 4K."
+}

@@ -1,0 +1,26 @@
+{
+  "clip_id": "clip_007_clip_07_fidenza_by_tyler_hobbs_(science_tech)",
+  "clip_number": 7,
+  "title": "Fidenza by Tyler Hobbs - Technical & Code Audit",
+  "characters": [
+    "Professor Hartmut von Schnurrbart"
+  ],
+  "setting": "MOO19 Anchor Desk (Anchor Right Focus with Microscope)",
+  "cowpedia_popup": {
+    "term": "xNFTs (Executable Tokens)",
+    "definition": "Non-fungible tokens packaged as runnable applications directly executed inside Web3 wallets."
+  },
+  "dialogue": [
+    {
+      "speaker": "Professor Hartmut von Schnurrbart",
+      "line": "Fascinating! Uses a deterministic flow field algorithm with non-intersecting curved lines calculated directly from blockchain entropy."
+    },
+    {
+      "speaker": "Professor Hartmut von Schnurrbart",
+      "line": "Code & Security Rating: 9.9/10!"
+    }
+  ],
+  "camera_angle": "Medium close-up on Professor Hartmut adjusting brass microscope",
+  "target_duration_seconds": 10,
+  "google_flow_prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for xNFTs (Executable Tokens) displayed on screen."
+}
