@@ -1,0 +1,12 @@
+{
+  "bumper_id": "bump_002_azuki_bump",
+  "project_name": "Azuki",
+  "chain": "Ethereum",
+  "floor_price_eth": 4.1,
+  "official_url": "https://www.azuki.com/",
+  "art_description": "Stylized anime warriors featuring samurais, cybernetic swords, red beanies, and skateboards",
+  "audio_sting": "Upbeat techno cowbell crescendo with sparkling synths",
+  "voiceover_script": "Up next on MOO19 News: Azuki! Floor price 4.1 ETH! Scan the QR code to verify on-chain!",
+  "duration_seconds": 4,
+  "google_flow_prompt": "High energy broadcast motion graphics card for Azuki. Visual: Stylized anime warriors featuring samurais, cybernetic swords, red beanies, and skateboards. Floating holographic Ethereum diamond and QR code in lower third corner. Broadcast standard 16:9 4K."
+}

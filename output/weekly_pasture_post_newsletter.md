@@ -1,51 +1,51 @@
-# The Pasture Post — Issue #3
-**Date:** September 21, 2026  
+# The Pasture Post — Issue #4
+**Date:** September 28, 2026  
 **From:** The Pasture Editorial Board  
 
 ## Executive Summary
-Welcome to Issue #3 of *The Pasture Post*. This week our newsroom investigated five distinct sectors of the decentralized ecosystem, evaluating both cultural momentum and contract architecture.
+Welcome to Issue #4 of *The Pasture Post*. This week our newsroom investigated five distinct sectors of the decentralized ecosystem, evaluating both cultural momentum and contract architecture.
 
 ## Featured Collections & Architectural Audits
-### Moonbirds (Ethereum)
-- **Floor Price:** 1.85 ETH | **24h Volume:** 52.35 ETH
-- **Contract Standard:** `ERC-721` | **Storage Architecture:** IPFS & Yuga Ecosystem
-- **Official Link:** [Moonbirds Website](https://www.proof.xyz/moonbirds) | **OpenSea:** [Marketplace Listing](https://opensea.io/collection/moonbirds-official)
-- **Cultural Commentary (Daisy M. (Minty) Ledger):** Darlings, Moonbirds took flight under Kevin Rose and joined the Yuga Labs family! 52.35 ETH volume this week! *(Hype Rating: 7.5/10)*
-- **Technical Analysis (Professor Hartmut von Schnurrbart):** Fascinating! Moonbirds pioneered soft-staking through 'nesting', unlocking utility and artwork upgrades without transferring custody. *(Code Rating: 8.5/10)*
+### Curio Cards (Ethereum)
+- **Floor Price:** 0.45 ETH | **24h Volume:** 12.8 ETH
+- **Contract Standard:** `ERC-20 Wrapped ERC-721` | **Storage Architecture:** IPFS & Arweave
+- **Official Link:** [Curio Cards Website](https://mycuriocards.com/) | **OpenSea:** [Marketplace Listing](https://opensea.io/collection/curiocards)
+- **Cultural Commentary (Daisy M. (Minty) Ledger):** Darlings, Christie's and Sotheby's auction houses auctioned full 31-card sets of Curio Cards as the dawn of NFT art history! *(Hype Rating: 6.8/10)*
+- **Technical Analysis (Professor Hartmut von Schnurrbart):** Fascinating! Created in May 2017 before the ERC-721 standard even existed, requiring smart contract wrappers to trade on modern AMMs. *(Code Rating: 9.2/10)*
 
-### Doodles (Ethereum)
-- **Floor Price:** 1.42 ETH | **24h Volume:** 68.2 ETH
-- **Contract Standard:** `ERC-721` | **Storage Architecture:** IPFS & Solana L2
-- **Official Link:** [Doodles Website](https://doodles.app/) | **OpenSea:** [Marketplace Listing](https://opensea.io/collection/doodles-official)
-- **Cultural Commentary (Daisy M. (Minty) Ledger):** Darlings, Pharrell Williams joined Doodles as Chief Brand Officer, orchestrating fashion shows and animation collabs! *(Hype Rating: 8.4/10)*
-- **Technical Analysis (Professor Hartmut von Schnurrbart):** Fascinating! Doodles has evolved into a multi-chain entertainment franchise with Doodles 2 enabling customizable dynamic off-chain wearables. *(Code Rating: 8.2/10)*
+### Azuki (Ethereum)
+- **Floor Price:** 4.1 ETH | **24h Volume:** 112.5 ETH
+- **Contract Standard:** `ERC-721A` | **Storage Architecture:** IPFS & Arweave
+- **Official Link:** [Azuki Website](https://www.azuki.com/) | **OpenSea:** [Marketplace Listing](https://opensea.io/collection/azuki)
+- **Cultural Commentary (Daisy M. (Minty) Ledger):** Darlings, Azuki brought anime streetwear to Paris Fashion Week and launched physical-backed token hoodies! *(Hype Rating: 8.8/10)*
+- **Technical Analysis (Professor Hartmut von Schnurrbart):** Fascinating! Azuki invented the gas-optimized ERC-721A contract standard, reducing batch minting gas fees by over 70%. *(Code Rating: 9.0/10)*
 
-### Fidenza by Tyler Hobbs (Ethereum)
-- **Floor Price:** 48.5 ETH | **24h Volume:** 36.7 ETH
+### Ringers by Dmitri Cherniak (Ethereum)
+- **Floor Price:** 28.0 ETH | **24h Volume:** 41.2 ETH
 - **Contract Standard:** `ERC-721` | **Storage Architecture:** 100% On-Chain
-- **Official Link:** [Fidenza by Tyler Hobbs Website](https://tylerxhobbs.com/fidenza) | **OpenSea:** [Marketplace Listing](https://opensea.io/collection/fidenza-by-tyler-hobbs)
-- **Cultural Commentary (Daisy M. (Minty) Ledger):** Darlings, Tyler Hobbs' Fidenza is hailed by art critics as the Mona Lisa of modern generative code art! *(Hype Rating: 9.2/10)*
-- **Technical Analysis (Professor Hartmut von Schnurrbart):** Fascinating! Uses a deterministic flow field algorithm with non-intersecting curved lines calculated directly from blockchain entropy. *(Code Rating: 9.9/10)*
+- **Official Link:** [Ringers by Dmitri Cherniak Website](https://dmitricherniak.com/) | **OpenSea:** [Marketplace Listing](https://opensea.io/collection/ringers-by-dmitri-cherniak)
+- **Cultural Commentary (Daisy M. (Minty) Ledger):** Darlings, Ringers #879, affectionately known as The Goose, sold for $6.2 million at Sotheby's 3AC liquidation! *(Hype Rating: 9.0/10)*
+- **Technical Analysis (Professor Hartmut von Schnurrbart):** Fascinating! Cherniak's deterministic script evaluates string wrapping geometry using winding numbers and Euler path mathematical principles. *(Code Rating: 9.9/10)*
 
-### Propy Real Estate NFTs (Ethereum / Base)
-- **Floor Price:** 1.15 ETH | **24h Volume:** 16.5 ETH
-- **Contract Standard:** `ERC-721` | **Storage Architecture:** Deed Vault & Legal On-Chain
-- **Official Link:** [Propy Real Estate NFTs Website](https://propy.com/) | **OpenSea:** [Marketplace Listing](https://opensea.io/collection/propy-real-estate)
-- **Cultural Commentary (Daisy M. (Minty) Ledger):** Darlings, imagine buying a beachfront villa or luxury condominium in 10 minutes by trading an NFT on Propy! *(Hype Rating: 7.4/10)*
-- **Technical Analysis (Professor Hartmut von Schnurrbart):** Fascinating! Links smart contract ownership with US legal title registry through corporate entity LLC wrappers. *(Code Rating: 9.4/10)*
+### Uniswap v3 Positions (Ethereum)
+- **Floor Price:** 0.85 ETH | **24h Volume:** 45.1 ETH
+- **Contract Standard:** `ERC-721` | **Storage Architecture:** Dynamic On-Chain SVG
+- **Official Link:** [Uniswap v3 Positions Website](https://uniswap.org/) | **OpenSea:** [Marketplace Listing](https://opensea.io/collection/uniswap-v3-positions)
+- **Cultural Commentary (Daisy M. (Minty) Ledger):** Darlings, trading fees generated by automated market makers represented as glowing financial NFT collectibles! *(Hype Rating: 7.1/10)*
+- **Technical Analysis (Professor Hartmut von Schnurrbart):** Fascinating! Each NFT stores concentrated liquidity tick boundaries, rendering dynamic SVG graphics generated entirely by bytecode. *(Code Rating: 9.8/10)*
 
-### Mutant Ape Yacht Club (Ethereum)
-- **Floor Price:** 1.18 ETH | **24h Volume:** 46.8 ETH
-- **Contract Standard:** `ERC-721` | **Storage Architecture:** IPFS
-- **Official Link:** [Mutant Ape Yacht Club Website](https://boredapeyachtclub.com/) | **OpenSea:** [Marketplace Listing](https://opensea.io/collection/mutant-ape-yacht-club)
-- **Cultural Commentary (Daisy M. (Minty) Ledger):** Darlings, mutating an ape with a Mega Zombie Serum created the wildest livestream auctions in NFT history! *(Hype Rating: 7.8/10)*
-- **Technical Analysis (Professor Hartmut von Schnurrbart):** Fascinating! MAYC pioneered the burning of ERC-20 Serums to trigger dynamic smart contract transmutation minting. *(Code Rating: 8.2/10)*
+### NodeMonkes (Bitcoin (Ordinals))
+- **Floor Price:** 0.165 ETH | **24h Volume:** 31.4 ETH
+- **Contract Standard:** `Bitcoin Inscriptions` | **Storage Architecture:** 100% Bitcoin Ordinals
+- **Official Link:** [NodeMonkes Website](https://nodemonkes.com/) | **OpenSea:** [Marketplace Listing](https://magiceden.io/ordinals/marketplace/nodemonkes)
+- **Cultural Commentary (Daisy M. (Minty) Ledger):** Darlings, NodeMonkes became the undisputed blue-chip king of Bitcoin Ordinals, rivaling Ethereum's top avatars! *(Hype Rating: 8.9/10)*
+- **Technical Analysis (Professor Hartmut von Schnurrbart):** Fascinating! Inscribed directly into the witness data of Bitcoin transactions, ensuring permanent survival alongside Bitcoin. *(Code Rating: 9.5/10)*
 
-## Cow-pedia Educational Spotlight: xNFTs (Executable Tokens)
-> **xNFTs (Executable Tokens):** Non-fungible tokens packaged as runnable applications directly executed inside Web3 wallets.
+## Cow-pedia Educational Spotlight: Decentralized Metadata (IPFS/Arweave)
+> **Decentralized Metadata (IPFS/Arweave):** Distributed peer-to-peer content addressing systems ensuring files cannot disappear if a centralized server goes offline.
 
 ## Pasture Market Weather Outlook
-> *"Sunshine Innocent Nimbus reporting! Watch out for sudden thunderstorm spikes in Layer-1 gas fees! Recommend utilizing Layer-2 rollups until the storm passes!"* — Sunshine Innocent Nimbus
+> *"Sunshine Innocent Nimbus with your market forecast! Sunny skies, warm liquidity winds, and smooth floor prices brightening up the pasture all week!"* — Sunshine Innocent Nimbus
 
 ---
 *The Pasture Post is an educational publication by MOO19 News. Not financial advice. Always verify smart contract bytecode before transacting.*

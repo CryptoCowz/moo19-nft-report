@@ -56,6 +56,25 @@
         "Mutant Ape Yacht Club"
       ],
       "cowpedia_term": "xNFTs (Executable Tokens)"
+    },
+    {
+      "episode_number": 4,
+      "air_date": "2026-09-28",
+      "featured_ids": [
+        "curio_cards",
+        "azuki",
+        "ringers_by_dmitri_cherniak",
+        "uniswap_v3_positions",
+        "nodemonkes"
+      ],
+      "featured_names": [
+        "Curio Cards",
+        "Azuki",
+        "Ringers by Dmitri Cherniak",
+        "Uniswap v3 Positions",
+        "NodeMonkes"
+      ],
+      "cowpedia_term": "Decentralized Metadata (IPFS/Arweave)"
     }
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "clip_id": "clip_009_clip_09_uniswap_v3_positions_(science_tech)",
+  "clip_number": 9,
+  "title": "Uniswap v3 Positions - Technical & Code Audit",
+  "characters": [
+    "Professor Hartmut von Schnurrbart"
+  ],
+  "setting": "MOO19 Anchor Desk (Anchor Right Focus with Microscope)",
+  "cowpedia_popup": {
+    "term": "Decentralized Metadata (IPFS/Arweave)",
+    "definition": "Distributed peer-to-peer content addressing systems ensuring files cannot disappear if a centralized server goes offline."
+  },
+  "dialogue": [
+    {
+      "speaker": "Professor Hartmut von Schnurrbart",
+      "line": "Fascinating! Each NFT stores concentrated liquidity tick boundaries, rendering dynamic SVG graphics generated entirely by bytecode."
+    },
+    {
+      "speaker": "Professor Hartmut von Schnurrbart",
+      "line": "Code & Security Rating: 9.8/10!"
+    }
+  ],
+  "camera_angle": "Medium close-up on Professor Hartmut adjusting brass microscope",
+  "target_duration_seconds": 10,
+  "google_flow_prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for Decentralized Metadata (IPFS/Arweave) displayed on screen."
+}

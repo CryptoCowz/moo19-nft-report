@@ -1,0 +1,26 @@
+{
+  "clip_id": "clip_003_clip_03_curio_cards_(science_tech)",
+  "clip_number": 3,
+  "title": "Curio Cards - Technical & Code Audit",
+  "characters": [
+    "Professor Hartmut von Schnurrbart"
+  ],
+  "setting": "MOO19 Anchor Desk (Anchor Right Focus with Microscope)",
+  "cowpedia_popup": {
+    "term": "Decentralized Metadata (IPFS/Arweave)",
+    "definition": "Distributed peer-to-peer content addressing systems ensuring files cannot disappear if a centralized server goes offline."
+  },
+  "dialogue": [
+    {
+      "speaker": "Professor Hartmut von Schnurrbart",
+      "line": "Fascinating! Created in May 2017 before the ERC-721 standard even existed, requiring smart contract wrappers to trade on modern AMMs."
+    },
+    {
+      "speaker": "Professor Hartmut von Schnurrbart",
+      "line": "Code & Security Rating: 9.2/10!"
+    }
+  ],
+  "camera_angle": "Medium close-up on Professor Hartmut adjusting brass microscope",
+  "target_duration_seconds": 10,
+  "google_flow_prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for Decentralized Metadata (IPFS/Arweave) displayed on screen."
+}

@@ -1,7 +1,7 @@
 {
-  "production_title": "MOO19 NFT Report - Episode #3",
-  "episode_number": 3,
-  "air_date": "September 21, 2026",
+  "production_title": "MOO19 NFT Report - Episode #4",
+  "episode_number": 4,
+  "air_date": "September 28, 2026",
   "aspect_ratio": "16:9",
   "target_engine": "Google Flow & Veo Video Pipeline",
   "characters": [
@@ -31,92 +31,92 @@
     {
       "sequence_id": 2,
       "type": "bumper_card",
-      "ref_id": "bump_001_moonbirds_bump",
-      "prompt": "Motion graphics bumper for Moonbirds. Visual: Charming 8-bit owl avatars featuring bespoke feathered plumage, glowing laser eyes, and wizard hats. QR code and floor price 1.85 ETH."
+      "ref_id": "bump_001_curio_cards_bump",
+      "prompt": "Motion graphics bumper for Curio Cards. Visual: Vintage digital illustrated art cards created in 2017 representing some of the earliest art tokens on Ethereum. QR code and floor price 0.45 ETH."
     },
     {
       "sequence_id": 3,
       "type": "anchor_clip",
-      "ref_id": "clip_002_clip_02_moonbirds_(celeb_lore)",
-      "prompt": "Glamorous cow anchor Daisy M. (Minty) Ledger gesturing enthusiastically toward holographic floating art display of Moonbirds. Visual art: Charming 8-bit owl avatars featuring bespoke feathered plumage, glowing laser eyes, and wizard hats. High fashion lighting."
+      "ref_id": "clip_002_clip_02_curio_cards_(celeb_lore)",
+      "prompt": "Glamorous cow anchor Daisy M. (Minty) Ledger gesturing enthusiastically toward holographic floating art display of Curio Cards. Visual art: Vintage digital illustrated art cards created in 2017 representing some of the earliest art tokens on Ethereum. High fashion lighting."
     },
     {
       "sequence_id": 4,
       "type": "anchor_clip",
-      "ref_id": "clip_003_clip_03_moonbirds_(science_tech)",
-      "prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for xNFTs (Executable Tokens) displayed on screen."
+      "ref_id": "clip_003_clip_03_curio_cards_(science_tech)",
+      "prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for Decentralized Metadata (IPFS/Arweave) displayed on screen."
     },
     {
       "sequence_id": 5,
       "type": "bumper_card",
-      "ref_id": "bump_002_doodles_bump",
-      "prompt": "Motion graphics bumper for Doodles. Visual: Pastel hand-drawn cartoon characters by Burnt Toast featuring rainbows, ice cream cones, and space suits. QR code and floor price 1.42 ETH."
+      "ref_id": "bump_002_azuki_bump",
+      "prompt": "Motion graphics bumper for Azuki. Visual: Stylized anime warriors featuring samurais, cybernetic swords, red beanies, and skateboards. QR code and floor price 4.1 ETH."
     },
     {
       "sequence_id": 6,
       "type": "anchor_clip",
-      "ref_id": "clip_004_clip_04_doodles_(celeb_lore)",
-      "prompt": "Glamorous cow anchor Daisy M. (Minty) Ledger gesturing enthusiastically toward holographic floating art display of Doodles. Visual art: Pastel hand-drawn cartoon characters by Burnt Toast featuring rainbows, ice cream cones, and space suits. High fashion lighting."
+      "ref_id": "clip_004_clip_04_azuki_(celeb_lore)",
+      "prompt": "Glamorous cow anchor Daisy M. (Minty) Ledger gesturing enthusiastically toward holographic floating art display of Azuki. Visual art: Stylized anime warriors featuring samurais, cybernetic swords, red beanies, and skateboards. High fashion lighting."
     },
     {
       "sequence_id": 7,
       "type": "anchor_clip",
-      "ref_id": "clip_005_clip_05_doodles_(science_tech)",
-      "prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for xNFTs (Executable Tokens) displayed on screen."
+      "ref_id": "clip_005_clip_05_azuki_(science_tech)",
+      "prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for Decentralized Metadata (IPFS/Arweave) displayed on screen."
     },
     {
       "sequence_id": 8,
       "type": "bumper_card",
-      "ref_id": "bump_003_fidenza_by_tyler_hobbs_bump",
-      "prompt": "Motion graphics bumper for Fidenza by Tyler Hobbs. Visual: Smooth organic flow-field ribbons with non-overlapping vibrant rectangular geometries inspired by the town of Fidenza. QR code and floor price 48.5 ETH."
+      "ref_id": "bump_003_ringers_by_dmitri_cherniak_bump",
+      "prompt": "Motion graphics bumper for Ringers by Dmitri Cherniak. Visual: Algorithmic strings wrapping around static pegs creating complex topological loops and harmonic geometries. QR code and floor price 28.0 ETH."
     },
     {
       "sequence_id": 9,
       "type": "anchor_clip",
-      "ref_id": "clip_006_clip_06_fidenza_by_tyler_hobbs_(celeb_lore)",
-      "prompt": "Glamorous cow anchor Daisy M. (Minty) Ledger gesturing enthusiastically toward holographic floating art display of Fidenza by Tyler Hobbs. Visual art: Smooth organic flow-field ribbons with non-overlapping vibrant rectangular geometries inspired by the town of Fidenza. High fashion lighting."
+      "ref_id": "clip_006_clip_06_ringers_by_dmitri_cherniak_(celeb_lore)",
+      "prompt": "Glamorous cow anchor Daisy M. (Minty) Ledger gesturing enthusiastically toward holographic floating art display of Ringers by Dmitri Cherniak. Visual art: Algorithmic strings wrapping around static pegs creating complex topological loops and harmonic geometries. High fashion lighting."
     },
     {
       "sequence_id": 10,
       "type": "anchor_clip",
-      "ref_id": "clip_007_clip_07_fidenza_by_tyler_hobbs_(science_tech)",
-      "prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for xNFTs (Executable Tokens) displayed on screen."
+      "ref_id": "clip_007_clip_07_ringers_by_dmitri_cherniak_(science_tech)",
+      "prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for Decentralized Metadata (IPFS/Arweave) displayed on screen."
     },
     {
       "sequence_id": 11,
       "type": "bumper_card",
-      "ref_id": "bump_004_propy_real_estate_nfts_bump",
-      "prompt": "Motion graphics bumper for Propy Real Estate NFTs. Visual: Architectural legal deeds and digital certificates representing real physical real estate properties and title rights. QR code and floor price 1.15 ETH."
+      "ref_id": "bump_004_uniswap_v3_positions_bump",
+      "prompt": "Motion graphics bumper for Uniswap v3 Positions. Visual: Dynamic animated SVG cards displaying real-time price tick ranges, fee tiers, and liquidity curves. QR code and floor price 0.85 ETH."
     },
     {
       "sequence_id": 12,
       "type": "anchor_clip",
-      "ref_id": "clip_008_clip_08_propy_real_estate_nfts_(celeb_lore)",
-      "prompt": "Glamorous cow anchor Daisy M. (Minty) Ledger gesturing enthusiastically toward holographic floating art display of Propy Real Estate NFTs. Visual art: Architectural legal deeds and digital certificates representing real physical real estate properties and title rights. High fashion lighting."
+      "ref_id": "clip_008_clip_08_uniswap_v3_positions_(celeb_lore)",
+      "prompt": "Glamorous cow anchor Daisy M. (Minty) Ledger gesturing enthusiastically toward holographic floating art display of Uniswap v3 Positions. Visual art: Dynamic animated SVG cards displaying real-time price tick ranges, fee tiers, and liquidity curves. High fashion lighting."
     },
     {
       "sequence_id": 13,
       "type": "anchor_clip",
-      "ref_id": "clip_009_clip_09_propy_real_estate_nfts_(science_tech)",
-      "prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for xNFTs (Executable Tokens) displayed on screen."
+      "ref_id": "clip_009_clip_09_uniswap_v3_positions_(science_tech)",
+      "prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for Decentralized Metadata (IPFS/Arweave) displayed on screen."
     },
     {
       "sequence_id": 14,
       "type": "bumper_card",
-      "ref_id": "bump_005_mutant_ape_yacht_club_bump",
-      "prompt": "Motion graphics bumper for Mutant Ape Yacht Club. Visual: Mutated drippy primate avatars with neon slime, exposed ribcages, floating tentacles, and radioactive fangs. QR code and floor price 1.18 ETH."
+      "ref_id": "bump_005_nodemonkes_bump",
+      "prompt": "Motion graphics bumper for NodeMonkes. Visual: Charming 28x28 pixel art monkeys inscribed immutably into individual satoshis on the Bitcoin blockchain. QR code and floor price 0.165 ETH."
     },
     {
       "sequence_id": 15,
       "type": "anchor_clip",
-      "ref_id": "clip_010_clip_10_mutant_ape_yacht_club_(celeb_lore)",
-      "prompt": "Glamorous cow anchor Daisy M. (Minty) Ledger gesturing enthusiastically toward holographic floating art display of Mutant Ape Yacht Club. Visual art: Mutated drippy primate avatars with neon slime, exposed ribcages, floating tentacles, and radioactive fangs. High fashion lighting."
+      "ref_id": "clip_010_clip_10_nodemonkes_(celeb_lore)",
+      "prompt": "Glamorous cow anchor Daisy M. (Minty) Ledger gesturing enthusiastically toward holographic floating art display of NodeMonkes. Visual art: Charming 28x28 pixel art monkeys inscribed immutably into individual satoshis on the Bitcoin blockchain. High fashion lighting."
     },
     {
       "sequence_id": 16,
       "type": "anchor_clip",
-      "ref_id": "clip_011_clip_11_mutant_ape_yacht_club_(science_tech)",
-      "prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for xNFTs (Executable Tokens) displayed on screen."
+      "ref_id": "clip_011_clip_11_nodemonkes_(science_tech)",
+      "prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for Decentralized Metadata (IPFS/Arweave) displayed on screen."
     },
     {
       "sequence_id": 17,
