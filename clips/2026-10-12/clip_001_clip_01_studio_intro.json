@@ -1,0 +1,23 @@
+{
+  "clip_id": "clip_001_clip_01_studio_intro",
+  "clip_number": 1,
+  "title": "MOO19 News Studio Intro",
+  "characters": [
+    "Daisy M. (Minty) Ledger",
+    "Professor Hartmut von Schnurrbart"
+  ],
+  "setting": "MOO19 Broadcast Desk - Newsroom01_Large copy.jpg",
+  "dialogue": [
+    {
+      "speaker": "Daisy M. (Minty) Ledger",
+      "line": "Welcome back to MOO19 News! Today on Episode #5 of the NFT Report, we're reviewing top digital flexes and cultural heat across the blockchain!"
+    },
+    {
+      "speaker": "Professor Hartmut von Schnurrbart",
+      "line": "And check your screen for Cow-pedia Pop-ups on On-Chain Generative Scripts! Let me examine the bytecode under our digital microscope!"
+    }
+  ],
+  "camera_angle": "Wide 2-shot anchor desk view",
+  "target_duration_seconds": 10,
+  "google_flow_prompt": "Dual anchor anthropomorphic cow newscasters behind sleek glass desk. Daisy M. (Minty) Ledger wearing luxury pearl necklace and pink blazer on left. Professor Hartmut von Schnurrbart wearing white lab coat and pince-nez spectacles on right. Lip sync dialogue."
+}

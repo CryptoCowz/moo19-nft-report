@@ -75,6 +75,25 @@
         "NodeMonkes"
       ],
       "cowpedia_term": "Decentralized Metadata (IPFS/Arweave)"
+    },
+    {
+      "episode_number": 5,
+      "air_date": "2026-10-12",
+      "featured_ids": [
+        "rare_pepe_series",
+        "cool_cats",
+        "archetype_by_kjetil_golid",
+        "ethereum_name_service_(ens)",
+        "degods"
+      ],
+      "featured_names": [
+        "Rare Pepe Series",
+        "Cool Cats",
+        "Archetype by Kjetil Golid",
+        "Ethereum Name Service (ENS)",
+        "DeGods"
+      ],
+      "cowpedia_term": "On-Chain Generative Scripts"
     }
   ]
 }

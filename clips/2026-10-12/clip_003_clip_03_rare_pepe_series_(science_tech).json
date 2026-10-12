@@ -1,0 +1,26 @@
+{
+  "clip_id": "clip_003_clip_03_rare_pepe_series_(science_tech)",
+  "clip_number": 3,
+  "title": "Rare Pepe Series - Technical & Code Audit",
+  "characters": [
+    "Professor Hartmut von Schnurrbart"
+  ],
+  "setting": "MOO19 Anchor Desk (Anchor Right Focus with Microscope)",
+  "cowpedia_popup": {
+    "term": "On-Chain Generative Scripts",
+    "definition": "Algorithmic computer code stored directly in smart contract bytecode executing deterministic visuals."
+  },
+  "dialogue": [
+    {
+      "speaker": "Professor Hartmut von Schnurrbart",
+      "line": "Fascinating! Built atop Counterparty protocol on Bitcoin's UTXO ledger. They established the cryptographic art movement years before Ethereum NFTs."
+    },
+    {
+      "speaker": "Professor Hartmut von Schnurrbart",
+      "line": "Code & Security Rating: 9.6/10!"
+    }
+  ],
+  "camera_angle": "Medium close-up on Professor Hartmut adjusting brass microscope",
+  "target_duration_seconds": 10,
+  "google_flow_prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for On-Chain Generative Scripts displayed on screen."
+}

@@ -1,8 +1,8 @@
-# MOO19 SHORTS: TOP 3 DIGITAL FLEXES THIS WEEK (EPISODE #4)
-**Air Date:** September 28, 2026 | **Format:** 9:16 Vertical Video (58s Total)
+# MOO19 SHORTS: TOP 3 DIGITAL FLEXES THIS WEEK (EPISODE #5)
+**Air Date:** October 12, 2026 | **Format:** 9:16 Vertical Video (58s Total)
 
 00:00 - 00:05 | Hook: Daisy M. (Minty) Ledger & Professor Hartmut von Schnurrbart welcome viewers to this week's rapid-fire NFT Report!
-00:05 - 00:20 | Segment 1: Curio Cards (0.45 ETH floor) - Darlings, Christie's and Sotheby's auction houses auctioned full 31-card sets of Curio Cards as the dawn of NFT art history!
-00:20 - 00:35 | Segment 2: Azuki (4.1 ETH floor) - Darlings, Azuki brought anime streetwear to Paris Fashion Week and launched physical-backed token hoodies!
-00:35 - 00:50 | Segment 3: Ringers by Dmitri Cherniak (28.0 ETH floor) - Fascinating! Cherniak's deterministic script evaluates string wrapping geometry using winding numbers and Euler path mathematical principles.
-00:50 - 00:58 | Outro: Cow-pedia Term 'Decentralized Metadata (IPFS/Arweave)' highlighted! Subscribe to MOO19 News!
+00:05 - 00:20 | Segment 1: Rare Pepe Series (1.2 ETH floor) - Darlings, the legendary Homer Pepe sold for over $320,000, making Rare Pepes the holy grail of crypto underground culture!
+00:20 - 00:35 | Segment 2: Cool Cats (0.38 ETH floor) - Darlings, Cool Cats marched in the Macy's Thanksgiving Day Parade as giant helium balloons!
+00:35 - 00:50 | Segment 3: Archetype by Kjetil Golid (12.4 ETH floor) - Fascinating! Uses recursive partition algorithms dividing rectangular planes into balanced spatial compositions.
+00:50 - 00:58 | Outro: Cow-pedia Term 'On-Chain Generative Scripts' highlighted! Subscribe to MOO19 News!
