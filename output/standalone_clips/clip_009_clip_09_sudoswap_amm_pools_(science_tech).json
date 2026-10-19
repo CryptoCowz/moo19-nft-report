@@ -1,0 +1,26 @@
+{
+  "clip_id": "clip_009_clip_09_sudoswap_amm_pools_(science_tech)",
+  "clip_number": 9,
+  "title": "SudoSwap AMM Pools - Technical & Code Audit",
+  "characters": [
+    "Professor Hartmut von Schnurrbart"
+  ],
+  "setting": "MOO19 Anchor Desk (Anchor Right Focus with Microscope)",
+  "cowpedia_popup": {
+    "term": "Soft-Staking (Nesting)",
+    "definition": "Ecosystem rewards earned while holding assets without transferring wallet custody."
+  },
+  "dialogue": [
+    {
+      "speaker": "Professor Hartmut von Schnurrbart",
+      "line": "Fascinating! Automates price discovery using mathematical bonding curves (linear and exponential) executed directly in smart contract pools."
+    },
+    {
+      "speaker": "Professor Hartmut von Schnurrbart",
+      "line": "Code & Security Rating: 9.3/10!"
+    }
+  ],
+  "camera_angle": "Medium close-up on Professor Hartmut adjusting brass microscope",
+  "target_duration_seconds": 10,
+  "google_flow_prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for Soft-Staking (Nesting) displayed on screen."
+}

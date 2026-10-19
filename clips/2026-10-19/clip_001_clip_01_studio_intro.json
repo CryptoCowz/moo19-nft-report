@@ -1,0 +1,23 @@
+{
+  "clip_id": "clip_001_clip_01_studio_intro",
+  "clip_number": 1,
+  "title": "MOO19 News Studio Intro",
+  "characters": [
+    "Daisy M. (Minty) Ledger",
+    "Professor Hartmut von Schnurrbart"
+  ],
+  "setting": "MOO19 Broadcast Desk - Newsroom01_Large copy.jpg",
+  "dialogue": [
+    {
+      "speaker": "Daisy M. (Minty) Ledger",
+      "line": "Darlings, the digital runways are ablaze! Welcome to MOO19 News Episode #6, your weekly front-row ticket to Web3 high fashion and blue-chip lore!"
+    },
+    {
+      "speaker": "Professor Hartmut von Schnurrbart",
+      "line": "Indeed, Minty! We have calibrated our on-chain analyzers to verify contract standards, bytecode integrity, and cryptographic provenance on Soft-Staking (Nesting)!"
+    }
+  ],
+  "camera_angle": "Wide 2-shot anchor desk view",
+  "target_duration_seconds": 10,
+  "google_flow_prompt": "Dual anchor anthropomorphic cow newscasters behind sleek glass desk. Daisy M. (Minty) Ledger wearing luxury pearl necklace and pink blazer on left. Professor Hartmut von Schnurrbart wearing white lab coat and pince-nez spectacles on right. Lip sync dialogue."
+}

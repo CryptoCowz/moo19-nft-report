@@ -1,0 +1,18 @@
+{
+  "clip_id": "clip_012_clip_12_weather_forecast",
+  "clip_number": 12,
+  "title": "Market Weather Forecast",
+  "characters": [
+    "Sunshine Innocent Nimbus"
+  ],
+  "setting": "MOO19 Weather Center (Chroma Key Radar Map)",
+  "dialogue": [
+    {
+      "speaker": "Sunshine Innocent Nimbus",
+      "line": "Sunshine Innocent Nimbus here! We are experiencing sideways crab-market consolidation with cool breezes across decentralized exchanges. Bundle up!"
+    }
+  ],
+  "camera_angle": "Wide weather map presentation shot",
+  "target_duration_seconds": 10,
+  "google_flow_prompt": "Cheerful young heifer meteorologist Sunshine Innocent Nimbus holding pointer stick in front of dynamic 3D satellite map of crypto blockchains with weather isobar fronts."
+}

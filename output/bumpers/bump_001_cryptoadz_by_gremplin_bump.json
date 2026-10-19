@@ -1,0 +1,12 @@
+{
+  "bumper_id": "bump_001_cryptoadz_by_gremplin_bump",
+  "project_name": "CrypToadz by Gremplin",
+  "chain": "Ethereum",
+  "floor_price_eth": 0.65,
+  "official_url": "https://cryptoadz.io/",
+  "art_description": "Quirky pixelated amphibians escaping the tyrannical reign of Evil King Gremplin in amphibious underground realms",
+  "audio_sting": "Upbeat techno cowbell crescendo with sparkling synths",
+  "voiceover_script": "Up next on MOO19 News: CrypToadz by Gremplin! Floor price 0.65 ETH! Scan the QR code to verify on-chain!",
+  "duration_seconds": 4,
+  "google_flow_prompt": "High energy broadcast motion graphics card for CrypToadz by Gremplin. Visual: Quirky pixelated amphibians escaping the tyrannical reign of Evil King Gremplin in amphibious underground realms. Floating holographic Ethereum diamond and QR code in lower third corner. Broadcast standard 16:9 4K."
+}

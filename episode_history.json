@@ -94,6 +94,25 @@
         "DeGods"
       ],
       "cowpedia_term": "On-Chain Generative Scripts"
+    },
+    {
+      "episode_number": 6,
+      "air_date": "2026-10-19",
+      "featured_ids": [
+        "cryptoadz_by_gremplin",
+        "world_of_women",
+        "gazers_by_matt_kane",
+        "sudoswap_amm_pools",
+        "sappy_seals"
+      ],
+      "featured_names": [
+        "CrypToadz by Gremplin",
+        "World of Women",
+        "Gazers by Matt Kane",
+        "SudoSwap AMM Pools",
+        "Sappy Seals"
+      ],
+      "cowpedia_term": "Soft-Staking (Nesting)"
     }
   ]
 }
