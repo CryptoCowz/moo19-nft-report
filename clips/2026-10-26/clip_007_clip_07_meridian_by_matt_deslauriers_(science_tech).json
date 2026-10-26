@@ -1,0 +1,26 @@
+{
+  "clip_id": "clip_007_clip_07_meridian_by_matt_deslauriers_(science_tech)",
+  "clip_number": 7,
+  "title": "Meridian by Matt DesLauriers - Technical & Code Audit",
+  "characters": [
+    "Professor Hartmut von Schnurrbart"
+  ],
+  "setting": "MOO19 Anchor Desk (Anchor Right Focus with Microscope)",
+  "cowpedia_popup": {
+    "term": "RWA (Real-World Asset) Tokenization",
+    "definition": "Bridging physical real estate, legal titles, or commodities onto blockchain ledgers."
+  },
+  "dialogue": [
+    {
+      "speaker": "Professor Hartmut von Schnurrbart",
+      "line": "Fascinating! Generates multi-layered elevation heightmaps using Perlin noise shaders executed through on-chain SVG coordinates."
+    },
+    {
+      "speaker": "Professor Hartmut von Schnurrbart",
+      "line": "Code & Security Rating: 9.6/10!"
+    }
+  ],
+  "camera_angle": "Medium close-up on Professor Hartmut adjusting brass microscope",
+  "target_duration_seconds": 10,
+  "google_flow_prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for RWA (Real-World Asset) Tokenization displayed on screen."
+}

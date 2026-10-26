@@ -1,7 +1,7 @@
 {
-  "production_title": "MOO19 NFT Report - Episode #6",
-  "episode_number": 6,
-  "air_date": "October 19, 2026",
+  "production_title": "MOO19 NFT Report - Episode #7",
+  "episode_number": 7,
+  "air_date": "October 26, 2026",
   "aspect_ratio": "16:9",
   "target_engine": "Google Flow & Veo Video Pipeline",
   "characters": [
@@ -31,92 +31,92 @@
     {
       "sequence_id": 2,
       "type": "bumper_card",
-      "ref_id": "bump_001_cryptoadz_by_gremplin_bump",
-      "prompt": "Motion graphics bumper for CrypToadz by Gremplin. Visual: Quirky pixelated amphibians escaping the tyrannical reign of Evil King Gremplin in amphibious underground realms. QR code and floor price 0.65 ETH."
+      "ref_id": "bump_001_cryptopunks_bump",
+      "prompt": "Motion graphics bumper for CryptoPunks. Visual: Iconic 24x24 pixel art portraits on vibrant solid background with rare punk traits like gold chains, wild hair, and shades. QR code and floor price 30.3 ETH."
     },
     {
       "sequence_id": 3,
       "type": "anchor_clip",
-      "ref_id": "clip_002_clip_02_cryptoadz_by_gremplin_(celeb_lore)",
-      "prompt": "Glamorous cow anchor Daisy M. (Minty) Ledger gesturing enthusiastically toward holographic floating art display of CrypToadz by Gremplin. Visual art: Quirky pixelated amphibians escaping the tyrannical reign of Evil King Gremplin in amphibious underground realms. High fashion lighting."
+      "ref_id": "clip_002_clip_02_cryptopunks_(celeb_lore)",
+      "prompt": "Glamorous cow anchor Daisy M. (Minty) Ledger gesturing enthusiastically toward holographic floating art display of CryptoPunks. Visual art: Iconic 24x24 pixel art portraits on vibrant solid background with rare punk traits like gold chains, wild hair, and shades. High fashion lighting."
     },
     {
       "sequence_id": 4,
       "type": "anchor_clip",
-      "ref_id": "clip_003_clip_03_cryptoadz_by_gremplin_(science_tech)",
-      "prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for Soft-Staking (Nesting) displayed on screen."
+      "ref_id": "clip_003_clip_03_cryptopunks_(science_tech)",
+      "prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for RWA (Real-World Asset) Tokenization displayed on screen."
     },
     {
       "sequence_id": 5,
       "type": "bumper_card",
-      "ref_id": "bump_002_world_of_women_bump",
-      "prompt": "Motion graphics bumper for World of Women. Visual: Diverse, colorful portraits of empowered women created by artist Yam Karkai celebrating global unity. QR code and floor price 0.52 ETH."
+      "ref_id": "bump_002_pudgy_penguins_bump",
+      "prompt": "Motion graphics bumper for Pudgy Penguins. Visual: Cute chubby penguin avatars in winter beanies, puffer jackets, bowties, and scarves on pastel backdrops. QR code and floor price 6.05 ETH."
     },
     {
       "sequence_id": 6,
       "type": "anchor_clip",
-      "ref_id": "clip_004_clip_04_world_of_women_(celeb_lore)",
-      "prompt": "Glamorous cow anchor Daisy M. (Minty) Ledger gesturing enthusiastically toward holographic floating art display of World of Women. Visual art: Diverse, colorful portraits of empowered women created by artist Yam Karkai celebrating global unity. High fashion lighting."
+      "ref_id": "clip_004_clip_04_pudgy_penguins_(celeb_lore)",
+      "prompt": "Glamorous cow anchor Daisy M. (Minty) Ledger gesturing enthusiastically toward holographic floating art display of Pudgy Penguins. Visual art: Cute chubby penguin avatars in winter beanies, puffer jackets, bowties, and scarves on pastel backdrops. High fashion lighting."
     },
     {
       "sequence_id": 7,
       "type": "anchor_clip",
-      "ref_id": "clip_005_clip_05_world_of_women_(science_tech)",
-      "prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for Soft-Staking (Nesting) displayed on screen."
+      "ref_id": "clip_005_clip_05_pudgy_penguins_(science_tech)",
+      "prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for RWA (Real-World Asset) Tokenization displayed on screen."
     },
     {
       "sequence_id": 8,
       "type": "bumper_card",
-      "ref_id": "bump_003_gazers_by_matt_kane_bump",
-      "prompt": "Motion graphics bumper for Gazers by Matt Kane. Visual: Astrological lunar phases that synchronize with the actual celestial calendar, shifting visual color frequencies in real time. QR code and floor price 6.9 ETH."
+      "ref_id": "bump_003_meridian_by_matt_deslauriers_bump",
+      "prompt": "Motion graphics bumper for Meridian by Matt DesLauriers. Visual: Topographical landscapes composed of hundreds of thousands of colored strokes simulating mountain ranges and river basins. QR code and floor price 4.3 ETH."
     },
     {
       "sequence_id": 9,
       "type": "anchor_clip",
-      "ref_id": "clip_006_clip_06_gazers_by_matt_kane_(celeb_lore)",
-      "prompt": "Glamorous cow anchor Daisy M. (Minty) Ledger gesturing enthusiastically toward holographic floating art display of Gazers by Matt Kane. Visual art: Astrological lunar phases that synchronize with the actual celestial calendar, shifting visual color frequencies in real time. High fashion lighting."
+      "ref_id": "clip_006_clip_06_meridian_by_matt_deslauriers_(celeb_lore)",
+      "prompt": "Glamorous cow anchor Daisy M. (Minty) Ledger gesturing enthusiastically toward holographic floating art display of Meridian by Matt DesLauriers. Visual art: Topographical landscapes composed of hundreds of thousands of colored strokes simulating mountain ranges and river basins. High fashion lighting."
     },
     {
       "sequence_id": 10,
       "type": "anchor_clip",
-      "ref_id": "clip_007_clip_07_gazers_by_matt_kane_(science_tech)",
-      "prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for Soft-Staking (Nesting) displayed on screen."
+      "ref_id": "clip_007_clip_07_meridian_by_matt_deslauriers_(science_tech)",
+      "prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for RWA (Real-World Asset) Tokenization displayed on screen."
     },
     {
       "sequence_id": 11,
       "type": "bumper_card",
-      "ref_id": "bump_004_sudoswap_amm_pools_bump",
-      "prompt": "Motion graphics bumper for SudoSwap AMM Pools. Visual: Algorithmic bonding curves and liquidity pool routing keys providing instant decentralized liquidity for NFT collections. QR code and floor price 0.35 ETH."
+      "ref_id": "bump_004_infinex_patrons_bump",
+      "prompt": "Motion graphics bumper for Infinex Patrons. Visual: Sleek holographic patronage cards featuring tiered node insignias, metallic chrome borders, and geometric security patterns. QR code and floor price 1.79 ETH."
     },
     {
       "sequence_id": 12,
       "type": "anchor_clip",
-      "ref_id": "clip_008_clip_08_sudoswap_amm_pools_(celeb_lore)",
-      "prompt": "Glamorous cow anchor Daisy M. (Minty) Ledger gesturing enthusiastically toward holographic floating art display of SudoSwap AMM Pools. Visual art: Algorithmic bonding curves and liquidity pool routing keys providing instant decentralized liquidity for NFT collections. High fashion lighting."
+      "ref_id": "clip_008_clip_08_infinex_patrons_(celeb_lore)",
+      "prompt": "Glamorous cow anchor Daisy M. (Minty) Ledger gesturing enthusiastically toward holographic floating art display of Infinex Patrons. Visual art: Sleek holographic patronage cards featuring tiered node insignias, metallic chrome borders, and geometric security patterns. High fashion lighting."
     },
     {
       "sequence_id": 13,
       "type": "anchor_clip",
-      "ref_id": "clip_009_clip_09_sudoswap_amm_pools_(science_tech)",
-      "prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for Soft-Staking (Nesting) displayed on screen."
+      "ref_id": "clip_009_clip_09_infinex_patrons_(science_tech)",
+      "prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for RWA (Real-World Asset) Tokenization displayed on screen."
     },
     {
       "sequence_id": 14,
       "type": "bumper_card",
-      "ref_id": "bump_005_sappy_seals_bump",
-      "prompt": "Motion graphics bumper for Sappy Seals. Visual: Lovable round seal avatars sporting bucket hats, fish snacks, and joyful expressions. QR code and floor price 0.42 ETH."
+      "ref_id": "bump_005_mad_lads_bump",
+      "prompt": "Motion graphics bumper for Mad Lads. Visual: Stylized hand-drawn rogue adventurers wearing leather aviator helmets, goggles, and rugged jackets. QR code and floor price 2.65 ETH."
     },
     {
       "sequence_id": 15,
       "type": "anchor_clip",
-      "ref_id": "clip_010_clip_10_sappy_seals_(celeb_lore)",
-      "prompt": "Glamorous cow anchor Daisy M. (Minty) Ledger gesturing enthusiastically toward holographic floating art display of Sappy Seals. Visual art: Lovable round seal avatars sporting bucket hats, fish snacks, and joyful expressions. High fashion lighting."
+      "ref_id": "clip_010_clip_10_mad_lads_(celeb_lore)",
+      "prompt": "Glamorous cow anchor Daisy M. (Minty) Ledger gesturing enthusiastically toward holographic floating art display of Mad Lads. Visual art: Stylized hand-drawn rogue adventurers wearing leather aviator helmets, goggles, and rugged jackets. High fashion lighting."
     },
     {
       "sequence_id": 16,
       "type": "anchor_clip",
-      "ref_id": "clip_011_clip_11_sappy_seals_(science_tech)",
-      "prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for Soft-Staking (Nesting) displayed on screen."
+      "ref_id": "clip_011_clip_11_mad_lads_(science_tech)",
+      "prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for RWA (Real-World Asset) Tokenization displayed on screen."
     },
     {
       "sequence_id": 17,

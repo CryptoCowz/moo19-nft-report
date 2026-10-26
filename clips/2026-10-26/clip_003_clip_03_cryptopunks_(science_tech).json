@@ -1,0 +1,26 @@
+{
+  "clip_id": "clip_003_clip_03_cryptopunks_(science_tech)",
+  "clip_number": 3,
+  "title": "CryptoPunks - Technical & Code Audit",
+  "characters": [
+    "Professor Hartmut von Schnurrbart"
+  ],
+  "setting": "MOO19 Anchor Desk (Anchor Right Focus with Microscope)",
+  "cowpedia_popup": {
+    "term": "RWA (Real-World Asset) Tokenization",
+    "definition": "Bridging physical real estate, legal titles, or commodities onto blockchain ledgers."
+  },
+  "dialogue": [
+    {
+      "speaker": "Professor Hartmut von Schnurrbart",
+      "line": "Fascinating! CryptoPunks code is stored 100% on Ethereum. Pure digital identity and blue-chip store of value."
+    },
+    {
+      "speaker": "Professor Hartmut von Schnurrbart",
+      "line": "Code & Security Rating: 9.5/10!"
+    }
+  ],
+  "camera_angle": "Medium close-up on Professor Hartmut adjusting brass microscope",
+  "target_duration_seconds": 10,
+  "google_flow_prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for RWA (Real-World Asset) Tokenization displayed on screen."
+}

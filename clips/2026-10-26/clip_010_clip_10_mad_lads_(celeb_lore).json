@@ -1,0 +1,23 @@
+{
+  "clip_id": "clip_010_clip_10_mad_lads_(celeb_lore)",
+  "clip_number": 10,
+  "title": "Mad Lads - Lore & Glam Review",
+  "characters": [
+    "Daisy M. (Minty) Ledger"
+  ],
+  "setting": "MOO19 Anchor Desk (Anchor Left Focus)",
+  "on_screen_graphic": "Mad Lads | Floor: 2.65 ETH | Vol: 148.1 ETH",
+  "dialogue": [
+    {
+      "speaker": "Daisy M. (Minty) Ledger",
+      "line": "Darlings, Mad Lads revitalized the entire Solana ecosystem! Armani Ferrante built an unstoppable army of devs!"
+    },
+    {
+      "speaker": "Daisy M. (Minty) Ledger",
+      "line": "Glam & Hype Rating: 9.4/10!"
+    }
+  ],
+  "camera_angle": "Medium close-up on Daisy M. Ledger with graphics overlay",
+  "target_duration_seconds": 10,
+  "google_flow_prompt": "Glamorous cow anchor Daisy M. (Minty) Ledger gesturing enthusiastically toward holographic floating art display of Mad Lads. Visual art: Stylized hand-drawn rogue adventurers wearing leather aviator helmets, goggles, and rugged jackets. High fashion lighting."
+}

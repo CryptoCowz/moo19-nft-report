@@ -1,0 +1,26 @@
+{
+  "clip_id": "clip_005_clip_05_pudgy_penguins_(science_tech)",
+  "clip_number": 5,
+  "title": "Pudgy Penguins - Technical & Code Audit",
+  "characters": [
+    "Professor Hartmut von Schnurrbart"
+  ],
+  "setting": "MOO19 Anchor Desk (Anchor Right Focus with Microscope)",
+  "cowpedia_popup": {
+    "term": "RWA (Real-World Asset) Tokenization",
+    "definition": "Bridging physical real estate, legal titles, or commodities onto blockchain ledgers."
+  },
+  "dialogue": [
+    {
+      "speaker": "Professor Hartmut von Schnurrbart",
+      "line": "Fascinating! Pudgy Penguins uses ERC-721 with IPFS hosting, physical Pudgy Toys merch, and Overpass IP licensing."
+    },
+    {
+      "speaker": "Professor Hartmut von Schnurrbart",
+      "line": "Code & Security Rating: 8.0/10!"
+    }
+  ],
+  "camera_angle": "Medium close-up on Professor Hartmut adjusting brass microscope",
+  "target_duration_seconds": 10,
+  "google_flow_prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for RWA (Real-World Asset) Tokenization displayed on screen."
+}

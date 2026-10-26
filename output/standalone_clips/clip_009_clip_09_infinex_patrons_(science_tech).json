@@ -1,0 +1,26 @@
+{
+  "clip_id": "clip_009_clip_09_infinex_patrons_(science_tech)",
+  "clip_number": 9,
+  "title": "Infinex Patrons - Technical & Code Audit",
+  "characters": [
+    "Professor Hartmut von Schnurrbart"
+  ],
+  "setting": "MOO19 Anchor Desk (Anchor Right Focus with Microscope)",
+  "cowpedia_popup": {
+    "term": "RWA (Real-World Asset) Tokenization",
+    "definition": "Bridging physical real estate, legal titles, or commodities onto blockchain ledgers."
+  },
+  "dialogue": [
+    {
+      "speaker": "Professor Hartmut von Schnurrbart",
+      "line": "Fascinating! Infinex Patrons act as governance keys for decentralized account abstraction across EVM and Solana."
+    },
+    {
+      "speaker": "Professor Hartmut von Schnurrbart",
+      "line": "Code & Security Rating: 7.9/10!"
+    }
+  ],
+  "camera_angle": "Medium close-up on Professor Hartmut adjusting brass microscope",
+  "target_duration_seconds": 10,
+  "google_flow_prompt": "Professor Hartmut von Schnurrbart examining smart contract data under glowing digital microscope. Holographic Cow-pedia popup for RWA (Real-World Asset) Tokenization displayed on screen."
+}

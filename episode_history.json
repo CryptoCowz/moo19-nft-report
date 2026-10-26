@@ -113,6 +113,25 @@
         "Sappy Seals"
       ],
       "cowpedia_term": "Soft-Staking (Nesting)"
+    },
+    {
+      "episode_number": 7,
+      "air_date": "2026-10-26",
+      "featured_ids": [
+        "cryptopunks",
+        "pudgy_penguins",
+        "meridian_by_matt_deslauriers",
+        "infinex_patrons",
+        "mad_lads"
+      ],
+      "featured_names": [
+        "CryptoPunks",
+        "Pudgy Penguins",
+        "Meridian by Matt DesLauriers",
+        "Infinex Patrons",
+        "Mad Lads"
+      ],
+      "cowpedia_term": "RWA (Real-World Asset) Tokenization"
     }
   ]
 }

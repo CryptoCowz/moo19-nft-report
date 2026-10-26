@@ -1,0 +1,12 @@
+{
+  "bumper_id": "bump_002_pudgy_penguins_bump",
+  "project_name": "Pudgy Penguins",
+  "chain": "Ethereum",
+  "floor_price_eth": 6.05,
+  "official_url": "https://pudgypenguins.com/",
+  "art_description": "Cute chubby penguin avatars in winter beanies, puffer jackets, bowties, and scarves on pastel backdrops",
+  "audio_sting": "Upbeat techno cowbell crescendo with sparkling synths",
+  "voiceover_script": "Up next on MOO19 News: Pudgy Penguins! Floor price 6.05 ETH! Scan the QR code to verify on-chain!",
+  "duration_seconds": 4,
+  "google_flow_prompt": "High energy broadcast motion graphics card for Pudgy Penguins. Visual: Cute chubby penguin avatars in winter beanies, puffer jackets, bowties, and scarves on pastel backdrops. Floating holographic Ethereum diamond and QR code in lower third corner. Broadcast standard 16:9 4K."
+}
