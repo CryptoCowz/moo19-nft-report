@@ -1,0 +1,23 @@
+{
+  "clip_id": "clip_002_clip_02_autoglyphs_(celeb_lore)",
+  "clip_number": 2,
+  "title": "Autoglyphs - Lore & Glam Review",
+  "characters": [
+    "Daisy M. (Minty) Ledger"
+  ],
+  "setting": "MOO19 Anchor Desk (Anchor Left Focus)",
+  "on_screen_graphic": "Autoglyphs | Floor: 82.0 ETH | Vol: 15.4 ETH",
+  "dialogue": [
+    {
+      "speaker": "Daisy M. (Minty) Ledger",
+      "line": "Darlings, Autoglyphs are the ultimate ultra-rare flex! Only 512 exist, commanding an 82 ETH floor among museum collectors!"
+    },
+    {
+      "speaker": "Daisy M. (Minty) Ledger",
+      "line": "Glam & Hype Rating: 6.5/10!"
+    }
+  ],
+  "camera_angle": "Medium close-up on Daisy M. Ledger with graphics overlay",
+  "target_duration_seconds": 10,
+  "google_flow_prompt": "Glamorous cow anchor Daisy M. (Minty) Ledger gesturing enthusiastically toward holographic floating art display of Autoglyphs. Visual art: Minimalist text-based ASCII geometric algorithms generated directly inside Ethereum smart contract bytecode. High fashion lighting."
+}

@@ -132,6 +132,25 @@
         "Mad Lads"
       ],
       "cowpedia_term": "RWA (Real-World Asset) Tokenization"
+    },
+    {
+      "episode_number": 8,
+      "air_date": "2026-11-02",
+      "featured_ids": [
+        "autoglyphs",
+        "bored_ape_yacht_club",
+        "chromie_squiggle_by_snowfro",
+        "hypurr",
+        "milady_maker"
+      ],
+      "featured_names": [
+        "Autoglyphs",
+        "Bored Ape Yacht Club",
+        "Chromie Squiggle by Snowfro",
+        "Hypurr",
+        "Milady Maker"
+      ],
+      "cowpedia_term": "ERC-6551 (Token Bound Accounts)"
     }
   ]
 }

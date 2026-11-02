@@ -1,0 +1,23 @@
+{
+  "clip_id": "clip_013_clip_13_studio_outro",
+  "clip_number": 13,
+  "title": "Studio Outro & Teaser",
+  "characters": [
+    "Daisy M. (Minty) Ledger",
+    "Professor Hartmut von Schnurrbart"
+  ],
+  "setting": "MOO19 Broadcast Desk - Newsroom01_Large copy.jpg",
+  "dialogue": [
+    {
+      "speaker": "Daisy M. (Minty) Ledger",
+      "line": "That wraps today's digital flexes! Remember: not your private keys, not your runway!"
+    },
+    {
+      "speaker": "Professor Hartmut von Schnurrbart",
+      "line": "Read the full bytecode report in The Pasture Post newsletter! Auf Wiedersehen!"
+    }
+  ],
+  "camera_angle": "Wide studio pull-back shot with lower-third credits scrolling",
+  "target_duration_seconds": 10,
+  "google_flow_prompt": "Both cow anchors smiling and waving at news desk as studio camera cranes upward showing full MOO19 television broadcast facility."
+}

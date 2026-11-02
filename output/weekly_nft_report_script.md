@@ -1,5 +1,5 @@
-# MOO19 NEWS: THE NFT REPORT (EPISODE #7)
-**Episode Air Date:** October 26, 2026
+# MOO19 NEWS: THE NFT REPORT (EPISODE #8)
+**Episode Air Date:** November 02, 2026
 **Hosts:** Daisy M. (Minty) Ledger (Left Desk) & Professor Hartmut von Schnurrbart (Right Desk next to microscope)
 **Network:** MOO19 News Channel - The Pasture
 **Master Background:** Newsroom01_Large copy.jpg
@@ -7,93 +7,93 @@
 ============================================================
 
 ### [CLIP 01: MOO19 NEWS STUDIO INTRO (10s Max)]
-**DAISY M. (MINTY) LEDGER:** "Hold onto your diamond hooves! MOO19 News Episode #7 is live with the latest digital drops, runway flexes, and creator royalty movements!"
-**PROFESSOR HARTMUT VON SCHNURRBART:** "Precisely! We are tracking blockchain throughput, verifiable randomness, and decentralized metadata for RWA (Real-World Asset) Tokenization across all major ecosystems!"
+**DAISY M. (MINTY) LEDGER:** "Bonjour Web3 fashionistas! Daisy M. Ledger here for Episode #8 with your weekly breakdown of the most stylish assets in the metaverse!"
+**PROFESSOR HARTMUT VON SCHNURRBART:** "And Professor Hartmut von Schnurrbart is ready to dissect technical execution, gas optimizations, and smart contract security on ERC-6551 (Token Bound Accounts)!"
 
 ============================================================
 
-### [BUMPER 01: CRYPTOPUNKS INTRO BUMP (4s)]
-**VISUAL CUE:** Dynamic 2D graphic card displaying CryptoPunks art (Iconic 24x24 pixel art portraits on vibrant solid background with rare punk traits like gold chains, wild hair, and shades), floor price (30.3 ETH), and scannable QR Code linking to https://cryptopunks.app/.
-**AUDIO STING & VOICEOVER:** "Up next on the NFT Report: CryptoPunks! Scan to explore!"
+### [BUMPER 01: AUTOGLYPHS INTRO BUMP (4s)]
+**VISUAL CUE:** Dynamic 2D graphic card displaying Autoglyphs art (Minimalist text-based ASCII geometric algorithms generated directly inside Ethereum smart contract bytecode), floor price (82.0 ETH), and scannable QR Code linking to https://www.larvalabs.com/autoglyphs.
+**AUDIO STING & VOICEOVER:** "Up next on the NFT Report: Autoglyphs! Scan to explore!"
 
-### [CLIP 02: CRYPTOPUNKS - LORE & GLAM (10s Max)]
-**ON-SCREEN GRAPHIC:** CryptoPunks | Floor: 30.3 ETH | Vol: 66.79 ETH
-**DAISY M. (MINTY) LEDGER:** "Darlings, CryptoPunks became digital status symbols when Jay-Z and Snoop Dogg flexed Punks #6095 and #3831! 66.79 ETH volume!"
-**DAISY M. (MINTY) LEDGER:** "Glam & Hype Rating: 7.8/10!"
+### [CLIP 02: AUTOGLYPHS - LORE & GLAM (10s Max)]
+**ON-SCREEN GRAPHIC:** Autoglyphs | Floor: 82.0 ETH | Vol: 15.4 ETH
+**DAISY M. (MINTY) LEDGER:** "Darlings, Autoglyphs are the ultimate ultra-rare flex! Only 512 exist, commanding an 82 ETH floor among museum collectors!"
+**DAISY M. (MINTY) LEDGER:** "Glam & Hype Rating: 6.5/10!"
 
-### [CLIP 03: CRYPTOPUNKS - TECH & CODE (10s Max)]
-**[COW-PEDIA POP-UP]:** **RWA (Real-World Asset) Tokenization** — Bridging physical real estate, legal titles, or commodities onto blockchain ledgers.
-**PROFESSOR HARTMUT VON SCHNURRBART:** "Fascinating! CryptoPunks code is stored 100% on Ethereum. Pure digital identity and blue-chip store of value."
-**PROFESSOR HARTMUT VON SCHNURRBART:** "Code & Security Rating: 9.5/10!"
+### [CLIP 03: AUTOGLYPHS - TECH & CODE (10s Max)]
+**[COW-PEDIA POP-UP]:** **ERC-6551 (Token Bound Accounts)** — Assigning a decentralized smart contract wallet to each non-fungible token.
+**PROFESSOR HARTMUT VON SCHNURRBART:** "Fascinating! Autoglyphs are the first on-chain generative art on Ethereum where the rendering algorithm lives entirely inside the smart contract."
+**PROFESSOR HARTMUT VON SCHNURRBART:** "Code & Security Rating: 10.0/10!"
 
 ----------------------------------------
 
-### [BUMPER 02: PUDGY PENGUINS INTRO BUMP (4s)]
-**VISUAL CUE:** Dynamic 2D graphic card displaying Pudgy Penguins art (Cute chubby penguin avatars in winter beanies, puffer jackets, bowties, and scarves on pastel backdrops), floor price (6.05 ETH), and scannable QR Code linking to https://pudgypenguins.com/.
-**AUDIO STING & VOICEOVER:** "Up next on the NFT Report: Pudgy Penguins! Scan to explore!"
+### [BUMPER 02: BORED APE YACHT CLUB INTRO BUMP (4s)]
+**VISUAL CUE:** Dynamic 2D graphic card displaying Bored Ape Yacht Club art (Expressive bored ape avatars with sailor caps, leather jackets, horn rims, and multicolored neon grins), floor price (5.94 ETH), and scannable QR Code linking to https://boredapeyachtclub.com/.
+**AUDIO STING & VOICEOVER:** "Up next on the NFT Report: Bored Ape Yacht Club! Scan to explore!"
 
-### [CLIP 04: PUDGY PENGUINS - LORE & GLAM (10s Max)]
-**ON-SCREEN GRAPHIC:** Pudgy Penguins | Floor: 6.05 ETH | Vol: 255.94 ETH
-**DAISY M. (MINTY) LEDGER:** "Darlings, Pudgy Penguins conquered Target, Walmart, and Amazon with over 1 million plush toys sold worldwide!"
-**DAISY M. (MINTY) LEDGER:** "Glam & Hype Rating: 10.0/10!"
+### [CLIP 04: BORED APE YACHT CLUB - LORE & GLAM (10s Max)]
+**ON-SCREEN GRAPHIC:** Bored Ape Yacht Club | Floor: 5.94 ETH | Vol: 42.34 ETH
+**DAISY M. (MINTY) LEDGER:** "Darlings, BAYC defined Web3 pop culture when Eminem, Madonna, and Steph Curry joined the club!"
+**DAISY M. (MINTY) LEDGER:** "Glam & Hype Rating: 7.3/10!"
 
-### [CLIP 05: PUDGY PENGUINS - TECH & CODE (10s Max)]
-**[COW-PEDIA POP-UP]:** **RWA (Real-World Asset) Tokenization** — Bridging physical real estate, legal titles, or commodities onto blockchain ledgers.
-**PROFESSOR HARTMUT VON SCHNURRBART:** "Fascinating! Pudgy Penguins uses ERC-721 with IPFS hosting, physical Pudgy Toys merch, and Overpass IP licensing."
+### [CLIP 05: BORED APE YACHT CLUB - TECH & CODE (10s Max)]
+**[COW-PEDIA POP-UP]:** **ERC-6551 (Token Bound Accounts)** — Assigning a decentralized smart contract wallet to each non-fungible token.
+**PROFESSOR HARTMUT VON SCHNURRBART:** "Fascinating! BAYC grants full commercial IP usage rights, ApeCoin allocations, and Otherside metaverse land access."
 **PROFESSOR HARTMUT VON SCHNURRBART:** "Code & Security Rating: 8.0/10!"
 
 ----------------------------------------
 
-### [BUMPER 03: MERIDIAN BY MATT DESLAURIERS INTRO BUMP (4s)]
-**VISUAL CUE:** Dynamic 2D graphic card displaying Meridian by Matt DesLauriers art (Topographical landscapes composed of hundreds of thousands of colored strokes simulating mountain ranges and river basins), floor price (4.3 ETH), and scannable QR Code linking to https://www.mattdesl.com/.
-**AUDIO STING & VOICEOVER:** "Up next on the NFT Report: Meridian by Matt DesLauriers! Scan to explore!"
+### [BUMPER 03: CHROMIE SQUIGGLE BY SNOWFRO INTRO BUMP (4s)]
+**VISUAL CUE:** Dynamic 2D graphic card displaying Chromie Squiggle by Snowfro art (Hypnotic vibrant rainbow spectrum ribbon curves generated algorithmically on a clean neutral background), floor price (7.8 ETH), and scannable QR Code linking to https://chromiesquiggle.artblocks.io/.
+**AUDIO STING & VOICEOVER:** "Up next on the NFT Report: Chromie Squiggle by Snowfro! Scan to explore!"
 
-### [CLIP 06: MERIDIAN BY MATT DESLAURIERS - LORE & GLAM (10s Max)]
-**ON-SCREEN GRAPHIC:** Meridian by Matt DesLauriers | Floor: 4.3 ETH | Vol: 11.6 ETH
-**DAISY M. (MINTY) LEDGER:** "Darlings, Meridian creates breathtaking virtual mountain summits using pure mathematical code!"
-**DAISY M. (MINTY) LEDGER:** "Glam & Hype Rating: 8.0/10!"
+### [CLIP 06: CHROMIE SQUIGGLE BY SNOWFRO - LORE & GLAM (10s Max)]
+**ON-SCREEN GRAPHIC:** Chromie Squiggle by Snowfro | Floor: 7.8 ETH | Vol: 88.4 ETH
+**DAISY M. (MINTY) LEDGER:** "Darlings, Chromie Squiggle is the beating heart of Art Blocks! Sotheby's auction records made it an essential collector flex!"
+**DAISY M. (MINTY) LEDGER:** "Glam & Hype Rating: 8.9/10!"
 
-### [CLIP 07: MERIDIAN BY MATT DESLAURIERS - TECH & CODE (10s Max)]
-**[COW-PEDIA POP-UP]:** **RWA (Real-World Asset) Tokenization** — Bridging physical real estate, legal titles, or commodities onto blockchain ledgers.
-**PROFESSOR HARTMUT VON SCHNURRBART:** "Fascinating! Generates multi-layered elevation heightmaps using Perlin noise shaders executed through on-chain SVG coordinates."
-**PROFESSOR HARTMUT VON SCHNURRBART:** "Code & Security Rating: 9.6/10!"
-
-----------------------------------------
-
-### [BUMPER 04: INFINEX PATRONS INTRO BUMP (4s)]
-**VISUAL CUE:** Dynamic 2D graphic card displaying Infinex Patrons art (Sleek holographic patronage cards featuring tiered node insignias, metallic chrome borders, and geometric security patterns), floor price (1.79 ETH), and scannable QR Code linking to https://infinex.xyz/.
-**AUDIO STING & VOICEOVER:** "Up next on the NFT Report: Infinex Patrons! Scan to explore!"
-
-### [CLIP 08: INFINEX PATRONS - LORE & GLAM (10s Max)]
-**ON-SCREEN GRAPHIC:** Infinex Patrons | Floor: 1.79 ETH | Vol: 94.2 ETH
-**DAISY M. (MINTY) LEDGER:** "Darlings, Kain Warwick raised over $65 million for Infinex to build the UX layer of crypto without seed phrases!"
-**DAISY M. (MINTY) LEDGER:** "Glam & Hype Rating: 8.2/10!"
-
-### [CLIP 09: INFINEX PATRONS - TECH & CODE (10s Max)]
-**[COW-PEDIA POP-UP]:** **RWA (Real-World Asset) Tokenization** — Bridging physical real estate, legal titles, or commodities onto blockchain ledgers.
-**PROFESSOR HARTMUT VON SCHNURRBART:** "Fascinating! Infinex Patrons act as governance keys for decentralized account abstraction across EVM and Solana."
-**PROFESSOR HARTMUT VON SCHNURRBART:** "Code & Security Rating: 7.9/10!"
+### [CLIP 07: CHROMIE SQUIGGLE BY SNOWFRO - TECH & CODE (10s Max)]
+**[COW-PEDIA POP-UP]:** **ERC-6551 (Token Bound Accounts)** — Assigning a decentralized smart contract wallet to each non-fungible token.
+**PROFESSOR HARTMUT VON SCHNURRBART:** "Fascinating! Snowfro's p5.js script lives entirely on Ethereum. The hash of the mint transaction seeds the generative ribbon curves."
+**PROFESSOR HARTMUT VON SCHNURRBART:** "Code & Security Rating: 9.8/10!"
 
 ----------------------------------------
 
-### [BUMPER 05: MAD LADS INTRO BUMP (4s)]
-**VISUAL CUE:** Dynamic 2D graphic card displaying Mad Lads art (Stylized hand-drawn rogue adventurers wearing leather aviator helmets, goggles, and rugged jackets), floor price (2.65 ETH), and scannable QR Code linking to https://madlads.com/.
-**AUDIO STING & VOICEOVER:** "Up next on the NFT Report: Mad Lads! Scan to explore!"
+### [BUMPER 04: HYPURR INTRO BUMP (4s)]
+**VISUAL CUE:** Dynamic 2D graphic card displaying Hypurr art (Dynamic futuristic cybernetic cat avatars representing native liquidity providers on Hyperliquid L1), floor price (0.95 ETH), and scannable QR Code linking to https://hyperliquid.xyz/.
+**AUDIO STING & VOICEOVER:** "Up next on the NFT Report: Hypurr! Scan to explore!"
 
-### [CLIP 10: MAD LADS - LORE & GLAM (10s Max)]
-**ON-SCREEN GRAPHIC:** Mad Lads | Floor: 2.65 ETH | Vol: 148.1 ETH
-**DAISY M. (MINTY) LEDGER:** "Darlings, Mad Lads revitalized the entire Solana ecosystem! Armani Ferrante built an unstoppable army of devs!"
-**DAISY M. (MINTY) LEDGER:** "Glam & Hype Rating: 9.4/10!"
+### [CLIP 08: HYPURR - LORE & GLAM (10s Max)]
+**ON-SCREEN GRAPHIC:** Hypurr | Floor: 0.95 ETH | Vol: 34.1 ETH
+**DAISY M. (MINTY) LEDGER:** "Darlings, Hypurr represents the absolute frontier of on-chain perp DEX power users on Hyperliquid!"
+**DAISY M. (MINTY) LEDGER:** "Glam & Hype Rating: 7.8/10!"
 
-### [CLIP 11: MAD LADS - TECH & CODE (10s Max)]
-**[COW-PEDIA POP-UP]:** **RWA (Real-World Asset) Tokenization** — Bridging physical real estate, legal titles, or commodities onto blockchain ledgers.
-**PROFESSOR HARTMUT VON SCHNURRBART:** "Fascinating! Mad Lads are xNFTs—executable tokenized programs running native code inside the Backpack wallet!"
-**PROFESSOR HARTMUT VON SCHNURRBART:** "Code & Security Rating: 9.1/10!"
+### [CLIP 09: HYPURR - TECH & CODE (10s Max)]
+**[COW-PEDIA POP-UP]:** **ERC-6551 (Token Bound Accounts)** — Assigning a decentralized smart contract wallet to each non-fungible token.
+**PROFESSOR HARTMUT VON SCHNURRBART:** "Fascinating! Minted directly on Hyperliquid's custom Layer-1 Tendermint-based consensus engine with sub-second finality."
+**PROFESSOR HARTMUT VON SCHNURRBART:** "Code & Security Rating: 8.8/10!"
+
+----------------------------------------
+
+### [BUMPER 05: MILADY MAKER INTRO BUMP (4s)]
+**VISUAL CUE:** Dynamic 2D graphic card displaying Milady Maker art (Neotenic anime chibi avatars in Tokyo cyber-streetwear, berets, and oversized sunglasses), floor price (1.95 ETH), and scannable QR Code linking to https://miladymaker.net/.
+**AUDIO STING & VOICEOVER:** "Up next on the NFT Report: Milady Maker! Scan to explore!"
+
+### [CLIP 10: MILADY MAKER - LORE & GLAM (10s Max)]
+**ON-SCREEN GRAPHIC:** Milady Maker | Floor: 1.95 ETH | Vol: 84.6 ETH
+**DAISY M. (MINTY) LEDGER:** "Darlings, when Elon Musk tweeted a Milady meme, the entire crypto internet exploded into absolute mania!"
+**DAISY M. (MINTY) LEDGER:** "Glam & Hype Rating: 8.7/10!"
+
+### [CLIP 11: MILADY MAKER - TECH & CODE (10s Max)]
+**[COW-PEDIA POP-UP]:** **ERC-6551 (Token Bound Accounts)** — Assigning a decentralized smart contract wallet to each non-fungible token.
+**PROFESSOR HARTMUT VON SCHNURRBART:** "Fascinating! Milady Maker established an ultra-loyal post-ironic culture with procedural algorithmic asset layering."
+**PROFESSOR HARTMUT VON SCHNURRBART:** "Code & Security Rating: 7.8/10!"
 
 ----------------------------------------
 
 ### [MARKET WEATHER FORECAST (10s Max)]
-**SUNSHINE INNOCENT NIMBUS:** "Sunshine Innocent Nimbus reporting! Watch out for sudden thunderstorm spikes in Layer-1 gas fees! Recommend utilizing Layer-2 rollups until the storm passes!"
+**SUNSHINE INNOCENT NIMBUS:** "Sunshine Innocent Nimbus with your market forecast! Sunny skies, warm liquidity winds, and smooth floor prices brightening up the pasture all week!"
 
 ============================================================
 
