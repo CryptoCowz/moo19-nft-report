@@ -151,6 +151,25 @@
         "Milady Maker"
       ],
       "cowpedia_term": "ERC-6551 (Token Bound Accounts)"
+    },
+    {
+      "episode_number": 9,
+      "air_date": "2026-11-09",
+      "featured_ids": [
+        "moonbirds",
+        "doodles",
+        "fidenza_by_tyler_hobbs",
+        "propy_real_estate_nfts",
+        "mutant_ape_yacht_club"
+      ],
+      "featured_names": [
+        "Moonbirds",
+        "Doodles",
+        "Fidenza by Tyler Hobbs",
+        "Propy Real Estate NFTs",
+        "Mutant Ape Yacht Club"
+      ],
+      "cowpedia_term": "CC0 Public Domain Architecture"
     }
   ]
 }
